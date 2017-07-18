@@ -1,0 +1,118 @@
+.top-menu {
+	// display: flex;
+ //    justify-content: space-between;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	min-height: 110px;
+	padding: 30px 0;
+	background: rgba(95, 37, 95, 0.702);
+}
+.top-menu__list {
+	// display: flex;
+ //    justify-content: space-between;
+	position: absolute;
+    left: 0%;
+    padding-left: 30px;
+}
+.top-menu__item {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 54px;
+}
+.a-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 43px;
+    height: 43px;
+    text-align: center;
+    line-height: 43px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.a-icon:hover {
+	border-color: $base-gold;
+}
+.a-icon_menu {
+	// background: url("../img/icon/burger.png") no-repeat center center;
+	background: url("../img/icon/spritesheet.png")no-repeat;
+	background-position: -2px 1px;
+}
+.logo {
+	// display: flex;
+ 	// justify-content: center;
+	position: absolute;
+	left: 50%;
+
+    // width: 80px;
+    // margin: 0 auto;
+}
+.top-menu__pic {
+	display: inline-block;
+    vertical-align: middle;
+}
+
+
+.top-contacts {
+	// display: flex;
+ //    justify-content: space-between;
+ //    align-items: center;
+ 	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	right: 0;
+	font-size: 36px;
+	padding-right: 30px;
+}
+.contacts {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.fa-phone {
+	font-size: 30px;
+}
+.fa-phone:hover {
+	color: $base-gold;
+}
+.top-contacts__tel {
+	margin-left: 20px;
+}
+.top-modal {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 50px;
+	font-size: 24px;
+}
+.check-in {
+	position: relative;
+	display: inline-block;
+	vertical-align: middle;
+    padding: 0px 25px;
+    border: 2px solid $base-white;
+    border-radius: 60px;
+}
+.check-in::before {
+	content: "";
+	display: inline-block;
+	width: 31px;
+    height: 20px;
+    background: url("../img/icon/spritesheet.png")no-repeat;
+    background-position: -10px -47px;
+    margin-right: 10px;
+    padding: 0 10px;
+}
+
+.check-in::after {
+	content: "";
+    display: inline-block;
+    width: 31px;
+    height: 100%;
+    border-right: 2px solid $base-white;
+    left: 15%;
+    position: absolute;
+}
+
+
