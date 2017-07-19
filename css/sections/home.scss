@@ -8,7 +8,7 @@
 .logo-title {
 	display: block;
 	margin: 0 auto;
-	margin-top: 198px;
+	margin-top: 150px;
 	width: 626px;
 	height: 370px;
 }
@@ -18,32 +18,37 @@
     justify-content: space-between;
     bottom: 0%;
     position: absolute;
+    overflow: hidden;
 }
 .features__link {
     cursor: pointer;
     text-decoration: none;
+    // width: 423px;
+    width: 100%;
 }
 
 .features__header {
-	height: 109px;
-    padding-top: 33px;
     padding-left: 30px;
     font-size: 20px;
     font-weight: bold;
+    margin-bottom: 13px;
 }
 .features__number {
 	position: relative;
 }
 .features-item {
-	width: 495px;
-	height: 266px;
-	padding: 0 15px;
+	z-index: 1;
+    position: relative;
 	background: none;
 	border-bottom: 3px solid $base-gold;
 	margin-bottom: 20px;
 }
-.features__link:hover .features-item {
+.features__link:hover .features-item__bg {
+	width: 423px;
 	background: url("../img/content/family.jpg") no-repeat center center;
+}
+.features-item__body {
+	padding: 50px 10px 0 50px;
 }
 .b-icon {
 	margin-right: 18px;
@@ -63,7 +68,53 @@
 .features-item__desc {
 	font-style: italic;
 	font-size: 18px;
-	margin-bottom: 30px;
+	margin: 0;
+}
+.features__btn {
+	display: inline-block;
+	padding-left: 30px;
+	margin-bottom: 50px;
 }
 
-
+.features__more {
+	position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+    border: 2px solid $base-white;
+    border-radius: 60px;
+    font-size: 20px;
+    line-height: 45px;
+}
+.features__more::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 26px;
+    height: 23px;
+    margin-left: 30px;
+    background: url(../img/icon/spritesheet.png) no-repeat;
+    background-position: -20px -242px;
+}
+.features__more::before {
+    content: "";
+    display: inline-block;
+    width: 31px;
+    height: 100%;
+    border-right: 2px solid $base-white;
+    right: 25%;
+    position: absolute;
+}
+.features__link:hover .features-item__title {
+	color: $base-violet;
+}
+.features__link:hover .features__more {
+	border: 2px solid $base-violet;
+	color: $base-violet;
+}
+.features__link:hover .features__more::before {
+	border-right: 2px solid $base-violet;
+}
+.features__link:hover .features__more::after {
+	background-position: -10px -192px;
+}
