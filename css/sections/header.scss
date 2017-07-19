@@ -1,6 +1,4 @@
 .top-menu {
-	// display: flex;
- 	// justify-content: space-between;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -9,10 +7,8 @@
 	background: rgba(95, 37, 95, 0.702);
 }
 .top-menu__list {
-	// display: flex;
- 	// justify-content: space-between;
 	position: absolute;
-    left: 0%;
+ 	left: 0%;
     padding-left: 30px;
 }
 .top-menu__item {
@@ -41,24 +37,19 @@
 	background-position: -2px 1px;
 }
 .logo {
-	// display: flex;
- 	// justify-content: center;
+	display: flex;
+ 	justify-content: center;
 	position: absolute;
 	left: 50%;
-
-    // width: 80px;
-    // margin: 0 auto;
+	right: 50%;
 }
 .top-menu__pic {
 	display: inline-block;
-    vertical-align: middle;
+ 	vertical-align: middle;
+ 	opacity: 0.5;
 }
 
-
 .top-contacts {
-	// display: flex;
- 	// justify-content: space-between;
- 	// align-items: center;
  	display: inline-block;
 	vertical-align: middle;
 	position: absolute;

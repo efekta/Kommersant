@@ -1601,9 +1601,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon_menu { background: url("../img/icon/spritesheet.png") no-repeat; background-position: -2px 1px; }
 
-.logo { position: absolute; left: 50%; }
+.logo { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; position: absolute; left: 50%; right: 50%; }
 
-.top-menu__pic { display: inline-block; vertical-align: middle; }
+.top-menu__pic { display: inline-block; vertical-align: middle; opacity: 0.5; }
 
 .top-contacts { display: inline-block; vertical-align: middle; position: absolute; right: 0; font-size: 36px; padding-right: 30px; }
 
@@ -1623,7 +1623,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .check-in::after { content: ""; display: inline-block; width: 31px; height: 100%; border-right: 2px solid #ffffff; left: 15%; position: absolute; }
 
-.home { background: url("../img/bg/bg.jpg") no-repeat center center; background-size: cover; height: 100%; width: 100%; }
+.home { background: url("../img/bg/bg.jpg") no-repeat center center; background-size: cover; height: 100%; width: 100%; min-width: 320px; }
 
 .logo-title { display: block; margin: 0 auto; margin-top: 198px; width: 626px; height: 370px; }
 
