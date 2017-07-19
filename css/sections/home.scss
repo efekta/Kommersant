@@ -24,14 +24,14 @@
     cursor: pointer;
     text-decoration: none;
     // width: 423px;
-    width: 100%;
+    // width: 100%;
 }
 
 .features__header {
     padding-left: 30px;
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 13px;
+    margin-bottom: 10px;
 }
 .features__number {
 	position: relative;
@@ -44,11 +44,11 @@
 	margin-bottom: 20px;
 }
 .features__link:hover .features-item__bg {
-	width: 423px;
+	// width: 423px;
 	background: url("../img/content/family.jpg") no-repeat center center;
 }
 .features-item__body {
-	padding: 50px 10px 0 50px;
+	padding: 20px 10px 0 20px;
 }
 .b-icon {
 	margin-right: 18px;

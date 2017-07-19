@@ -1629,17 +1629,17 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; bottom: 0%; position: absolute; overflow: hidden; }
 
-.features__link { cursor: pointer; text-decoration: none; width: 100%; }
+.features__link { cursor: pointer; text-decoration: none; }
 
-.features__header { padding-left: 30px; font-size: 20px; font-weight: bold; margin-bottom: 13px; }
+.features__header { padding-left: 30px; font-size: 20px; font-weight: bold; margin-bottom: 10px; }
 
 .features__number { position: relative; }
 
 .features-item { z-index: 1; position: relative; background: none; border-bottom: 3px solid #998646; margin-bottom: 20px; }
 
-.features__link:hover .features-item__bg { width: 423px; background: url("../img/content/family.jpg") no-repeat center center; }
+.features__link:hover .features-item__bg { background: url("../img/content/family.jpg") no-repeat center center; }
 
-.features-item__body { padding: 50px 10px 0 50px; }
+.features-item__body { padding: 20px 10px 0 20px; }
 
 .b-icon { margin-right: 18px; }
 
