@@ -1641,7 +1641,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features__link:hover .features-item__bg { background: url("../img/content/family.jpg") no-repeat center center; }
 
-.features-item__body { padding: 20px 10px 0 20px; }
+.features-item__body { padding: 20px 10px 27px 20px; }
 
 .b-icon { margin-right: 18px; }
 
