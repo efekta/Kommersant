@@ -9,8 +9,8 @@
 	display: block;
 	margin: 0 auto;
 	margin-top: 150px;
-	width: 626px;
-	height: 370px;
+	width: 447px;
+    height: 227px;
 }
 
 .features {
@@ -23,8 +23,6 @@
 .features__link {
     cursor: pointer;
     text-decoration: none;
-    // width: 423px;
-    // width: 100%;
 }
 
 .features__header {
@@ -44,7 +42,6 @@
 	margin-bottom: 20px;
 }
 .features__link:hover .features-item__bg {
-	// width: 423px;
 	background: url("../img/content/family.jpg") no-repeat center center;
 }
 .features-item__body {

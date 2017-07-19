@@ -1625,7 +1625,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .home { background: url("../img/bg/bg.jpg") no-repeat center center; background-size: cover; height: 100%; width: 100%; min-width: 320px; }
 
-.logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 626px; height: 370px; }
+.logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 447px; height: 227px; }
 
 .features { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; bottom: 0%; position: absolute; overflow: hidden; }
 
