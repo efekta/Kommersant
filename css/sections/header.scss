@@ -43,6 +43,10 @@
 	left: 50%;
 	right: 50%;
 }
+.logo__pic {
+	width: 76px;
+	height: 49px;
+}
 // .logo::before {
 // 	content: "";
 // 	display: flex;
@@ -59,6 +63,7 @@
 	display: inline-block;
  	vertical-align: middle;
  	opacity: 0.5;
+ 	width: 351px;
 }
 
 .top-contacts {
@@ -117,5 +122,4 @@
     left: 15%;
     position: absolute;
 }
-
 

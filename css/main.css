@@ -1603,7 +1603,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .logo { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; position: absolute; left: 50%; right: 50%; }
 
-.top-menu__pic { display: inline-block; vertical-align: middle; opacity: 0.5; }
+.logo__pic { width: 76px; height: 49px; }
+
+.top-menu__pic { display: inline-block; vertical-align: middle; opacity: 0.5; width: 351px; }
 
 .top-contacts { display: inline-block; vertical-align: middle; position: absolute; right: 0; font-size: 36px; padding-right: 30px; }
 
