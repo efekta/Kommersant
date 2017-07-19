@@ -123,3 +123,35 @@
     position: absolute;
 }
 
+.socials {
+	position: absolute;
+    top: 100%;
+    right: 3%;
+    z-index: 2; 
+}
+.social__list {
+    padding: 4px;
+}
+
+.social__item {
+    margin-bottom: 9px;
+}
+.ancors {
+    position: absolute;
+    top: 110px;
+    left: 3%;
+    z-index: 2;
+}
+.ancors__list {
+    padding: 4px;
+}
+.ancors__item {
+    margin-bottom: 9px;
+}
+.ancors__link {
+    color: $base-white;
+    text-decoration: none;
+}
+// .a-icon_home {
+// 	background: url("../img/icon/spritesheet.png") no-repeat;
+// }

@@ -1625,6 +1625,20 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .check-in::after { content: ""; display: inline-block; width: 31px; height: 100%; border-right: 2px solid #ffffff; left: 15%; position: absolute; }
 
+.socials { position: absolute; top: 100%; right: 3%; z-index: 2; }
+
+.social__list { padding: 4px; }
+
+.social__item { margin-bottom: 9px; }
+
+.ancors { position: absolute; top: 110px; left: 3%; z-index: 2; }
+
+.ancors__list { padding: 4px; }
+
+.ancors__item { margin-bottom: 9px; }
+
+.ancors__link { color: #ffffff; text-decoration: none; }
+
 .home { background: url("../img/bg/bg.jpg") no-repeat center center; background-size: cover; height: 100%; width: 100%; min-width: 320px; }
 
 .logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 447px; height: 227px; }
