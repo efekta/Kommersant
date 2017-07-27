@@ -7,4 +7,14 @@
     height: 100%;
     background-color: #794040;
     overflow: scroll;
+    // display: none;
+}
+.sidebar__list {
+	background: $base-violet;
+	margin-bottom: 10px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 30px;
 }

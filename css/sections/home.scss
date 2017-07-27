@@ -44,9 +44,12 @@
 .features__link:hover .features-item__bg {
 	background: url("../img/content/family.jpg") no-repeat center center;
 }
-.features-item__body {
-	padding: 20px 10px 27px 20px;
+.features-item__bg {
+    padding: 20px 10px 27px 20px;
 }
+// .features-item__body {
+// 	padding: 20px 10px 27px 20px;
+// }
 .b-icon {
 	margin-right: 18px;
 }

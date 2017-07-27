@@ -42,6 +42,10 @@
 	position: absolute;
 	left: 50%;
 	right: 50%;
+	width: 76px;
+	height: 49px;
+	background: url("../img/icon/spritesheet.png") no-repeat;
+	background-position: -10px -123px;
 }
 .logo__pic {
 	width: 76px;
@@ -50,25 +54,25 @@
 // .logo::before {
 // 	content: "";
 // 	display: flex;
-//  	justify-content: center;
+//  justify-content: center;
 // 	position: absolute;
 // 	left: 50%;
 // 	right: 50%;
 // 	width: 76px;
-//     height: 49px;
-//     background: url("../img/icon/spritesheet.png")no-repeat;
-//     background-position: -10px -123px;
+//  height: 49px;
+//  background: url("../img/icon/spritesheet.png")no-repeat;
+//  background-position: -10px -123px;
 // }
 .top-menu__pic {
 	display: inline-block;
  	vertical-align: middle;
  	opacity: 0.5;
- 	width: 351px;
+ 	// width: 351px;
 }
 
 .top-contacts {
- 	display: inline-block;
-	vertical-align: middle;
+ // display: inline-block;
+// vertical-align: middle;
 	position: absolute;
 	right: 0;
 	font-size: 36px;
@@ -126,7 +130,7 @@
 .socials {
 	position: absolute;
     top: 100%;
-    right: 3%;
+    right: 2%;
     z-index: 2; 
 }
 .social__list {
@@ -139,7 +143,7 @@
 .ancors {
     position: absolute;
     top: 110px;
-    left: 3%;
+    left: 2%;
     z-index: 2;
 }
 .ancors__list {
