@@ -37,8 +37,8 @@
 	background-position: -2px 1px;
 }
 .logo {
-	display: flex;
- 	justify-content: center;
+	// display: flex;
+ 	// justify-content: center;
 	position: absolute;
 	left: 50%;
 	right: 50%;
@@ -85,6 +85,7 @@
 
 .fa-phone {
 	font-size: 30px;
+	color: $base-gold;
 }
 .fa-phone:hover {
 	color: $base-gold;

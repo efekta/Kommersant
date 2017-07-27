@@ -5,16 +5,54 @@
     z-index: 5;
     width: 480px;
     height: 100%;
-    background-color: #794040;
+    // background: #794040;
     overflow: scroll;
     // display: none;
 }
 .sidebar__list {
 	background: $base-violet;
-	margin-bottom: 10px;
 	width: 100%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	padding: 30px;
+}
+// .sidebar-features .features__link .features-item__bg {
+// 	background: url("../img/content/family.jpg") no-repeat center center;
+// }
+
+.sidebar-features__header {
+	background: $base-white;
+	color: $font-side;
+	font-size: 20px;
+	padding: 20px;
+}
+.c-icon {
+	background: $base-violet;
+	border: none;
+	color: $base-white;
+}
+
+.side-item {
+	background: url("../img/content/family.jpg") no-repeat center center;
+}
+.sidebar-item__title {
+	text-transform: uppercase;
+    font-size: 30px;
+    padding: 0 10px 27px 20px;
+}
+.sidebar-item__desc {
+	padding-left: 23px;
+	// margin-bottom: 24px;
+}
+.sidebar-features:hover .features__more {
+	background: $base-violet;
+	border-color: $base-violet;
+}
+.sidebar-features:hover .sidebar-item__title {
+	color: $base-violet;
+}
+
+.sidebar-features:hover .features__more::before  {
+	display: none;
 }
