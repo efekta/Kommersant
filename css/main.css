@@ -1639,7 +1639,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .ancors__link { color: #ffffff; text-decoration: none; }
 
-.home { background: url("../img/bg/bg.jpg") no-repeat center center; background-size: cover; height: 100%; width: 100%; min-width: 320px; }
+.home { background: url("../img/bg/home-bg.jpg") no-repeat center center; background-size: cover; height: 100%; width: 100%; min-width: 320px; }
 
 .logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 447px; height: 227px; }
 
@@ -1683,7 +1683,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features__link:hover .features__more::after { background-position: -10px -192px; }
 
-.o-sidebar { position: fixed; left: 0; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; }
+.o-sidebar { position: fixed; left: 0; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; display: none; }
 
 .sidebar__list { background: #5f255f; width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 30px; }
 
