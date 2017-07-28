@@ -1653,7 +1653,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features-item { z-index: 1; position: relative; background: none; border-bottom: 3px solid #998646; margin-bottom: 20px; }
 
-.features__link:hover .features-item__bg { background: url("../img/content/family.jpg") no-repeat center center; }
+.features__link:hover .features-item__bg { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; }
 
 .features-item__bg { padding: 20px 10px 27px 20px; }
 
@@ -1665,9 +1665,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features-item__title { text-transform: uppercase; font-size: 30px; margin-bottom: 30px; }
 
-.features-item__desc { font-style: italic; font-size: 18px; margin: 0; }
+.features-item__desc { font-style: italic; font-size: 18px; }
 
-.features__btn { display: inline-block; padding-left: 30px; margin-bottom: 50px; }
+.features__btn { display: inline-block; }
 
 .features__more { position: relative; display: inline-block; vertical-align: middle; padding: 0 20px; border: 2px solid #ffffff; border-radius: 60px; font-size: 20px; line-height: 45px; }
 
@@ -1691,11 +1691,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .c-icon { background: #5f255f; border: none; color: #ffffff; }
 
-.side-item { background: url("../img/content/family.jpg") no-repeat center center; }
+.side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 43px; }
 
-.sidebar-item__title { text-transform: uppercase; font-size: 30px; padding: 0 10px 27px 20px; }
-
-.sidebar-item__desc { padding-left: 23px; }
+.sidebar-item__title { text-transform: uppercase; font-size: 30px; }
 
 .sidebar-features:hover .features__more { background: #5f255f; border-color: #5f255f; }
 

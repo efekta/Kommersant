@@ -35,15 +35,12 @@
 
 .side-item {
 	background: url("../img/content/family.jpg") no-repeat center center;
+	background-size: cover;
+	padding: 43px;
 }
 .sidebar-item__title {
 	text-transform: uppercase;
     font-size: 30px;
-    padding: 0 10px 27px 20px;
-}
-.sidebar-item__desc {
-	padding-left: 23px;
-	// margin-bottom: 24px;
 }
 .sidebar-features:hover .features__more {
 	background: $base-violet;
