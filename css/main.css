@@ -1701,4 +1701,6 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sidebar-features:hover .features__more::before { display: none; }
 
+.a-icon_close { background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; }
+
 /*# sourceMappingURL=main.css.map */

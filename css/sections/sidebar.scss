@@ -5,9 +5,7 @@
     z-index: 5;
     width: 480px;
     height: 100%;
-    // background: #794040;
     overflow: scroll;
-    // display: none;
 }
 .sidebar__list {
 	background: $base-violet;
@@ -17,10 +15,6 @@
 	align-items: center;
 	padding: 30px;
 }
-// .sidebar-features .features__link .features-item__bg {
-// 	background: url("../img/content/family.jpg") no-repeat center center;
-// }
-
 .sidebar-features__header {
 	background: $base-white;
 	color: $font-side;
@@ -32,7 +26,6 @@
 	border: none;
 	color: $base-white;
 }
-
 .side-item {
 	background: url("../img/content/family.jpg") no-repeat center center;
 	background-size: cover;
@@ -52,4 +45,8 @@
 
 .sidebar-features:hover .features__more::before  {
 	display: none;
+}
+.a-icon_close {
+    background: url(../img/icon/spritesheet.png) no-repeat;
+    background-position: 2px -76px;
 }
