@@ -1707,7 +1707,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon_close:hover { border: 2px solid #ffffff; }
 
-.page { background: url(../img/bg/bg-page.jpg) no-repeat center center; background-size: cover; }
+.page { height: 100%; width: 100%; background: url(../img/bg/bg-page.jpg) no-repeat center center; background-size: cover; }
 
 .logo-page { background: url("../img/content/logo-page.png") no-repeat; width: 144px; height: 73px; }
 
