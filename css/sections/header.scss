@@ -33,13 +33,10 @@
 	background: $base-violet;
 }
 .a-icon_menu {
-	// background: url("../img/icon/burger.png") no-repeat center center;
 	background: url("../img/icon/spritesheet.png")no-repeat;
 	background-position: -2px 1px;
 }
 .logo {
-	// display: flex;
- 	// justify-content: center;
 	position: absolute;
 	left: 50%;
 	right: 50%;
@@ -52,28 +49,14 @@
 	width: 76px;
 	height: 49px;
 }
-// .logo::before {
-// 	content: "";
-// 	display: flex;
-//  justify-content: center;
-// 	position: absolute;
-// 	left: 50%;
-// 	right: 50%;
-// 	width: 76px;
-//  height: 49px;
-//  background: url("../img/icon/spritesheet.png")no-repeat;
-//  background-position: -10px -123px;
-// }
+
 .top-menu__pic {
 	display: inline-block;
  	vertical-align: middle;
  	opacity: 0.5;
- 	// width: 351px;
 }
 
 .top-contacts {
- // display: inline-block;
-// vertical-align: middle;
 	position: absolute;
 	right: 0;
 	font-size: 36px;
