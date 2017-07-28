@@ -1711,6 +1711,6 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .logo-page { background: url("../img/content/logo-page.png") no-repeat; width: 144px; height: 73px; }
 
-.page-title { position: absolute; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
+.page-title { position: absolute; color: #ffffff; font-size: 60px; text-transform: uppercase; }
 
 /*# sourceMappingURL=main.css.map */
