@@ -1689,7 +1689,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sidebar-features__header { background: #ffffff; color: #333; font-size: 20px; padding: 20px; }
 
-.c-icon { background: #5f255f; border: none; color: #ffffff; }
+.c-icon { background: #ffffff; border: 2px solid #5f255f; color: #5f255f; }
+
+.sidebar-features:hover .c-icon { background: #5f255f; border: none; color: #ffffff; }
 
 .side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 43px; }
 

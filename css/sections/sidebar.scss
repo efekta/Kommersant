@@ -22,6 +22,11 @@
 	padding: 20px;
 }
 .c-icon {
+	background: $base-white;
+	border: 2px solid $base-violet;
+	color: $base-violet;
+}
+.sidebar-features:hover .c-icon {
 	background: $base-violet;
 	border: none;
 	color: $base-white;
