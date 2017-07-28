@@ -1595,9 +1595,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .top-menu__item { display: inline-block; vertical-align: middle; margin-right: 54px; }
 
-.a-icon { display: inline-block; vertical-align: middle; width: 43px; height: 43px; text-align: center; line-height: 43px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.4); background-repeat: no-repeat; background-position: center; }
+.a-icon { display: inline-block; vertical-align: middle; width: 43px; height: 43px; text-align: center; line-height: 43px; border-radius: 50%; border: 2px solid #ffffff; background-repeat: no-repeat; background-position: center; }
 
-.a-icon:hover { border-color: #5f255f; }
+.a-icon:hover { border-color: #5f255f; background: #5f255f; }
 
 .a-icon_menu { background: url("../img/icon/spritesheet.png") no-repeat; background-position: -2px 1px; }
 

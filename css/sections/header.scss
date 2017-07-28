@@ -24,12 +24,13 @@
     text-align: center;
     line-height: 43px;
     border-radius: 50%;
-    border: 2px solid rgba(255, 255, 255, 0.4);
+    border: 2px solid $base-white;
     background-repeat: no-repeat;
     background-position: center;
 }
 .a-icon:hover {
 	border-color: $base-violet;
+	background: $base-violet;
 }
 .a-icon_menu {
 	// background: url("../img/icon/burger.png") no-repeat center center;
