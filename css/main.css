@@ -1707,10 +1707,14 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon_close:hover { border: 2px solid #ffffff; }
 
-.page { width: 100%; height: 100vh; background: url(../img/bg/bg-page.jpg) no-repeat center center; background-size: cover; }
+.page { background: url(../img/bg/bg-page.jpg) no-repeat center center; background-size: cover; }
 
 .logo-page { background: url("../img/content/logo-page.png") no-repeat; width: 144px; height: 73px; }
 
-.page-title { position: absolute; color: #ffffff; font-size: 60px; text-transform: uppercase; }
+.page-title { position: absolute; margin: 180px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
+
+.page-description { width: 100%; height: 399px; background: url(../img/bg/page-desc-bg.jpg) no-repeat center center; background-size: cover; color: #333; }
+
+.page-content { width: 779px; position: absolute; background: rgba(250, 250, 250, 0.65); padding: 50px 45px; margin-left: 374px; margin-top: -260px; }
 
 /*# sourceMappingURL=main.css.map */
