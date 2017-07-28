@@ -1597,7 +1597,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon { display: inline-block; vertical-align: middle; width: 43px; height: 43px; text-align: center; line-height: 43px; border-radius: 50%; border: 2px solid rgba(255, 255, 255, 0.4); background-repeat: no-repeat; background-position: center; }
 
-.a-icon:hover { border-color: #998646; }
+.a-icon:hover { border-color: #5f255f; }
 
 .a-icon_menu { background: url("../img/icon/spritesheet.png") no-repeat; background-position: -2px 1px; }
 
@@ -1669,7 +1669,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features__btn { display: inline-block; }
 
-.features__more { position: relative; display: inline-block; vertical-align: middle; padding: 0 20px; border: 2px solid #ffffff; border-radius: 60px; font-size: 20px; line-height: 45px; }
+.features__more { position: relative; display: inline-block; vertical-align: middle; padding: 0 20px; border: 2px solid #ffffff; border-radius: 60px; font-size: 20px; line-height: 45px; margin-bottom: 35px; }
 
 .features__more::after { content: ""; display: inline-block; vertical-align: middle; width: 26px; height: 23px; margin-left: 30px; background: url(../img/icon/spritesheet.png) no-repeat; background-position: -20px -242px; }
 
@@ -1693,7 +1693,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sidebar-features:hover .c-icon { background: #5f255f; border: none; color: #ffffff; }
 
-.side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 43px; }
+.side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 43px 43px 0 43px; }
 
 .sidebar-item__title { text-transform: uppercase; font-size: 30px; }
 
@@ -1703,6 +1703,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .sidebar-features:hover .features__more::before { display: none; }
 
-.a-icon_close { background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; }
+.a-icon_close { background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; border: 2px solid #ffffff; }
+
+.a-icon_close:hover { border: 2px solid #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
