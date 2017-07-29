@@ -42,3 +42,8 @@ h6 {
     overflow: hidden;
     height: 100%;
 }
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
