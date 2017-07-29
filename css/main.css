@@ -1615,9 +1615,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .fa-phone:hover { color: #998646; }
 
-.top-contacts__tel { margin-left: 20px; }
-
-.a-modal { display: inline-block; vertical-align: middle; margin-left: 50px; font-size: 24px; }
+.a-modal { display: inline-block; vertical-align: middle; font-size: 24px; }
 
 .check-in { position: relative; display: inline-block; vertical-align: middle; padding: 0px 25px; border: 2px solid #ffffff; border-radius: 60px; }
 
@@ -1709,7 +1707,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page { height: 100%; width: 100%; background: url(../img/bg/bg-page.jpg) no-repeat center center; background-size: cover; }
 
-.logo-page { background: url("../img/content/logo-page.png") no-repeat; width: 144px; height: 73px; }
+.logo-page { background: url("../img/content/logo-page.png") no-repeat; background-position-y: -10px; width: 144px; height: 73px; }
 
 .page-title { position: absolute; margin: 180px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
 
