@@ -2,11 +2,13 @@
 	background: url("../img/bg/home-bg.jpg") no-repeat center center;
 	background-size: cover;
 	height: 100%;
+    width: 100%;
+    min-width: 320px;
 }
 .logo-title {
 	display: block;
 	margin: 0 auto;
-	margin-top: 50px;
+	margin-top: 150px;
 	width: 447px;
     height: 227px;
 }
