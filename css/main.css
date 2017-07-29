@@ -1601,6 +1601,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon_menu { background: url("../img/icon/spritesheet.png") no-repeat; background-position: -2px 1px; }
 
+.a-icon_menu:hover { background: #5f255f url("../img/icon/spritesheet.png") no-repeat; background-position: -2px 1px; }
+
 .logo { position: absolute; left: 50%; right: 50%; width: 76px; height: 49px; background: url("../img/icon/spritesheet.png") no-repeat; background-position: -10px -123px; }
 
 .logo__pic { width: 76px; height: 49px; }
@@ -1713,6 +1715,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-description { width: 100%; height: 399px; position: absolute; background: url(../img/bg/page-desc-bg.jpg) no-repeat center center; background-size: cover; color: #333; }
 
-.page-content { width: 779px; position: absolute; background: rgba(250, 250, 250, 0.65); padding: 40px; margin-left: 374px; margin-top: -260px; }
+.page-content { width: 779px; position: absolute; background: rgba(250, 250, 250, 0.65); padding: 40px; margin-left: 374px; margin-top: -275px; }
+
+.map { position: absolute; width: 100%; height: 720px; margin-top: 377px; }
 
 /*# sourceMappingURL=main.css.map */

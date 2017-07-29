@@ -36,6 +36,10 @@
 	background: url("../img/icon/spritesheet.png")no-repeat;
 	background-position: -2px 1px;
 }
+.a-icon_menu:hover {
+	background: $base-violet url("../img/icon/spritesheet.png")no-repeat;
+	background-position: -2px 1px;
+}
 .logo {
 	position: absolute;
 	left: 50%;
