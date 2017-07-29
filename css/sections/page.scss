@@ -1,11 +1,13 @@
 .page {
 	height: 100%;
-    width: 100%;
+	min-width: 1170px;
+    // width: 100%;
 	background: url(../img/bg/bg-page.jpg) no-repeat center center;
 	background-size: cover;
 }
 .logo-page {
 	background: url("../img/content/logo-page.png") no-repeat;
+	background-size: cover;
 	background-position-y: -10px;
 	width: 144px;
 	height: 73px;
@@ -48,10 +50,12 @@
 	width: 100%;
 	min-height: 717px;
 	background: url(../img/content/fan.jpg) no-repeat center center;
+	background-size: cover;
 	border-bottom: 2px solid $base-violet;
 }
 .fans-content {
 	position: absolute;
+	z-index: 2;
 	width: 780px;
 	min-height: 227px;
 	background: rgba(95, 37, 95, 0.8);
@@ -66,15 +70,36 @@
 .fans-content__white {
     background: rgba(250, 250, 250, 0.7);
     color: $font-side;
-    margin-top: 25%;
+    margin-top: 30%;
     margin-left: 10%;
     // margin-top: 430px;
     // margin-left: 370px;
 }
 .fk {
 	background: url(../img/content/fk.jpg) no-repeat center center;
+	background-size: cover;
 	border-bottom: none;
 }
 // .fans-content__fk {
 
 // }
+.club {
+	min-height: 1226px;
+	background: url(../img/content/club-bg.jpg) no-repeat center center;
+	background-size: cover;
+	border: none;
+}
+.fans-content__club {
+	margin-top: 45%;
+	margin-left: 10%;
+}
+
+.fitnes {
+	min-height: 720px;
+	background: url(../img/content/fitnes.jpg) no-repeat center center;
+	background-size: cover;
+}
+.fans-content__fitnes {
+	margin-top: 7%;
+	margin-left: 25%;
+}
