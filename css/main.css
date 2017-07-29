@@ -1589,11 +1589,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .wrapper { min-height: 830px; min-width: 320px; width: auto; position: relative; overflow: hidden; height: 100%; }
 
-.top-menu { position: absolute; top: 0; width: 100%; min-height: 110px; padding: 30px 0; background: rgba(95, 37, 95, 0.702); }
+.top-menu { min-height: 110px; padding: 30px 0; background: rgba(95, 37, 95, 0.702); }
 
-.top-menu__list { position: absolute; left: 0%; padding-left: 30px; }
+.top-menu__list { position: absolute; left: 0%; padding-left: 20px; }
 
-.top-menu__item { display: inline-block; vertical-align: middle; margin-right: 54px; }
+.top-menu__item { display: inline-block; vertical-align: middle; margin-right: 25px; }
+
+.top-menu__link { display: block; }
 
 .a-icon { display: inline-block; vertical-align: middle; width: 43px; height: 43px; text-align: center; line-height: 43px; border-radius: 50%; border: 2px solid #ffffff; background-repeat: no-repeat; background-position: center; }
 
@@ -1603,11 +1605,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .logo { position: absolute; left: 50%; right: 50%; width: 76px; height: 49px; background: url("../img/icon/spritesheet.png") no-repeat; background-position: -10px -123px; }
 
-.logo__pic { width: 76px; height: 49px; }
+.top-menu__pic { display: inline-block; vertical-align: middle; opacity: 0.5; width: 360px; }
 
-.top-menu__pic { display: inline-block; vertical-align: middle; opacity: 0.5; }
-
-.top-contacts { position: absolute; right: 0; font-size: 36px; padding-right: 30px; }
+.top-contacts { position: absolute; right: 0; font-size: 30px; padding-right: 30px; }
 
 .contacts { display: inline-block; vertical-align: middle; }
 
@@ -1615,9 +1615,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .fa-phone:hover { color: #998646; }
 
-.top-contacts__tel { margin-left: 20px; }
-
-.a-modal { display: inline-block; vertical-align: middle; margin-left: 50px; font-size: 24px; }
+.a-modal { display: inline-block; vertical-align: middle; font-size: 24px; }
 
 .check-in { position: relative; display: inline-block; vertical-align: middle; padding: 0px 25px; border: 2px solid #ffffff; border-radius: 60px; }
 
@@ -1639,9 +1637,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .ancors__link { color: #ffffff; text-decoration: none; }
 
-.home { background: url("../img/bg/home-bg.jpg") no-repeat center center; background-size: cover; height: 100%; width: 100%; min-width: 320px; }
+.home { background: url("../img/bg/home-bg.jpg") no-repeat center center; background-size: cover; height: 100%; }
 
-.logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 447px; height: 227px; }
+.logo-title { display: block; margin: 0 auto; margin-top: 50px; width: 447px; height: 227px; }
 
 .features { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; bottom: 0%; position: absolute; overflow: hidden; }
 
