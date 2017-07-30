@@ -10,6 +10,7 @@ body, html {
 	color: $base-white;	
 }
 body {
+	min-width: 1170px;
 	margin: 0;
 	background: $base-bg;
 }
@@ -36,14 +37,16 @@ h6 {
 }
 .wrapper {
     min-height: 830px;
+
     // min-width: 320px;
     // width: auto;
+
     position: relative;
     overflow: hidden;
     height: 100%;
 }
-.clearfix::after {
-	content: "";
-	display: block;
-	clear: both;
-}
+// .clearfix::after {
+// 	content: "";
+// 	display: block;
+// 	clear: both;
+// }
