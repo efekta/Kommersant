@@ -1729,10 +1729,44 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .club { min-height: 1226px; background: url(../img/content/club-bg.jpg) no-repeat center center; background-size: cover; border: none; }
 
-.fans-content__club { margin-top: 45%; margin-left: 10%; }
+.fans-content__club { margin-top: 35%; margin-left: 10%; }
 
-.fitnes { min-height: 720px; background: url(../img/content/fitnes.jpg) no-repeat center center; background-size: cover; }
+.fitnes { min-height: 720px; background: url(../img/content/fitnes.jpg) no-repeat center center; background-size: cover; border-bottom: none; }
 
-.fans-content__fitnes { margin-top: 7%; margin-left: 25%; }
+.fans-content__fitnes { margin-top: 15%; margin-left: 25%; }
+
+.contacts-footer { width: 100%; background: #ffffff; }
+
+.contacts-footer__item { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-around; -ms-flex-pack: distribute; justify-content: space-around; margin: 0 auto; width: 920px; padding: 40px 0; }
+
+.contacts-footer__logo { width: 311px; height: 158px; display: block; background: url(../img/content/logo-contacts.jpg) no-repeat; }
+
+.contacts-footer__tel { width: 420px; font-size: 30px; color: #5f255f; text-align: center; }
+
+.footer__tel { font-size: 30px; color: #5f255f; }
+
+.features-footer { width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; }
+
+.features-footer .features__link { color: #333; }
+
+.features-footer .features__link:hover .features-item__title { color: #ffffff; }
+
+.features-footer .features__link:hover .features-item__desc { color: #ffffff; }
+
+.features-footer .features__link:hover .features__more { color: #ffffff; background: #5f255f; }
+
+.features-footer .features__more { position: relative; display: inline-block; vertical-align: middle; padding: 0 20px; border: 2px solid #ccc; border-radius: 60px; font-size: 20px; line-height: 45px; margin-bottom: 35px; }
+
+.features-footer .features__link:hover .features-item { border-bottom: 3px solid #5f255f; }
+
+.features-footer .features__more::before { content: ""; display: inline-block; width: 31px; height: 100%; border-right: 2px solid #ccc; right: 25%; position: absolute; }
+
+.features-footer .features__more::after { content: ""; display: inline-block; vertical-align: middle; width: 26px; height: 23px; margin-left: 30px; background: url(../img/icon/spritesheet.png) no-repeat; background-position: -10px -291px; }
+
+.features-footer .features__link:hover .features__more::after { background: url(../img/icon/spritesheet.png) no-repeat; background-position: -18px -242px; }
+
+.features-footer .features-item { border-bottom: 3px solid #ccc; }
+
+.features-footer .features__link:hover .a-icon { border-color: #5f255f; background: #5f255f; color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
