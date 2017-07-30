@@ -193,7 +193,11 @@
 	border-bottom: 3px solid $gray;
 }
 
-
+.features-footer .a-icon {
+    border-color: $gray;
+    background: $base-white;
+    color: $font-side;
+}
 .features-footer .features__link:hover .a-icon {
     border-color: $base-violet;
     background: $base-violet;

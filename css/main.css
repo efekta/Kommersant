@@ -1767,6 +1767,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features-footer .features-item { border-bottom: 3px solid #ccc; }
 
+.features-footer .a-icon { border-color: #ccc; background: #ffffff; color: #333; }
+
 .features-footer .features__link:hover .a-icon { border-color: #5f255f; background: #5f255f; color: #ffffff; }
 
 /*# sourceMappingURL=main.css.map */
