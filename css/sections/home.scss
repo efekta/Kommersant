@@ -51,19 +51,18 @@
 .features-item__bg {
     padding: 20px 10px 27px 20px;
 }
-// .features-item__body {
-// 	padding: 20px 10px 27px 20px;
-// }
+
 .b-icon {
 	margin-right: 18px;
 }
 .features__link:hover .b-icon {
 	border-color: $base-violet;
-	color: $base-violet;
+	color: $base-white;
+    background: $base-violet;
 }
-.features__link:hover .features__number {
-	color: $base-violet;
-}
+// .features__link:hover .features__number {
+// 	color: $base-violet;
+// }
 .features-item__title {
 	text-transform: uppercase;
 	font-size: 30px;
@@ -107,16 +106,17 @@
     right: 25%;
     position: absolute;
 }
-.features__link:hover .features-item__title {
-	color: $base-violet;
-}
+// .features__link:hover .features-item__title {
+// 	color: $base-violet;
+// }
 .features__link:hover .features__more {
 	border: 2px solid $base-violet;
-	color: $base-violet;
+    background: $base-violet;
+	// color: $base-violet;
 }
 .features__link:hover .features__more::before {
-	border-right: 2px solid $base-violet;
+	display: none;
 }
-.features__link:hover .features__more::after {
-	background-position: -10px -192px;
-}
+// .features__link:hover .features__more::after {
+// 	background-position: -10px -192px;
+// }
