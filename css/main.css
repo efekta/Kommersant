@@ -1713,9 +1713,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-title { position: absolute; margin: 180px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
 
-.page-description { width: 100%; height: 399px; background: url(../img/bg/page-desc-bg.jpg) no-repeat center center; background-size: cover; color: #333; }
+.page-description { width: 100%; height: 399px; background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center; background-size: cover; color: #333; }
+
+.page-description-fans { height: 340px; }
 
 .page-content { width: 779px; position: absolute; background: rgba(250, 250, 250, 0.65); padding: 40px; margin-left: 374px; margin-top: -253px; }
+
+.page-content-fans { margin-top: 0; }
 
 .map { width: 100%; }
 

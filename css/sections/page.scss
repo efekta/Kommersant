@@ -25,11 +25,13 @@
 .page-description {
 	width: 100%;
 	height: 399px;
-	// position: absolute;
-	background: url(../img/bg/page-desc-bg.jpg) no-repeat center center;
+	background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center;
 	background-size: cover;
 	color: $font-side;
 
+}
+.page-description-fans {
+	height: 340px;
 }
 .page-content {
 	width: 779px;
@@ -39,11 +41,11 @@
 	margin-left: 374px;
 	margin-top: -253px;
 }
+.page-content-fans {
+	margin-top: 0;
+}
 .map {
-    // position: absolute;
     width: 100%;
-    // min-height: 720px;
-    // margin-top: 377px;
 }
 .fans {
 	position: relative;
