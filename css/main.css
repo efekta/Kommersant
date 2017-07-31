@@ -1727,4 +1727,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-description-fans { min-height: 240px; }
 
+.fk { background: url(../img/content/fk.jpg) no-repeat center center; background-size: cover; border-bottom: none; }
+
+.page-description-fk { min-height: 185px; }
+
 /*# sourceMappingURL=main.css.map */
