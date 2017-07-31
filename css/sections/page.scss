@@ -74,8 +74,14 @@
 	min-height: 185px;
 }
 
-
-
+.club {
+	background: url(../img/content/club.jpg) no-repeat center center;
+	background-size: cover;
+	border: none;
+}
+.page-description-club {
+	min-height: 325px;
+}
 
 
 
@@ -96,12 +102,7 @@
 // }
 
 
-// .club {
-// 	min-height: 1226px;
-// 	background: url(../img/content/club.jpg) no-repeat center center;
-// 	background-size: cover;
-// 	border: none;
-// }
+
 // .fans-content__club {
 // 	margin-top: 35%;
 // 	margin-left: 10%;
@@ -113,14 +114,17 @@
 // 	background-size: cover;
 // 	border-bottom: none;
 // }
+
 // .fans-content__fitnes {
 // 	margin-top: 15%;
 // 	margin-left: 25%;
 // }
+
 // .contacts-footer {
 // 	width: 100%;
 // 	background: $base-white;
 // }
+
 // .contacts-footer__item {
 // 	// margin: 0 auto;
 // 	// width: 895px;
