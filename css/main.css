@@ -1707,7 +1707,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon_close:hover { border: 2px solid #ffffff; }
 
-.page { height: 100%; background: url(../img/bg/bg-page.jpg) no-repeat center center; background-size: cover; }
+.page { height: 100%; background: url(../img/bg/stadion.jpg) no-repeat center center; background-size: cover; }
 
 .logo-page { background: url("../img/content/logo-page.png") no-repeat; background-size: cover; background-position-y: -10px; width: 144px; height: 73px; }
 
@@ -1719,7 +1719,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .map { width: 100%; }
 
-.fans { position: relative; width: 100%; min-height: 717px; background: url(../img/content/fan.jpg) no-repeat center center; background-size: cover; border-bottom: 2px solid #5f255f; }
+.fans { position: relative; width: 100%; min-height: 717px; background: url(../img/content/fan.jpg) no-repeat center center; background-size: cover; }
 
 .fans-content { position: absolute; z-index: 2; width: 780px; min-height: 227px; background: rgba(95, 37, 95, 0.8); padding: 50px 40px; color: #ffffff; font-size: 18px; margin-left: 30%; margin-top: -10%; }
 
