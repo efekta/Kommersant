@@ -6,7 +6,11 @@
     width: 485px;
     height: 100%;
     overflow: scroll;
-    display: none;
+    display: block;
+}
+.sidebar-logo__pic {
+	width: 76px;
+	height: 49px;	
 }
 .sidebar__list {
 	background: $base-violet;
@@ -45,9 +49,9 @@
 	background: $base-violet;
 	border-color: $base-violet;
 }
-.sidebar-features:hover .sidebar-item__title {
-	color: $base-violet;
-}
+// .sidebar-features:hover .sidebar-item__title {
+// 	color: $base-violet;
+// }
 
 .sidebar-features:hover .features__more::before  {
 	display: none;
@@ -56,6 +60,7 @@
     background: url(../img/icon/spritesheet.png) no-repeat;
     background-position: 2px -76px;
     border: 2px solid $base-white;
+    margin-right: 10px;
 }
 .a-icon_close:hover {
 	border: 2px solid $base-white;
