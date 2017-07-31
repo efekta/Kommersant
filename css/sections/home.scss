@@ -1,5 +1,5 @@
 .home {
-	background: url("../img/bg/home-bg.jpg") no-repeat center center;
+	background: url("../img/bg/bg.jpg") no-repeat center center;
 	background-size: cover;
 	height: 100%;
     // width: 100%;
@@ -40,6 +40,9 @@
 	background: none;
 	border-bottom: 3px solid $base-gold;
 	margin-bottom: 20px;
+}
+.features__link:hover .features-item {
+    border-bottom: 3px solid $base-white;
 }
 .features__link:hover .features-item__bg {
 	background: url("../img/content/family.jpg") no-repeat center center;

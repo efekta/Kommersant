@@ -1,4 +1,5 @@
 .top-menu {
+	display: flex;
 	position: absolute;
 	top: 0;
 	width: 100%;
@@ -7,8 +8,6 @@
 	background: rgba(95, 37, 95, 0.702);
 }
 .top-menu__list {
-	// width: 40%;
-	// float: left;
 	position: absolute;
  	left: 0%;
     padding-left: 30px;
@@ -43,17 +42,29 @@
 	background-position: -2px 1px;
 }
 .logo {
-	position: absolute;
-	left: 50%;
-	right: 50%;
-	width: 76px;
-	height: 49px;
-	background: url("../img/icon/spritesheet.png") no-repeat;
-	background-position: -10px -123px;
+	width: 228px;
+    height: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 .logo__pic {
-	width: 76px;
-	height: 49px;
+	width: 228px;
+	height: 63px;
+}
+
+.logo-page {
+	width: 144px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo__pic-page {
+	width: 144px;
+	height: 73px;
 }
 
 .top-menu__pic {
