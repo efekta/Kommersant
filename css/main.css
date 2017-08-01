@@ -1753,7 +1753,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features-footer .features__link:hover .features-item__desc { color: #ffffff; }
 
-.features-footer .features__link:hover .features__more { color: #ffffff; background: #5f255f; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
+.features-footer .features__link:hover .features__more { color: #ffffff; background: #5f255f; -webkit-transition: 1s; -o-transition: 1s; transition: 1s; }
 
 .features-footer .features__more { position: relative; display: inline-block; vertical-align: middle; padding: 0 20px; border: 2px solid #ccc; border-radius: 60px; font-size: 20px; line-height: 45px; margin-bottom: 35px; }
 
@@ -1769,6 +1769,6 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features-footer .a-icon { border-color: #ccc; background: #ffffff; color: #333; }
 
-.features-footer .features__link:hover .a-icon { border-color: #5f255f; background: #5f255f; color: #ffffff; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
+.features-footer .features__link:hover .a-icon { border-color: #5f255f; background: #5f255f; color: #ffffff; -webkit-transition: 1s; -o-transition: 1s; transition: 1s; }
 
 /*# sourceMappingURL=main.css.map */
