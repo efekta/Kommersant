@@ -39,3 +39,9 @@
     height: 36px;
     background-position: -10px -235px;
 }
+
+.sprite-next-z {
+    width: 26px;
+    height: 23px;
+    background-position: -10px -291px;
+}
