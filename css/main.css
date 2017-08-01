@@ -1591,7 +1591,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .container { width: 1170px; margin: 0 auto; }
 
-.top-menu { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; position: absolute; top: 0; width: 100%; min-height: 110px; padding: 30px 0; background: rgba(95, 37, 95, 0.702); }
+.top-menu { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: absolute; top: 0; width: 100%; height: 105px; background: rgba(95, 37, 95, 0.702); }
 
 .top-menu__list { position: absolute; left: 0%; padding-left: 30px; }
 
@@ -1713,17 +1713,15 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-title { position: absolute; margin: 295px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
 
-.page-description { position: relative; width: 100%; min-height: 395px; background: url(../img/bg/page-desc-bg.jpg) no-repeat top center; background-size: cover; color: #333; }
+.page-description { position: relative; background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center; background-size: 100%; color: #333; }
 
-.page-content { width: 779px; position: absolute; background: rgba(250, 250, 250, 0.65); padding: 40px; margin-top: -255px; }
+.page-description .page-content { width: 779px; background: rgba(250, 250, 250, 0.65); padding: 40px; }
+
+.page-description .page-content_overflow { position: relative; margin-bottom: -150px; top: -250px; }
 
 .fans { position: relative; width: 100%; min-height: 718px; background: url(../img/content/fan.jpg) no-repeat center center; background-size: cover; }
 
 .fans-content { position: absolute; z-index: 2; width: 780px; min-height: 227px; background: rgba(95, 37, 95, 0.8); padding: 50px 40px; color: #ffffff; font-size: 18px; margin-left: 30%; margin-top: -10%; }
-
-.page-content-fans { margin-top: 0; }
-
-.page-description-fans { min-height: 240px; }
 
 .fk { background: url(../img/content/fk.jpg) no-repeat center center; background-size: cover; border-bottom: none; }
 

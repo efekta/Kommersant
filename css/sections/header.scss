@@ -1,10 +1,10 @@
 .top-menu {
 	display: flex;
+    align-items: center;
 	position: absolute;
 	top: 0;
 	width: 100%;
-	min-height: 110px;
-	padding: 30px 0;
+	height: 105px;
 	background: rgba(95, 37, 95, 0.702);
 }
 .top-menu__list {
@@ -76,8 +76,6 @@
 }
 
 .top-contacts {
-	// width: 44%;
- 	// float: right;
 	position: absolute;
 	right: 0;
 	font-size: 30px;
@@ -95,14 +93,10 @@
 .fa-phone:hover {
 	color: $base-gold;
 }
-// .top-contacts__tel {
-// 	font-size: 30px;
-// 	margin-left: 20px;
-// }
+
 .a-modal {
 	display: inline-block;
 	vertical-align: middle;
-	// margin-left: 50px;
 	font-size: 24px;
 }
 .check-in {
@@ -163,6 +157,3 @@
     color: $base-white;
     text-decoration: none;
 }
-// .a-icon_home {
-// 	background: url("../img/icon/spritesheet.png") no-repeat;
-// }
