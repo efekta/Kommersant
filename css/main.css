@@ -1683,7 +1683,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features__link:hover .features__more::before { display: none; }
 
-.o-sidebar { position: fixed; left: 0; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; display: block; }
+.o-sidebar { position: fixed; left: -485px; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; -webkit-transition: left .8s; -o-transition: left .8s; transition: left .8s; will-change: left; }
+
+.o-sidebar-open { left: 0; }
 
 .sidebar-logo__pic { width: 76px; height: 49px; }
 

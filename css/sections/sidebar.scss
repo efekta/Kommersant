@@ -1,12 +1,16 @@
 .o-sidebar {
     position: fixed;
-    left: 0;
+    left: -485px;
     top: 0;
     z-index: 5;
     width: 485px;
     height: 100%;
     overflow: scroll;
-    display: block;
+    transition: left .8s;
+    will-change: left;
+}
+.o-sidebar-open {
+	left: 0;
 }
 .sidebar-logo__pic {
 	width: 76px;
