@@ -6,7 +6,7 @@
     width: 485px;
     height: 100%;
     overflow: scroll;
-    display: block;
+    display: none;
 }
 .sidebar-logo__pic {
 	width: 76px;
@@ -63,6 +63,8 @@
     margin-right: 10px;
 }
 .a-icon_close:hover {
-	border: 2px solid $base-white;
+		border: 2px solid $base-white;
+	  background: url(../img/icon/spritesheet.png) no-repeat;
+    background-position: 2px -76px;
 }
 

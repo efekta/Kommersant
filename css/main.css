@@ -1685,7 +1685,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features__link:hover .features__more::before { display: none; }
 
-.o-sidebar { position: fixed; left: 0; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; display: block; }
+.o-sidebar { position: fixed; left: 0; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; display: none; }
 
 .sidebar-logo__pic { width: 76px; height: 49px; }
 
@@ -1707,7 +1707,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon_close { background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; border: 2px solid #ffffff; margin-right: 10px; }
 
-.a-icon_close:hover { border: 2px solid #ffffff; }
+.a-icon_close:hover { border: 2px solid #ffffff; background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; }
 
 .page { min-height: 800px; background: url(../img/bg/stadion.jpg) no-repeat center center; background-size: cover; }
 
