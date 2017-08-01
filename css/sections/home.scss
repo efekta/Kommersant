@@ -47,22 +47,17 @@
 .features__link:hover .features-item__bg {
 	background: url("../img/content/family.jpg") no-repeat center center;
     background-size: cover;
+    transition: 2s;
 }
 .features-item__bg {
     padding: 20px 10px 27px 20px;
-}
-
-.b-icon {
-	margin-right: 18px;
 }
 .features__link:hover .b-icon {
 	border-color: $base-violet;
 	color: $base-white;
     background: $base-violet;
+    transition: .3s;
 }
-// .features__link:hover .features__number {
-// 	color: $base-violet;
-// }
 .features-item__title {
 	text-transform: uppercase;
 	font-size: 30px;
@@ -106,17 +101,12 @@
     right: 25%;
     position: absolute;
 }
-// .features__link:hover .features-item__title {
-// 	color: $base-violet;
-// }
+
 .features__link:hover .features__more {
 	border: 2px solid $base-violet;
     background: $base-violet;
-	// color: $base-violet;
+    transition: .3s;
 }
 .features__link:hover .features__more::before {
 	display: none;
 }
-// .features__link:hover .features__more::after {
-// 	background-position: -10px -192px;
-// }

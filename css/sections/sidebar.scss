@@ -6,7 +6,7 @@
     width: 485px;
     height: 100%;
     overflow: scroll;
-    display: none;
+    display: block;
 }
 .sidebar-logo__pic {
 	width: 76px;
@@ -33,8 +33,9 @@
 }
 .sidebar-features:hover .c-icon {
 	background: $base-violet;
-	border: none;
+	// border: none;
 	color: $base-white;
+	transition: .3s;
 }
 .side-item {
 	background: url("../img/content/family.jpg") no-repeat center center;
@@ -48,10 +49,8 @@
 .sidebar-features:hover .features__more {
 	background: $base-violet;
 	border-color: $base-violet;
+	transition: .3s;
 }
-// .sidebar-features:hover .sidebar-item__title {
-// 	color: $base-violet;
-// }
 
 .sidebar-features:hover .features__more::before  {
 	display: none;
@@ -63,8 +62,8 @@
     margin-right: 10px;
 }
 .a-icon_close:hover {
-		border: 2px solid $base-white;
-	  background: url(../img/icon/spritesheet.png) no-repeat;
+	border: 2px solid $base-white;
+	background: url(../img/icon/spritesheet.png) no-repeat;
     background-position: 2px -76px;
 }
 
