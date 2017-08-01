@@ -1749,7 +1749,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .page-title { position: absolute; margin: 295px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
 
-.page-description { position: relative; background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center; background-size: cover; color: #333; }
+.page-description { position: relative; background: url(../img/bg/page-desc-bg.jpg) no-repeat center center; background-size: cover; color: #333; }
 
 .page-description .page-content { width: 779px; background: rgba(250, 250, 250, 0.65); padding: 40px; }
 
