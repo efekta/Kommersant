@@ -1,9 +1,7 @@
 .home {
-	background: url("../img/bg/bg.jpg") no-repeat center center;
+	background: url("../img/bg/bg.jpg") no-repeat 50% 50%;
 	background-size: cover;
 	height: 100%;
-    // width: 100%;
-    // min-width: 1170px;
 }
 .logo-title {
 	display: block;
@@ -45,7 +43,7 @@
     border-bottom: 3px solid $base-white;
 }
 .features__link:hover .features-item__bg {
-	background: url("../img/content/family.jpg") no-repeat center center;
+	background: url("../img/content/family.jpg") no-repeat 50% 50%;
     background-size: cover;
     transition: 2s;
 }

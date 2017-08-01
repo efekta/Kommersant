@@ -1645,7 +1645,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .ancors__link { color: #ffffff; text-decoration: none; }
 
-.home { background: url("../img/bg/bg.jpg") no-repeat center center; background-size: cover; height: 100%; }
+.home { background: url("../img/bg/bg.jpg") no-repeat 50% 50%; background-size: cover; height: 100%; }
 
 .logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 447px; height: 227px; }
 
@@ -1661,7 +1661,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .features__link:hover .features-item { border-bottom: 3px solid #ffffff; }
 
-.features__link:hover .features-item__bg { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; -webkit-transition: 2s; -o-transition: 2s; transition: 2s; }
+.features__link:hover .features-item__bg { background: url("../img/content/family.jpg") no-repeat 50% 50%; background-size: cover; -webkit-transition: 2s; -o-transition: 2s; transition: 2s; }
 
 .features-item__bg { padding: 20px 10px 27px 20px; }
 
@@ -1682,60 +1682,6 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 .features__link:hover .features__more { border: 2px solid #5f255f; background: #5f255f; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
 
 .features__link:hover .features__more::before { display: none; }
-
-.o-sidebar { position: fixed; left: -485px; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; -webkit-transition: left .8s; -o-transition: left .8s; transition: left .8s; will-change: left; }
-
-.o-sidebar-open { left: 0; }
-
-.sidebar-logo__pic { width: 76px; height: 49px; }
-
-.sidebar__list { background: #5f255f; width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 30px; }
-
-.sidebar-features__header { background: #ffffff; color: #333; font-size: 20px; padding: 20px; }
-
-.c-icon { background: #ffffff; border: 2px solid #5f255f; color: #5f255f; }
-
-.sidebar-features:hover .c-icon { background: #5f255f; color: #ffffff; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
-
-.side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 43px 43px 0 43px; }
-
-.sidebar-item__title { text-transform: uppercase; font-size: 30px; }
-
-.sidebar-features:hover .features__more { background: #5f255f; border-color: #5f255f; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
-
-.sidebar-features:hover .features__more::before { display: none; }
-
-.a-icon_close { background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; border: 2px solid #ffffff; margin-right: 10px; }
-
-.a-icon_close:hover { border: 2px solid #ffffff; background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; }
-
-.page { min-height: 800px; background: url(../img/bg/stadion.jpg) no-repeat center center; background-size: cover; }
-
-.page-title { position: absolute; margin: 295px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
-
-.page-description { position: relative; background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center; background-size: 100%; color: #333; }
-
-.page-description .page-content { width: 779px; background: rgba(250, 250, 250, 0.65); padding: 40px; }
-
-.fans { position: relative; width: 100%; min-height: 718px; background: url(../img/content/fan.jpg) no-repeat center center; background-size: cover; }
-
-.fans-content { position: absolute; z-index: 2; width: 780px; min-height: 227px; background: rgba(95, 37, 95, 0.8); padding: 50px 40px; color: #ffffff; font-size: 18px; margin-left: 30%; margin-top: -10%; }
-
-.page-content-fans { margin-top: 0; }
-
-.page-description-fans { min-height: 240px; }
-
-.fk { background: url(../img/content/fk.jpg) no-repeat center center; background-size: cover; border-bottom: none; }
-
-.page-description-fk { min-height: 185px; }
-
-.club { background: url(../img/content/club.jpg) no-repeat center center; background-size: cover; border: none; }
-
-.page-description-club { min-height: 325px; }
-
-.fitnes { background: url(../img/content/fitnes.jpg) no-repeat center center; background-size: cover; border-bottom: none; }
-
-.fans-content__fitnes { margin-top: 15%; margin-left: 25%; }
 
 .contacts-footer { width: 100%; background: #ffffff; }
 
@@ -1772,5 +1718,57 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 .features-footer .a-icon { border-color: #ccc; background: #ffffff; color: #333; }
 
 .features-footer .features__link:hover .a-icon { border-color: #5f255f; background: #5f255f; color: #ffffff; -webkit-transition: 1s; -o-transition: 1s; transition: 1s; }
+
+.o-sidebar { position: fixed; left: -485px; top: 0; z-index: 5; width: 485px; height: 100%; overflow: scroll; -webkit-transition: left .8s; -o-transition: left .8s; transition: left .8s; will-change: left; }
+
+.o-sidebar-open { left: 0; }
+
+.sidebar-logo__pic { width: 76px; height: 49px; }
+
+.sidebar__list { background: #5f255f; width: 100%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding: 30px; }
+
+.sidebar-features__header { background: #ffffff; color: #333; font-size: 20px; padding: 20px; }
+
+.c-icon { background: #ffffff; border: 2px solid #5f255f; color: #5f255f; }
+
+.sidebar-features:hover .c-icon { background: #5f255f; color: #ffffff; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
+
+.side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 43px 43px 0 43px; }
+
+.sidebar-item__title { text-transform: uppercase; font-size: 30px; }
+
+.sidebar-features:hover .features__more { background: #5f255f; border-color: #5f255f; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
+
+.sidebar-features:hover .features__more::before { display: none; }
+
+.a-icon_close { background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; border: 2px solid #ffffff; margin-right: 10px; }
+
+.a-icon_close:hover { border: 2px solid #ffffff; background: url(../img/icon/spritesheet.png) no-repeat; background-position: 2px -76px; }
+
+.page { min-height: 800px; background: url(../img/bg/stadion.jpg) no-repeat 50% 50%; background-size: cover; }
+
+.page-title { position: absolute; margin: 295px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; text-transform: uppercase; }
+
+.page-description { position: relative; background: url(../img/bg/desc.png) no-repeat 50% 50%; background-size: cover; color: #333; }
+
+.page-description .page-content { width: 779px; background: rgba(250, 250, 250, 0.65); padding: 40px; }
+
+.page-description.overflow .page-content { position: relative; margin-bottom: -150px; top: -250px; }
+
+.map { position: relative; }
+
+.within-content { position: absolute; bottom: -7%; left: 30%; z-index: 2; width: 780px; background: rgba(95, 37, 95, 0.8); padding: 50px 40px; color: #ffffff; font-size: 18px; }
+
+.block-picture { position: relative; width: 100%; min-height: 720px; background-size: cover; background-position: 50% 50%; }
+
+.picture-1 { background: url(../img/content/fan.jpg) no-repeat; }
+
+.picture-2 { background: url(../img/content/fk.jpg) no-repeat; }
+
+.picture-3 { background: url(../img/content/club.jpg) no-repeat; }
+
+.picture-4 { background: url(../img/content/fitnes.jpg) no-repeat; }
+
+.within-content-last { bottom: 55%; }
 
 /*# sourceMappingURL=main.css.map */
