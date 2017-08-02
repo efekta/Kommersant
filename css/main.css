@@ -1635,13 +1635,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .check-in::after { content: ""; display: inline-block; width: 31px; height: 100%; border-right: 2px solid #ffffff; left: 15%; position: absolute; }
 
-.socials { position: absolute; top: 100%; right: 2%; z-index: 2; }
+.socials { position: absolute; top: 130px; right: 2%; z-index: 2; }
 
 .social__list { padding: 4px; }
 
 .social__item { margin-bottom: 9px; }
 
-.ancors { position: absolute; top: 100%; left: 2%; z-index: 2; }
+.ancors { position: absolute; top: 130px; left: 2%; z-index: 2; }
 
 .ancors__list { padding: 4px; }
 
