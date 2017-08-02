@@ -1597,9 +1597,9 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .top-menu__list { position: absolute; left: 0%; padding-left: 30px; }
 
-.top-menu__item { display: inline-block; vertical-align: middle; margin-right: 20px; }
+.top-menu__item { display: inline-block; vertical-align: middle; margin-right: 54px; }
 
-.a-icon { display: inline-block; vertical-align: middle; width: 43px; height: 43px; margin-right: 18px; text-align: center; line-height: 43px; border-radius: 50%; border: 2px solid #ffffff; background-repeat: no-repeat; background-position: center; }
+.a-icon { display: inline-block; vertical-align: middle; width: 43px; height: 43px; text-align: center; line-height: 43px; border-radius: 50%; border: 2px solid #ffffff; background-repeat: no-repeat; background-position: center; }
 
 .a-icon:hover { border-color: #5f255f; background: #5f255f; -webkit-transition: background .3s; -o-transition: background .3s; transition: background .3s; }
 
@@ -1619,7 +1619,7 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .top-contacts { position: absolute; right: 0; font-size: 30px; padding-right: 30px; }
 
-.contacts { display: inline-block; vertical-align: middle; }
+.contacts { display: inline-block; vertical-align: middle; margin-right: 54px; }
 
 .fa-phone { font-size: 30px; color: #ffffff; vertical-align: middle; display: inline-block; }
 
@@ -1637,13 +1637,13 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .check-in::after { content: ""; display: inline-block; width: 31px; height: 100%; border-right: 2px solid #ffffff; left: 15%; position: absolute; }
 
-.socials { position: absolute; top: 130px; right: 2%; z-index: 2; }
+.socials { position: absolute; top: 130px; right: 26px; z-index: 2; }
 
 .social__list { padding: 4px; }
 
 .social__item { margin-bottom: 9px; }
 
-.ancors { position: absolute; top: 130px; left: 2%; z-index: 2; }
+.ancors { position: absolute; top: 130px; left: 26px; z-index: 2; }
 
 .ancors__list { padding: 4px; }
 

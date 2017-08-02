@@ -16,14 +16,13 @@
 .top-menu__item {
 	display: inline-block;
 	vertical-align: middle;
-	margin-right: 20px;
+	margin-right: 54px;
 }
 .a-icon {
     display: inline-block;
     vertical-align: middle;
     width: 43px;
     height: 43px;
-    margin-right: 18px;
     text-align: center;
     line-height: 43px;
     border-radius: 50%;
@@ -85,6 +84,7 @@
 .contacts {
 	display: inline-block;
 	vertical-align: middle;
+    margin-right: 54px;
 }
 
 .fa-phone {
@@ -139,7 +139,7 @@
 .socials {
 	position: absolute;
     top: 130px;
-    right: 2%;
+    right: 26px;
     z-index: 2; 
 }
 .social__list {
@@ -152,7 +152,7 @@
 .ancors {
     position: absolute;
     top: 130px;
-    left: 2%;
+    left: 26px;
     z-index: 2;
 }
 .ancors__list {
