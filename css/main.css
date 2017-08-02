@@ -1625,6 +1625,10 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-modal { display: inline-block; vertical-align: middle; font-size: 24px; }
 
+.a-modal:hover .check-in { border-color: #998646; }
+
+.a-modal:hover .check-in::after { border-right: 2px solid #998646; }
+
 .check-in { position: relative; display: inline-block; vertical-align: middle; padding: 0px 25px; border: 2px solid #ffffff; border-radius: 60px; }
 
 .check-in::before { content: ""; display: inline-block; width: 31px; height: 20px; background: url("../img/icon/spritesheet.png") no-repeat; background-position: -10px -47px; margin-right: 10px; padding: 0 10px; }

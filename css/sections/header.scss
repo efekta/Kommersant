@@ -99,6 +99,12 @@
 	vertical-align: middle;
 	font-size: 24px;
 }
+.a-modal:hover .check-in {
+    border-color: $base-gold;
+}
+.a-modal:hover .check-in::after {
+    border-right: 2px solid $base-gold;
+}
 .check-in {
 	position: relative;
 	display: inline-block;
