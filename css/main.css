@@ -1601,6 +1601,8 @@ h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
 .a-icon { display: inline-block; vertical-align: middle; width: 43px; height: 43px; text-align: center; line-height: 43px; border-radius: 50%; border: 2px solid #ffffff; background-repeat: no-repeat; background-position: center; }
 
+.b-icon { margin-right: 18px; }
+
 .a-icon:hover { border-color: #5f255f; background: #5f255f; -webkit-transition: background .3s; -o-transition: background .3s; transition: background .3s; }
 
 .a-icon_menu { background: url("../img/icon/spritesheet.png") no-repeat; background-position: -2px 1px; }
