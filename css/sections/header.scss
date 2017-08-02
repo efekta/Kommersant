@@ -89,7 +89,9 @@
 
 .fa-phone {
 	font-size: 30px;
-	color: $base-gold;
+	color: $base-white;
+    vertical-align: middle;
+    display: inline-block;
 }
 .fa-phone:hover {
 	color: $base-gold;
