@@ -5,14 +5,14 @@
 body, html {
 	width: 100%;
 	height: 100%;
-	font-size: 18px;
-	line-height: 1.42;
-	color: $base-white;	
 }
 body {
 	min-width: 1170px;
 	margin: 0;
-	background: $base-bg;
+	font-size: 18px;
+	line-height: 1.42;
+	color: $base-white;	
+	font-family: 'Roboto', sans-serif;
 }
 body.fixed::after {
     content: '';
