@@ -31,14 +31,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 
 .page-description {
  	position: relative;        
-    background: url(../img/bg/page-desc-bg.jpg) no-repeat center center;
-    // background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center;
+    background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center;
     background-size: cover;
     // background-size: 100%;
     color: $font-side;  
 }
 
-.page-description .page-content {
+.page-content {
+	position: absolute;
 	width: 779px;
  	background: rgba(250, 250, 250, 0.65);
  	padding: 40px;

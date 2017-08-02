@@ -57,6 +57,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	margin-bottom: 20px;
     padding: 20px 10px 27px 20px;
     overflow: hidden;
+    height: 375px;
 }
 .features__link:hover .features-item {
     border-bottom: 3px solid $base-white;
@@ -88,23 +89,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
  height: 100%;
 }
 
-
-
 .features__link:hover .features-item__bg {
     transform: scale(1.5);
     opacity: 1;
     transition: opacity 0.3s ease, transform 5s ease;
 }
-
-
-
-
-
-
-
-
-
-
 
 .features__link:hover .b-icon {
 	border-color: $base-violet;
@@ -114,7 +103,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .features-item__title {
 	text-transform: uppercase;
-	font-size: 30px;
+	font-size: 24px;
 	margin-bottom: 30px;
 }
 .features-item__desc {
