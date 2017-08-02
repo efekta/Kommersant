@@ -2,14 +2,14 @@
     position: fixed;
     left: -485px;
     top: 0;
-    z-index: 5;
+    z-index: 505;
     width: 485px;
     height: 100%;
     overflow: scroll;
     transition: left .8s;
     will-change: left;
 }
-.o-sidebar-open {
+body.fixed .o-sidebar {
 	left: 0;
 }
 .sidebar-logo__pic {
