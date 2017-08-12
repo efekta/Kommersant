@@ -1886,12 +1886,18 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .within-content-bg { position: relative; background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center; background-size: cover; color: #333; width: 100%; } }
 
-@media only screen and (max-width: 1244px) { .within-content-bg { left: 0; } }
+@media only screen and (max-width: 1244px) { .within-content-bg { position: absolute; left: 0; bottom: 0; } }
 
 @media only screen and (max-width: 1244px) { .page-description.overflow .page-content { position: relative; margin-bottom: 0; top: 0; } }
 
 @media only screen and (max-width: 1244px) { .features-footer { display: block; } }
 
 @media only screen and (max-width: 1244px) { .features-footer .features__link { color: #fff; } }
+
+@media only screen and (max-width: 1244px) { .container { width: 100%; } }
+
+@media only screen and (max-width: 1244px) { .features-footer .features__more { padding: 0 20px; border: none; } }
+
+@media only screen and (max-width: 1244px) { .features-footer .features__more::after { background-position: -20px -242px; } }
 
 /*# sourceMappingURL=main.css.map */
