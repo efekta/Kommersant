@@ -1,46 +1,109 @@
+@media only screen and (max-width: 1244px) {
+.home {
+    min-height: auto;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.wrapper {
+    background-size: cover;
+    background-position: top;
+    height: 100%;
+    min-height: 400px;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.top-menu {
+    position: fixed;
+    top: 0;
+    height: 40px;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.top-menu__item {
+    margin-right: 20px;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.logo__pic, .socials, .top-contacts__tel, .fa-phone::before {
+	display: none;
+	}
+}
 
+@media only screen and (max-width: 1244px) {
+.top-menu__pic {
+	width: 230px;
+	}
+}
+@media only screen and (max-width: 1244px){
+.features {
+    position: relative;
+    width: 100%;
+    display: block;
+	}
+ }
+@media only screen and (max-width: 1244px){
+.features__link {
+    width: 100%;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.features__link .features-item__bg {
+	opacity: 1;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.features__header {
+	background: #fff;
+	color: #333;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.b-icon {
+	background: #5f255f;
+	border-color: #5f255f;
+	color: #fff;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.features__more {
+	color: #fff;
+	background: #5f255f;
+	border-color: #5f255f;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.features__link:hover .features__more::before {
+    border-right: 2px solid #ffffff;
+    display: block;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.features-item {
+    border-bottom: transparent;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.logo-title {
+    margin-top: 30%;
+	}
+}
 
-
-
-
-
-
-
-
-
-
-
-// @media only screen and (max-width: 1244px){
-// .home {
-//     min-height: auto;
-// }
-// }
-// @media only screen and (max-width: 1244px){
-
-// .wrapper {
-//     background-size: cover;
-//     background-position: top;
-//     height: 100%;
-//     min-height: 400px;
-// }
-// }
-// @media only screen and (max-width: 1244px){
-
-// .top-menu {
-//     position: fixed;
-// }
-// }
-// @media only screen and (max-width: 1244px){
-
-// .features {
-//     top: 0;
-//     position: relative;
-// }
-// }
-// @media only screen and (max-width: 1244px){
-
-// .features__link {
-//     top: 0;
-//     position: relative;
-// }
-// }
+@media only screen and (max-width: 1244px) {
+.features__link:hover .features-item__bg {
+    transform: none;
+    opacity: 1;
+    transition: none;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.features__link:nth-child(1) .features-item__bg{ background: url("../img/marsh/1.jpg")  no-repeat; background-size: cover; }
+.features__link:nth-child(2) .features-item__bg{ background: url("../img/marsh/2.jpg")  no-repeat; background-size: cover; }
+.features__link:nth-child(3) .features-item__bg{ background: url("../img/marsh/3.jpg")  no-repeat; background-size: cover; }
+.features__link:nth-child(4) .features-item__bg{ background: url("../img/marsh/4.jpg")  no-repeat; background-size: cover; }
+}
+@media only screen and (max-width: 1244px) {
+.features__number {
+    position: relative;
+    padding: 10px;
+	}
+}
