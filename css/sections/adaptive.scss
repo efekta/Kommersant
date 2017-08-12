@@ -138,3 +138,13 @@
     top: 0;
 }
 }
+@media only screen and (max-width: 1244px) {
+.features-footer {
+    display: block;
+}
+}
+@media only screen and (max-width: 1244px) {
+.features-footer .features__link {
+    color: #fff;
+}
+}
