@@ -107,3 +107,34 @@
     padding: 10px;
 	}
 }
+@media only screen and (max-width: 1244px) {
+	.ancors__item {
+		display: none;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.a-icon-home {
+	display: block;
+}
+}
+@media only screen and (max-width: 1244px) {
+	.within-content-bg {
+		position: relative;
+    	background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center;
+   	 	background-size: cover;
+    	color: #333;
+    	width: 100%;
+	}
+}
+@media only screen and (max-width: 1244px) {
+	.within-content-bg {
+    	left: 0;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.page-description.overflow .page-content {
+    position: relative;
+    margin-bottom: 0;
+    top: 0;
+}
+}
