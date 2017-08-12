@@ -1661,7 +1661,7 @@ p { margin: 0; }
 
 .home::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; background: rgba(0, 0, 0, 0.5); }
 
-.logo-title { display: block; margin: 0 auto; margin-top: 130px; width: 410px; height: 200px; }
+.logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 447px; height: 227px; }
 
 .features { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; bottom: 0%; position: absolute; overflow: hidden; z-index: 2; }
 
