@@ -1,5 +1,16 @@
+$base-violet: #5f255f;
+$base-white: #ffffff;
+$base-blue: #8cb7c7;
+$base-yellow: #ddab05;
+$base-pink: #ab7ea4;
+$base-beige: #e1ddd0;
+$base-gold: #998646;
+$base-bg: #c1c1c1;
+$font-side: #333;
+$gray: #ccc;
+
 @import "layout/normalize";
-@import "layout/mixin";
+// @import "layout/mixin";
 @import "fonts/font-awesome";
 @import "layout/settings";
 @import "sections/header";
