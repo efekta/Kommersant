@@ -10,11 +10,11 @@
 	</head>
 	<body>
 		<!-- 	HOME -->
-		<div class="home">
+		<div class="home" id="scene">
 			<div class="wrapper">
 				<!-- 			HEADER -->
 				<header class="top-menu">
-					<ul class="top-menu__list">
+					<ul class="top-menu__list wow bounceInLeft" data-wow-duration="6s">
 						<li class="top-menu__item">
 							<a href="#" class="top-menu__link sidebar-link a-icon a-icon_menu"></a>
 						</li>
@@ -24,10 +24,10 @@
 							</a>
 						</li>
 					</ul>
-					<a href="#" class="logo">
+					<a href="#" class="logo wow bounceInDown" data-wow-duration="5s">
 						<img src="img/content/logo-head.png" alt="Логотип" class="logo__pic" width="200" height="60">
 					</a>
-					<div class="top-contacts">
+					<div class="top-contacts wow bounceInRight" data-wow-duration="6s">
 						<div class="contacts">
 							<i class="fa fa-phone"></i>
 							<a class="top-contacts__tel" href="tel:88008888888">8 800 888 88 88</a>
@@ -57,10 +57,10 @@
 					</div>
 				</header>
 				<!-- /HEADER -->
-				<img src="img/content/logo-title.png" alt="Логотип" class="logo-title">
+				<img src="img/content/logo-title.png" alt="Логотип" class="logo-title wow bounceInDown" data-wow-duration="3s">
 			</div>
 			<!-- FEATURES -->
-			<div class="features">
+			<div class="features wow bounceInUp" data-wow-delay="2s" data-wow-duration="3s">
 				<a href="page-1.html" class="features__link">
 					<div class="features__header">
 						<div class="features__number">
@@ -238,5 +238,14 @@
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<script src="js/main.js"></script>
+		<script src="js/wow.min.js"></script>
+		<script>
+			new WOW().init();
+		</script>
+		<script src="js/parallax.min.js"></script>
+		<script>
+			var scene - document.getElementById('scene');
+			var parallax - new Parallax(scene);
+		</script>
 	</body>
 </html>
