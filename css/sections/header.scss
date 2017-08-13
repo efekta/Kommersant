@@ -72,9 +72,11 @@
 }
 
 .top-menu__pic {
-    width: 300px;
+    width: 350px;
 	display: inline-block;
  	vertical-align: middle;
+    // width: 411px;
+    // height: 49px;
 }
 
 .top-contacts {
@@ -86,7 +88,7 @@
 .contacts {
 	display: inline-block;
 	vertical-align: middle;
-    margin-right: 50px;
+    margin-right: 30px;
 }
 .top-contacts__tel {
     font-size: 25px;
@@ -102,10 +104,9 @@
 }
 .a-modal {
 	display: inline-block;
-	vertical-align: middle;
-	font-size: 20px;
+    vertical-align: middle;
+    font-size: 24px;
     cursor: pointer;
-    // line-height: 40px;
 }
 .a-modal:hover .check-in {
     border-color: $base-gold;
@@ -115,8 +116,10 @@
     border-right: 2px solid $base-gold;
 }
 .check-in {
-	position: relative;
-    padding: 10px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0px 15px;
     border: 2px solid $base-white;
     border-radius: 60px;
 }
@@ -127,8 +130,8 @@
     height: 20px;
     background: url("../img/icon/spritesheet.png")no-repeat;
     background-position: -10px -47px;
-    margin-right: 25px;
-    margin-top: 10px;
+    margin-right: 10px;
+    padding: 0 10px;
     // margin-right: 10px;
     // margin-top: 10px;
     // padding: 0 10px;

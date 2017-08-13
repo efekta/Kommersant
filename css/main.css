@@ -1619,11 +1619,11 @@ p { margin: 0; }
 
 .logo__pic-page { width: 144px; height: 73px; }
 
-.top-menu__pic { width: 300px; display: inline-block; vertical-align: middle; }
+.top-menu__pic { width: 350px; display: inline-block; vertical-align: middle; }
 
 .top-contacts { position: absolute; right: 0; font-size: 30px; padding-right: 30px; }
 
-.contacts { display: inline-block; vertical-align: middle; margin-right: 50px; }
+.contacts { display: inline-block; vertical-align: middle; margin-right: 30px; }
 
 .top-contacts__tel { font-size: 25px; }
 
@@ -1631,15 +1631,15 @@ p { margin: 0; }
 
 .fa-phone:hover { color: #998646; }
 
-.a-modal { display: inline-block; vertical-align: middle; font-size: 20px; cursor: pointer; }
+.a-modal { display: inline-block; vertical-align: middle; font-size: 24px; cursor: pointer; }
 
 .a-modal:hover .check-in { border-color: #998646; background: #998646; }
 
 .a-modal:hover .check-in::after { border-right: 2px solid #998646; }
 
-.check-in { position: relative; padding: 10px; border: 2px solid #ffffff; border-radius: 60px; }
+.check-in { position: relative; display: inline-block; vertical-align: middle; padding: 0px 15px; border: 2px solid #ffffff; border-radius: 60px; }
 
-.check-in::before { content: ""; display: inline-block; width: 31px; height: 20px; background: url("../img/icon/spritesheet.png") no-repeat; background-position: -10px -47px; margin-right: 25px; margin-top: 10px; }
+.check-in::before { content: ""; display: inline-block; width: 31px; height: 20px; background: url("../img/icon/spritesheet.png") no-repeat; background-position: -10px -47px; margin-right: 10px; padding: 0 10px; }
 
 .check-in::after { content: ""; display: inline-block; width: 31px; height: 100%; border-right: 2px solid #ffffff; left: 15%; position: absolute; }
 
@@ -1657,7 +1657,7 @@ p { margin: 0; }
 
 .ancors__link { color: #ffffff; text-decoration: none; }
 
-.home { background: url("../img/bg/bg.jpg") no-repeat 50% 50%; background-size: cover; height: 100%; }
+.home { background: url("../img/bg/bg.jpg") no-repeat 50% 50%; background-size: cover; height: 100%; position: relative; }
 
 .home::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; background: rgba(0, 0, 0, 0.5); }
 
