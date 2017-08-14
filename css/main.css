@@ -1934,7 +1934,7 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) and (orientation: landscape) { .logo-title { max-width: 40%; height: auto; margin-top: 14%; } }
 
-@media only screen and (max-width: 1244px) and (orientation: portrait) { .logo-title { max-width: 80%; height: auto; margin-top: 14%; } }
+@media only screen and (max-width: 1244px) and (orientation: portrait) { .logo-title { max-width: 80%; height: auto; margin-top: 50%; } }
 
 @media only screen and (max-width: 480px) { .check-in { position: relative; display: inline-block; vertical-align: middle; padding: 0 15px; border: 2px solid #ffffff; border-radius: 60px; font-size: 16px; } }
 
