@@ -38,6 +38,8 @@ body {
 .within-content {
 	position: static;
 	width: 100%;
+	font-size: 16px;
+	line-height: 18px;
 }
 }
 
@@ -195,8 +197,6 @@ body {
 @media only screen and (max-width: 1244px) {
 	.within-content-bg {
 		position: static;
-  //   	left: 0;
-		// bottom: 0;
 		background: $base-violet;
 		color: $base-white;
 		padding: 65px 30px;
@@ -230,11 +230,6 @@ body {
     line-height: 18px;
 	}
 }
-// @media only screen and (max-width: 1244px) {
-// .page-content .page-description {
-//     background: $base-white;
-// 	}
-// }
 @media only screen and (max-width: 1244px) {
 	.features-footer .features__more {
     padding: 0 20px;
@@ -257,7 +252,6 @@ body {
     width: 100%;
 	}
 }
-
 @media only screen and (max-width: 1244px) {
 	.sidebar-features:nth-child(1) .side-item {
     background-size: cover;

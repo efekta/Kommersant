@@ -1857,7 +1857,7 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .page-content-title { position: static; width: 100%; font-size: 16px; line-height: 18px; } }
 
-@media only screen and (max-width: 1244px) { .within-content { position: static; width: 100%; } }
+@media only screen and (max-width: 1244px) { .within-content { position: static; width: 100%; font-size: 16px; line-height: 18px; } }
 
 @media only screen and (max-width: 1244px) { .page { height: 100vh; background-size: cover; background-position: center center; } }
 
