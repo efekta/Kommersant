@@ -1,4 +1,11 @@
  @media only screen and (max-width: 1290px) {
+body {
+    width: auto;
+	}
+}
+
+
+ @media only screen and (max-width: 1290px) {
 .home {
     min-height: 970px;
 	}
@@ -11,22 +18,40 @@
 @media only screen and (max-width: 1244px) {
 .mobile {
     display: block;
-}
-}
-
-
-
-
-
-
-
-
-
-@media only screen and (max-width: 1244px) {
-.home {
-    min-height: auto;
 	}
 }
+@media only screen and (max-width: 1244px) {
+.page-content-title {
+    position: static;
+    width: 100%;
+    font-size: 16px;
+	line-height: 18px;
+	}
+}
+// @media only screen and (max-width: 1244px) {
+// .turist-within {
+//     position: absolute;
+//     bottom: 0;
+// 	}
+// }
+@media only screen and (max-width: 1244px) {
+.within-content {
+	position: static;
+	width: 100%;
+}
+}
+
+
+
+
+
+
+
+// @media only screen and (max-width: 1244px) {
+// .home {
+//     min-height: auto;
+// 	}
+// }
 @media only screen and (max-width: 1244px) {
 .page {
     height: 100vh;
@@ -34,17 +59,13 @@
     background-position: center center;
 	}
 }
-@media only screen and (max-width: 1244px) {
-.map {
-    height: 100vh;
-    width: 100vw;
-	}
-}
+
 @media only screen and (max-width: 1244px) {
 .block-picture {
     height: 100vh;
     background-size: cover;
     background-position: center center;
+    margin-bottom: 0;
 	}
 }
 @media only screen and (max-width: 1244px) {
@@ -173,9 +194,9 @@
 }
 @media only screen and (max-width: 1244px) {
 	.within-content-bg {
-		position: absolute;
-    	left: 0;
-		bottom: 0;
+		position: static;
+  //   	left: 0;
+		// bottom: 0;
 		background: $base-violet;
 		color: $base-white;
 		padding: 65px 30px;
