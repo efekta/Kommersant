@@ -1,8 +1,8 @@
-@media only screen and (min-width: 1244px)
+@media only screen and (min-width: 1244px) {
 body {
     min-width: 1170px;
 }
-
+}
 
  @media only screen and (max-width: 1290px) {
 .home {
@@ -41,20 +41,6 @@ body {
 	line-height: 18px;
 }
 }
-@media only screen and (max-width: 1244px) {
-	body {
-		max-width: 80%;
-		 height: auto;
-	}
-}
-
-
-
-
-
-
-
-
 // @media only screen and (max-width: 1244px) {
 // .home {
 //     min-height: auto;
@@ -284,3 +270,9 @@ body {
 	}
 }
 
+@media only screen and (max-width: 480px) {
+	body {
+		max-width: 80%;
+		height: auto;
+	}
+}
