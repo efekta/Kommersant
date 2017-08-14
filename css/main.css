@@ -1787,7 +1787,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .page::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */ background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%); /* Chrome10-25,Safari5.1-6 */ background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.65))); background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%); background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */ }
 
-.page-title { position: absolute; margin: 295px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; font-weight: bold; text-transform: uppercase; }
+.page-title { margin: 295px auto; width: 100%; text-align: center; color: #ffffff; font-size: 60px; font-weight: bold; text-transform: uppercase; }
 
 .page-description { position: relative; background: url(../img/bg/page-desc-bg.jpg) no-repeat bottom center; background-size: cover; color: #333; }
 
@@ -1803,7 +1803,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .within-content { position: absolute; bottom: -7%; left: 30%; z-index: 2; width: 780px; background: rgba(95, 37, 95, 0.8); padding: 40px; color: #ffffff; font-size: 18px; }
 
-.block-picture { position: relative; width: 100%; min-height: 75vh; background-size: cover; background-position: 50% 50%; }
+.block-picture { position: relative; width: 100%; min-height: 75vh; background-size: cover; background-position: 50% 50%; margin-bottom: 20px; }
 
 .block-picture::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0+0,0.65+100 */ background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%); /* Chrome10-25,Safari5.1-6 */ background: -webkit-gradient(linear, left top, left bottom, from(transparent), to(rgba(0, 0, 0, 0.65))); background: -o-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 100%); background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ); /* IE6-9 */ }
 
@@ -1815,7 +1815,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .picture-4 { background: url(../img/content/fitnes.jpg) no-repeat; margin-bottom: 60px; }
 
-.within-content-last { right: 0; left: 0; margin: 0 auto; bottom: -542%; }
+.within-content-last { right: 0; left: 0; margin: 0 auto; }
 
 .turist { background: url(../img/bg2-1/1.jpg) no-repeat 50% 50%; }
 
@@ -1861,7 +1861,7 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .page { height: 100vh; background-size: cover; background-position: center center; } }
 
-@media only screen and (max-width: 1244px) { .block-picture { height: 100vh; background-size: cover; background-position: center center; margin-bottom: 0; } }
+@media only screen and (max-width: 1244px) { .block-picture { height: 100vh; background-size: cover; background-position: center center; } }
 
 @media only screen and (max-width: 1244px) { .wrapper { background-size: cover; background-position: top; height: 100%; min-height: 400px; } }
 
