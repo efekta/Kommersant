@@ -1932,7 +1932,7 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .container { width: auto; } }
 
-@media only screen and (max-width: 1244px) { .logo-title { width: 275px; height: auto; } }
+@media only screen and (max-width: 480px) { .logo-title { width: 275px; height: auto; } }
 
 /*! animate.css -http://daneden.me/animate Version - 3.5.2 Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2017 Daniel Eden */
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
