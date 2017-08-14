@@ -1813,9 +1813,11 @@ body.fixed .o-sidebar { left: 0; }
 
 .picture-3 { background: url(../img/content/club.jpg) no-repeat; }
 
-.picture-4 { background: url(../img/content/fitnes.jpg) no-repeat; }
+.picture-4 { background: url(../img/content/fitnes.jpg) no-repeat; margin-bottom: 50px; }
 
-.within-content-last { right: 0; left: 0; margin: 0 auto; }
+.within-content-last { right: 0; left: 0; bottom: 50px; margin: 0 auto; }
+
+.content-footer { position: relative; }
 
 .turist { background: url(../img/bg2-1/1.jpg) no-repeat 50% 50%; }
 
@@ -1846,8 +1848,6 @@ body.fixed .o-sidebar { left: 0; }
 .picture-biznes-4 { background: url(../img/bg3-1/5.jpg) no-repeat; }
 
 .picture-biznes-5 { background: url(../img/bg3-1/6.jpg) no-repeat; }
-
-.content-footer { position: relative; }
 
 @media only screen and (min-width: 1244px) { body { min-width: 1170px; } }
 

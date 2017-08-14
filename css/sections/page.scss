@@ -78,7 +78,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 .block-picture {
 	position: relative;
 	width: 100%;
-	// min-height: 720px
 	min-height: 75vh;
 	background-size: cover;
 	background-position: 50% 50%;
@@ -109,11 +108,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 .picture-4 {
 	background: url(../img/content/fitnes.jpg) no-repeat;
+	margin-bottom: 50px;
 }
 .within-content-last {
 	right: 0;
     left: 0;
+    bottom: 50px;
     margin: 0 auto;
 }
-
+.content-footer {
+    position: relative;
+}
 
