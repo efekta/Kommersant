@@ -9,6 +9,8 @@ body {
     min-height: 970px;
 	}
 }
+
+
  @media only screen and (max-width: 1290px) {
  .features-item {
     height: 380px;
@@ -345,16 +347,44 @@ body {
 	display: none;
 	}
 }
-// @media only screen and (max-width: 480px) {
-// .wrapper {
-// 	height: 100vh;
-// 	}
-// }
-// @media only screen and (max-width: 480px) {
-// .button-down {
-//     bottom: 40%;
-// }
-// }
+
+ @media only screen and (max-width: 480px) {
+.home {
+    background: none;
+	}
+}
+@media only screen and (max-width: 480px) {
+.wrapper {
+	background: url("../img/bg/bg.jpg") no-repeat 50% 50%;
+	background-size: cover;
+	}
+}
+@media only screen and (max-width: 480px) {
+.home::after {
+    display: none;
+	}
+}
+@media only screen and (max-width: 480px) {
+.wrapper::after {
+	content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.5);
+	}
+}
+
+
+
+
+
+
+
+
+
 
 
 
