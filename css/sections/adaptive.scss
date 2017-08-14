@@ -283,22 +283,11 @@ body {
     max-width: 80%;
     height: auto;
     margin-top: 50%;
+    position: absolute;
+    left: 10%;
  }
 }
 
-
-
-
-
-
-
-
-// @media only screen and (max-width: 480px) {
-// 	.logo-title {
-//     width: 275px;
-//     height: auto;
-// }
-// }
 @media only screen and (max-width: 480px) {
 .check-in {
     position: relative;
@@ -307,7 +296,6 @@ body {
     padding: 0 15px;
     border: 2px solid #ffffff;
     border-radius: 60px;
-    //  max-width: 40%; 
     font-size: 16px;
 }
 }
@@ -348,23 +336,23 @@ body {
 	}
 }
 
- @media only screen and (max-width: 480px) {
+ @media only screen and (max-width: 1244px) {
 .home {
     background: none;
 	}
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1244px) {
 .wrapper {
 	background: url("../img/bg/bg.jpg") no-repeat 50% 50%;
 	background-size: cover;
 	}
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1244px) {
 .home::after {
     display: none;
 	}
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1244px) {
 .wrapper::after {
 	content: '';
     display: block;
@@ -376,6 +364,25 @@ body {
     background: rgba(0, 0, 0, 0.5);
 	}
 }
+
+
+//turist mob
+@media only screen and (max-width: 480px) {
+	.page-title {
+    font-size: 30px;
+}
+}
+@media only screen and (max-width: 480px) {
+	.ancors__item {
+    display: none;
+}
+}
+@media only screen and (max-width: 480px) {
+	.a-icon-home {
+    display: block;
+}
+}
+
 
 
 

@@ -1709,7 +1709,7 @@ p { margin: 0; }
 
 .features__link:hover .features__more::before { display: none; }
 
-.button-down { height: 66px; width: 66px; display: none; bottom: 5%; border: 1px solid #fff; border-radius: 50%; position: absolute; left: 50%; margin-left: -23px; }
+.button-down { height: 66px; width: 66px; display: none; bottom: 5%; border: 1px solid #fff; border-radius: 50%; position: absolute; left: 50%; margin-left: -23px; z-index: 2; }
 
 .button-down__icon { height: 43px; width: 43px; position: relative; margin: 0 auto; border-radius: 50%; top: 10px; background: url(../img/icon/w-toggle.png) #5f255f no-repeat; background-position: center; }
 
@@ -1934,7 +1934,7 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) and (orientation: landscape) { .logo-title { max-width: 40%; height: auto; margin-top: 14%; } }
 
-@media only screen and (max-width: 1244px) and (orientation: portrait) { .logo-title { max-width: 80%; height: auto; margin-top: 50%; } }
+@media only screen and (max-width: 1244px) and (orientation: portrait) { .logo-title { max-width: 80%; height: auto; margin-top: 50%; position: absolute; left: 10%; } }
 
 @media only screen and (max-width: 480px) { .check-in { position: relative; display: inline-block; vertical-align: middle; padding: 0 15px; border: 2px solid #ffffff; border-radius: 60px; font-size: 16px; } }
 
@@ -1952,13 +1952,19 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 480px) { .socials { display: none; } }
 
-@media only screen and (max-width: 480px) { .home { background: none; } }
+@media only screen and (max-width: 1244px) { .home { background: none; } }
 
-@media only screen and (max-width: 480px) { .wrapper { background: url("../img/bg/bg.jpg") no-repeat 50% 50%; background-size: cover; } }
+@media only screen and (max-width: 1244px) { .wrapper { background: url("../img/bg/bg.jpg") no-repeat 50% 50%; background-size: cover; } }
 
-@media only screen and (max-width: 480px) { .home::after { display: none; } }
+@media only screen and (max-width: 1244px) { .home::after { display: none; } }
 
-@media only screen and (max-width: 480px) { .wrapper::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; background: rgba(0, 0, 0, 0.5); } }
+@media only screen and (max-width: 1244px) { .wrapper::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; background: rgba(0, 0, 0, 0.5); } }
+
+@media only screen and (max-width: 480px) { .page-title { font-size: 30px; } }
+
+@media only screen and (max-width: 480px) { .ancors__item { display: none; } }
+
+@media only screen and (max-width: 480px) { .a-icon-home { display: block; } }
 
 /*! animate.css -http://daneden.me/animate Version - 3.5.2 Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2017 Daniel Eden */
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
