@@ -67,7 +67,7 @@ body {
     background-size: cover;
     background-position: top;
     // height: 100%;
-    min-height: 800px;
+    min-height: 100vh;
 	}
 }
 @media only screen and (max-width: 1244px) {
@@ -273,12 +273,14 @@ body {
 	.logo-title {
     max-width: 40%;
     height: auto;
+    margin-top: 14%;
  }
 }
 @media only screen and (max-width: 1244px) and (orientation: portrait) {
 	.logo-title {
     max-width: 80%;
     height: auto;
+    margin-top: 14%;
  }
 }
 
