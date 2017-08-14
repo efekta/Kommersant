@@ -1889,7 +1889,7 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .features-item { border-bottom: transparent; } }
 
-@media only screen and (max-width: 1244px) { .logo-title { margin-top: 50%; } }
+@media only screen and (max-width: 1244px) { .logo-title { position: absolute; left: 30%; margin-top: 50%; } }
 
 @media only screen and (max-width: 1244px) { .features__link:hover .features-item__bg { -webkit-transform: none; -ms-transform: none; transform: none; opacity: 1; -webkit-transition: none; -o-transition: none; transition: none; } }
 
