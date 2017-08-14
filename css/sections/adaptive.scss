@@ -1,3 +1,27 @@
+ @media only screen and (max-width: 1290px) {
+.home {
+    min-height: 970px;
+	}
+}
+ @media only screen and (max-width: 1290px) {
+ .features-item {
+    height: 380px;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.mobile {
+    display: block;
+}
+}
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 1244px) {
 .home {
     min-height: auto;
@@ -13,6 +37,7 @@
 @media only screen and (max-width: 1244px) {
 .map {
     height: 100vh;
+    width: 100vw;
 	}
 }
 @media only screen and (max-width: 1244px) {

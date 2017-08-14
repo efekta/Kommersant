@@ -8,6 +8,7 @@
 	background: url("../img/bg/bg.jpg") no-repeat 50% 50%;
 	background-size: cover;
     height: 100%;
+    min-height: 920px;
 	// width: 115%;
  //    height: 115%;
  //    left: -7.5%;
@@ -47,10 +48,12 @@
 .features__link {
     cursor: pointer;
     text-decoration: none;
-    width: 33%;
+    width: 25%;
 }
 
-.features__link .features-item__bg
+.features__header {
+    padding-left: 20px;
+}
 
 .features__header {
     padding-left: 30px;
@@ -67,7 +70,7 @@
 	background: none;
 	border-bottom: 3px solid $base-gold;
 	margin-bottom: 20px;
-    padding: 20px 10px 27px 20px;
+    padding-left: 20px;
     overflow: hidden;
     height: 320px;
 }
@@ -78,6 +81,7 @@
     position: relative;
     z-index: 2;
     padding-bottom: 10px;
+    padding-left: 20px;
 }
 // .features__link:hover .features-item__bg {
 // 	background: url("../img/content/family.jpg") no-repeat 50% 50%;
@@ -127,9 +131,11 @@
 .features-item__desc {
 	font-style: italic;
 	font-size: 18px;
+    // padding-left: 20px;
 }
 .features__btn {
 	display: inline-block;
+    padding-left: 40px;
 }
 
 .features__more {
@@ -170,4 +176,25 @@
 }
 .features__link:hover .features__more::before {
 	display: none;
+}
+.button-down {
+    height: 66px;
+    width: 66px;
+    display: none;
+    bottom: 5%;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -23px;
+}
+.button-down__icon {
+    height: 43px;
+    width: 43px;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 50%;
+    top: 10px;
+    background: url(../img/icon/w-toggle.png) $base-violet no-repeat;
+    background-position: center;
 }
