@@ -29,12 +29,7 @@ body {
 	line-height: 18px;
 	}
 }
-// @media only screen and (max-width: 1244px) {
-// .turist-within {
-//     position: absolute;
-//     bottom: 0;
-// 	}
-// }
+
 @media only screen and (max-width: 1244px) {
 .within-content {
 	position: static;
@@ -61,7 +56,12 @@ body {
     height: 100vh;
     background-size: cover;
     background-position: center center;
-    // margin-bottom: 0;
+    margin-bottom: 0;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.picture-4 {
+    margin-bottom: 0;
 	}
 }
 @media only screen and (max-width: 1244px) {
