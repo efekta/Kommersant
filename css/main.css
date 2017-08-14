@@ -1889,8 +1889,6 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .features-item { border-bottom: transparent; } }
 
-@media only screen and (max-width: 1244px) { .logo-title { position: absolute; left: 30%; margin-top: 50%; } }
-
 @media only screen and (max-width: 1244px) { .features__link:hover .features-item__bg { -webkit-transform: none; -ms-transform: none; transform: none; opacity: 1; -webkit-transition: none; -o-transition: none; transition: none; } }
 
 @media only screen and (max-width: 1244px) { .features__link:nth-child(1) .features-item__bg { background: url("../img/marsh/1.jpg") no-repeat; background-size: cover; }
@@ -1932,9 +1930,9 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .container { width: auto; } }
 
-@media only screen and (max-width: 1244px) and (orientation: landscape) { .logo-title { max-width: 40%; height: auto; margin-top: 14%; } }
+@media only screen and (max-width: 1244px) and (orientation: landscape) { .logo-title { max-width: 40%; height: auto; margin-top: 14%; z-index: 5; } }
 
-@media only screen and (max-width: 1244px) and (orientation: portrait) { .logo-title { max-width: 80%; height: auto; margin-top: 50%; position: absolute; left: 30%; } }
+@media only screen and (max-width: 1244px) and (orientation: portrait) { .logo-title { max-width: 80%; height: auto; margin-top: 50%; position: absolute; left: 30%; z-index: 5; } }
 
 @media only screen and (max-width: 480px) { .check-in { position: relative; display: inline-block; vertical-align: middle; padding: 0 15px; border: 2px solid #ffffff; border-radius: 60px; font-size: 16px; } }
 

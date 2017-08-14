@@ -144,13 +144,13 @@ body {
     border-bottom: transparent;
 	}
 }
-@media only screen and (max-width: 1244px) {
-.logo-title {
-	position: absolute;
-	left: 30%;
-    margin-top: 50%;
-	}
-}
+// @media only screen and (max-width: 1244px) {
+// .logo-title {
+// 	position: absolute;
+// 	left: 30%;
+//     margin-top: 50%;
+// 	}
+// }
 
 @media only screen and (max-width: 1244px) {
 .features__link:hover .features-item__bg {
@@ -278,6 +278,7 @@ body {
     max-width: 40%;
     height: auto;
     margin-top: 14%;
+    z-index: 5;
  }
 }
 @media only screen and (max-width: 1244px) and (orientation: portrait) {
@@ -287,6 +288,7 @@ body {
     margin-top: 50%;
     position: absolute;
     left: 30%;
+    z-index: 5;
  }
 }
 
