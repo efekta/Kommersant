@@ -276,3 +276,39 @@ body {
     height: auto;
 }
 }
+@media only screen and (max-width: 480px) {
+.check-in {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 5px 15px;
+    border: 2px solid #ffffff;
+    border-radius: 60px;
+    //  max-width: 40%; 
+    font-size: 16px;
+}
+}
+@media only screen and (max-width: 480px) {
+.check-in::before {
+    display: none;
+	}
+}
+@media only screen and (max-width: 480px) {
+.check-in::after {
+    display: none;
+	}
+}
+@media only screen and (max-width: 480px) {
+.top-menu__pic {
+    width: 170px;
+}
+}
+@media only screen and (max-width: 480px) {
+.top-menu__list {
+    padding-left: 10px;
+}
+}
+
+
+
+
