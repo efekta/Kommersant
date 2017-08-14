@@ -278,8 +278,9 @@ body {
     max-width: 40%;
     height: auto;
     margin-top: 14%;
-    z-index: 5;
-    left: 30%;
+    position: relative;
+    z-index: 2;
+
  }
 }
 @media only screen and (max-width: 1244px) and (orientation: portrait) {
@@ -287,9 +288,8 @@ body {
     max-width: 80%;
     height: auto;
     margin-top: 50%;
-    position: absolute;
-    left: 10%;
-    z-index: 5;
+    position: relative;
+    z-index: 2;
  }
 }
 
