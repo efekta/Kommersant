@@ -269,13 +269,30 @@ body {
     width: auto;
 	}
 }
-
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1244px) and (orientation: landscape) {
 	.logo-title {
-    width: 275px;
+    max-width: 80%;
     height: auto;
+ }
 }
+@media only screen and (max-width: 1244px) and (orientation: portrait) {
+	.logo-title {
+    max-width: 40%;
+    height: auto;
+ }
 }
+
+
+
+
+
+
+// @media only screen and (max-width: 480px) {
+// 	.logo-title {
+//     width: 275px;
+//     height: auto;
+// }
+// }
 @media only screen and (max-width: 480px) {
 .check-in {
     position: relative;
