@@ -1,8 +1,17 @@
+// .parallax {
+//     height: 100%;
+//     overflow: hidden;
+//     position: relative;
+// }
 .home {
+    position: relative;
 	background: url("../img/bg/bg.jpg") no-repeat 50% 50%;
 	background-size: cover;
-	height: 100%;
-    position: relative;
+    height: 100%;
+	// width: 115%;
+ //    height: 115%;
+ //    left: -7.5%;
+ //    top: -7.5%;
 }
 .home::after {
     content: '';
@@ -52,8 +61,6 @@
 .features__number {
 	position: relative;
 }
-
-
 .features-item {
 	z-index: 1;
     position: relative;
@@ -62,7 +69,7 @@
 	margin-bottom: 20px;
     padding: 20px 10px 27px 20px;
     overflow: hidden;
-    height: 375px;
+    height: 320px;
 }
 .features__link:hover .features-item {
     border-bottom: 3px solid $base-white;
@@ -70,6 +77,7 @@
 .features-item__body {
     position: relative;
     z-index: 2;
+    padding-bottom: 10px;
 }
 // .features__link:hover .features-item__bg {
 // 	background: url("../img/content/family.jpg") no-repeat 50% 50%;

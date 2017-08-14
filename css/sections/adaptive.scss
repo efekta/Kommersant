@@ -4,6 +4,25 @@
 	}
 }
 @media only screen and (max-width: 1244px) {
+.page {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.map {
+    height: 100vh;
+	}
+}
+@media only screen and (max-width: 1244px) {
+.block-picture {
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+	}
+}
+@media only screen and (max-width: 1244px) {
 .wrapper {
     background-size: cover;
     background-position: top;
@@ -108,11 +127,11 @@
     padding: 10px;
 	}
 }
-@media only screen and (max-width: 1244px) {
-	.ancors__item {
-		display: none;
-	}
-}
+// @media only screen and (max-width: 1244px) {
+// 	.ancors__item {
+// 		display: none;
+// 	}
+// }
 @media only screen and (max-width: 1244px) {
 .a-icon-home {
 	display: block;
@@ -132,6 +151,11 @@
 		position: absolute;
     	left: 0;
 		bottom: 0;
+		background: $base-violet;
+		color: $base-white;
+		padding: 65px 30px;
+		font-size: 16px;
+		line-height: 18px;
 	}
 }
 @media only screen and (max-width: 1244px) {
@@ -148,14 +172,23 @@
 }
 @media only screen and (max-width: 1244px) {
 .features-footer .features__link {
-    color: #fff;
+    color: $base-white;
 	}
 }
 @media only screen and (max-width: 1244px) {
-.container {
+.page-content {
     width: 100%;
+    background: $base-white;
+    padding: 65px 30px;
+    font-size: 16px;
+    line-height: 18px;
 	}
 }
+// @media only screen and (max-width: 1244px) {
+// .page-content .page-description {
+//     background: $base-white;
+// 	}
+// }
 @media only screen and (max-width: 1244px) {
 	.features-footer .features__more {
     padding: 0 20px;
@@ -167,3 +200,36 @@
     background-position: -20px -242px;
 	}
 }
+@media only screen and (max-width: 1244px) {
+	.ancors, .socials, .ancors__list {
+		position: fixed;
+		display: block;
+	}
+}
+@media only screen and (max-width: 1244px) {
+	body.fixed .o-sidebar {
+    width: 100%;
+	}
+}
+
+@media only screen and (max-width: 1244px) {
+	.sidebar-features:nth-child(1) .side-item {
+    background-size: cover;
+	}
+}
+@media only screen and (max-width: 1244px) {
+	.sidebar-features:nth-child(2) .side-item {
+    background-size: cover;
+	}
+}
+@media only screen and (max-width: 1244px) {
+	.sidebar-features:nth-child(3) .side-item {
+    background-size: cover;
+	}
+}
+@media only screen and (max-width: 1244px) {
+	.sidebar-features:nth-child(4) .side-item {
+    background-size: cover;
+	}
+}
+

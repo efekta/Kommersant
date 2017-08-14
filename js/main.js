@@ -27,5 +27,29 @@ jQuery(document).ready(function($){
 });
 
 
+//PARALLAX
 
+// let $container = $('.parallax'),
+//     $layer = $('.home'),
+//     containerWidth = $container.width(),
+//     containerHeight = $container.height();
+
+// $(window).on('mousemove.parallax', ev => {
+//   let x = ev.pageX,
+//       y = ev.pageY,
+//       left = containerWidth/2 - x,
+//       top = containerHeight/2 - y;
+  
+//   TweenMax.to(
+//     $layer,
+//     1,
+//     { 
+//       css: { 
+//         transform: 'translateX(' + left / 50 + 'px) translateY(' + top / 50 + 'px)' 
+//       }, 
+//       ease:Expo.easeOut, 
+//       overwrite: 'all' 
+//     }
+//   );
+// });
 
