@@ -1745,7 +1745,7 @@ p { margin: 0; }
 
 .features-footer .features__link:hover .features__more::after { background: url(../img/icon/spritesheet.png) no-repeat; background-position: -18px -242px; }
 
-.features-footer .features-item { border-bottom: 3px solid #ccc; }
+.features-footer .features-item { border-bottom: 3px solid #ccc; min-height: 425px; }
 
 .features-footer .a-icon { border-color: #ccc; background: #ffffff; color: #333; }
 
@@ -1775,7 +1775,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .sidebar-features:nth-child(4) .side-item { background: url("../img/marsh/4.jpg") no-repeat 50% 50%; }
 
-.sidebar-item__title { text-transform: uppercase; font-size: 30px; }
+.sidebar-item__title { text-transform: uppercase; font-size: 30px; padding: 20px 0; }
 
 .sidebar-features:hover .features__more { background: #5f255f; border-color: #5f255f; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
 
@@ -1855,11 +1855,7 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1290px) { .home { min-height: 970px; } }
 
-@media only screen and (max-width: 1440px) { .features-item { height: 370px; } }
-
-@media only screen and (max-width: 1370px) { .features-item { height: 380px; } }
-
-@media only screen and (max-width: 1290px) { .features-item { height: 415px; } }
+@media only screen and (max-width: 1290px) { .features-item { min-height: 425px; } }
 
 @media only screen and (max-width: 1244px) { .mobile { display: block; } }
 
@@ -1985,6 +1981,14 @@ body.fixed .o-sidebar { left: 0; }
 @media only screen and (max-width: 320px) { .sidebar-logo__pic { width: 60px; height: auto; } }
 
 @media only screen and (max-width: 1244px) { .block-picture { margin-bottom: 0; } }
+
+@media only screen and (max-width: 480px) { .block-picture { min-height: auto; } }
+
+@media only screen and (max-width: 480px) { .page-title { font-size: 30px; } }
+
+@media only screen and (max-width: 1244px) { .content-footer { bottom: 0; } }
+
+@media only screen and (max-width: 480px) { .features__btn { padding: 0; } }
 
 /*! animate.css -http://daneden.me/animate Version - 3.5.2 Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2017 Daniel Eden */
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
