@@ -1713,7 +1713,7 @@ p { margin: 0; }
 
 .soc-mob { display: none; }
 
-.features__btn { display: inline-block; padding: 20px; }
+.features__btn { display: inline-block; padding: 20px; margin-left: 20px; }
 
 .contacts-footer { width: 100%; background: #ffffff; }
 
