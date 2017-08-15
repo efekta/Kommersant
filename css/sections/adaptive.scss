@@ -357,16 +357,22 @@ body {
 }
 @media only screen and (max-width: 1244px) {
 	.soc-mob {
-   display: flex;
-    position: relative;
-    bottom: 0;
-    height: 70px;
-	width: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    height: 70px;
+    width: 100%;
     background: $base-violet;
 	}
 }
+@media only screen and (max-width: 1244px) {
+	.soc-mob .social__item {
+	display: inline-block;
+	vertical-align: middle;
+	}
+}
+
 
 
 

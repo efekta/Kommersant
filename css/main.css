@@ -1964,7 +1964,9 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .a-icon-home { display: block; top: -45px; position: absolute; } }
 
-@media only screen and (max-width: 1244px) { .soc-mob { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; position: relative; bottom: 0; height: 70px; width: 100%; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; background: #5f255f; } }
+@media only screen and (max-width: 1244px) { .soc-mob { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; position: relative; height: 70px; width: 100%; background: #5f255f; } }
+
+@media only screen and (max-width: 1244px) { .soc-mob .social__item { display: inline-block; vertical-align: middle; } }
 
 /*! animate.css -http://daneden.me/animate Version - 3.5.2 Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2017 Daniel Eden */
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
