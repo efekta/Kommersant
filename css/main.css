@@ -1673,7 +1673,7 @@ p { margin: 0; }
 
 .features__number { position: relative; }
 
-.features-item { z-index: 1; position: relative; background: none; border-bottom: 3px solid #998646; margin-bottom: 20px; padding-left: 20px; overflow: hidden; height: 320px; }
+.features-item { z-index: 1; position: relative; background: none; border-bottom: 3px solid #998646; margin-bottom: 20px; padding: 20px; overflow: hidden; height: 320px; }
 
 .features__link:hover .features-item { border-bottom: 3px solid #ffffff; }
 
@@ -1712,6 +1712,8 @@ p { margin: 0; }
 .button-down { height: 66px; width: 66px; display: none; bottom: 5%; border: 1px solid #fff; border-radius: 50%; position: absolute; left: 50%; margin-left: -23px; z-index: 2; }
 
 .button-down__icon { height: 43px; width: 43px; position: relative; margin: 0 auto; border-radius: 50%; top: 10px; background: url(../img/icon/w-toggle.png) #5f255f no-repeat; background-position: center; }
+
+.soc-mob { display: none; }
 
 .contacts-footer { width: 100%; background: #ffffff; }
 
@@ -1815,7 +1817,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .picture-4 { background: url(../img/content/fitnes.jpg) no-repeat; margin-bottom: 80px; background-size: cover; }
 
-.within-content-last { right: 0; left: 0; bottom: 50px; margin: 0 auto; }
+.within-content-last { right: 0; left: 0; bottom: 50px; margin: 0 auto; margin-bottom: 40px; }
 
 .content-footer { position: relative; bottom: -50px; }
 
@@ -1853,7 +1855,11 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1290px) { .home { min-height: 970px; } }
 
-@media only screen and (max-width: 1290px) { .features-item { height: 380px; } }
+@media only screen and (max-width: 1440px) { .features-item { height: 370px; } }
+
+@media only screen and (max-width: 1370px) { .features-item { height: 380px; } }
+
+@media only screen and (max-width: 1290px) { .features-item { height: 415px; } }
 
 @media only screen and (max-width: 1244px) { .mobile { display: block; } }
 
@@ -1947,6 +1953,8 @@ body.fixed .o-sidebar { left: 0; }
 @media only screen and (max-width: 480px) { .top-menu__item { margin-right: 5px; } }
 
 @media only screen and (max-width: 480px) { .top-contacts { font-size: 16px; padding-right: 10px; } }
+
+@media only screen and (max-width: 320px) { .top-contacts { padding-right: 5px; } }
 
 @media only screen and (max-width: 480px) { .socials { display: none; } }
 

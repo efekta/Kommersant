@@ -70,7 +70,7 @@
 	background: none;
 	border-bottom: 3px solid $base-gold;
 	margin-bottom: 20px;
-    padding-left: 20px;
+    padding: 20px;
     overflow: hidden;
     height: 320px;
 }
@@ -198,4 +198,7 @@
     top: 10px;
     background: url(../img/icon/w-toggle.png) $base-violet no-repeat;
     background-position: center;
+}
+.soc-mob {
+    display: none;
 }

@@ -9,10 +9,19 @@ body {
     min-height: 970px;
 	}
 }
-
- @media only screen and (max-width: 1290px) {
+ @media only screen and (max-width: 1440px) {
+ .features-item {
+    height: 370px;
+	}
+}
+ @media only screen and (max-width: 1370px) {
  .features-item {
     height: 380px;
+	}
+}
+ @media only screen and (max-width: 1290px) {
+ .features-item {
+    height: 415px;
 	}
 }
 @media only screen and (max-width: 1244px) {
@@ -301,6 +310,11 @@ body {
 .top-contacts {
     font-size: 16px;
     padding-right: 10px;
+}
+}
+@media only screen and (max-width: 320px) {
+.top-contacts {
+    padding-right: 5px;
 }
 }
 @media only screen and (max-width: 480px) {
