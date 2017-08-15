@@ -1589,7 +1589,7 @@ a { text-decoration: none; color: #ffffff; }
 
 h1, h2, h3, h4, h5, h6 { margin: 0; font-weight: normal; }
 
-.wrapper { min-height: 800px; min-width: 320px; width: auto; position: relative; overflow: hidden; height: 100vh; z-index: 2; }
+.wrapper { min-height: 800px; min-width: 320px; width: auto; position: relative; overflow: hidden; height: 100vh; z-index: 3; }
 
 .container { width: 1170px; margin: 0 auto; }
 
@@ -1671,7 +1671,7 @@ p { margin: 0; }
 
 .features__header { padding-left: 30px; font-size: 20px; font-weight: bold; margin-bottom: 10px; }
 
-.features__number { position: relative; }
+.features__number { position: relative; padding: 0 20px; }
 
 .features-item { z-index: 1; position: relative; background: none; border-bottom: 3px solid #998646; margin-bottom: 20px; padding: 20px; overflow: hidden; height: 320px; }
 
@@ -1697,8 +1697,6 @@ p { margin: 0; }
 
 .features-item__desc { font-style: italic; font-size: 18px; }
 
-.features__btn { display: inline-block; padding-left: 40px; }
-
 .features__more { position: relative; display: inline-block; vertical-align: middle; padding: 0 20px; border: 2px solid #ffffff; border-radius: 60px; font-size: 20px; line-height: 45px; margin-bottom: 35px; }
 
 .features__more::after { content: ""; display: inline-block; vertical-align: middle; width: 26px; height: 23px; margin-left: 30px; background: url(../img/icon/spritesheet.png) no-repeat; background-position: -20px -242px; }
@@ -1714,6 +1712,8 @@ p { margin: 0; }
 .button-down__icon { height: 43px; width: 43px; position: relative; margin: 0 auto; border-radius: 50%; top: 10px; background: url(../img/icon/w-toggle.png) #5f255f no-repeat; background-position: center; }
 
 .soc-mob { display: none; }
+
+.features__btn { display: inline-block; padding: 20px; }
 
 .contacts-footer { width: 100%; background: #ffffff; }
 
@@ -1765,7 +1765,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .sidebar-features:hover .c-icon { background: #5f255f; color: #ffffff; -webkit-transition: .3s; -o-transition: .3s; transition: .3s; }
 
-.side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 43px 43px 0 43px; }
+.side-item { background: url("../img/content/family.jpg") no-repeat center center; background-size: cover; padding: 0 20px; }
 
 .sidebar-features:nth-child(1) .side-item { background: url("../img/marsh/1.jpg") no-repeat 50% 50%; }
 
@@ -1983,6 +1983,8 @@ body.fixed .o-sidebar { left: 0; }
 @media only screen and (max-width: 1244px) { .features-footer .features-item { padding: 30px; } }
 
 @media only screen and (max-width: 320px) { .sidebar-logo__pic { width: 60px; height: auto; } }
+
+@media only screen and (max-width: 1244px) { .block-picture { margin-bottom: 0; } }
 
 /*! animate.css -http://daneden.me/animate Version - 3.5.2 Licensed under the MIT license - http://opensource.org/licenses/MIT Copyright (c) 2017 Daniel Eden */
 .animated { -webkit-animation-duration: 1s; animation-duration: 1s; -webkit-animation-fill-mode: both; animation-fill-mode: both; }
