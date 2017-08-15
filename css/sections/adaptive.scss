@@ -284,6 +284,7 @@ body {
 @media only screen and (max-width: 480px) {
 .top-menu__pic {
     width: 120px;
+    height: auto;
 }
 }
 @media only screen and (max-width: 480px) {
@@ -340,7 +341,10 @@ body {
 //turist 
 @media only screen and (max-width: 1244px) {
 	.page-title {
-    font-size: 30px;
+    font-size: 25px;
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
 }
 }
 @media only screen and (max-width: 1244px) {
@@ -351,10 +355,18 @@ body {
 @media only screen and (max-width: 1244px) {
 	.a-icon-home {
     display: block;
-    top: -45px;
+    top: -50px;
+    left: 0;
     position: absolute;
 }
 }
+@media only screen and (max-width: 480px) {
+	.a-icon-home {
+    top: -50px;
+    left: -15px;
+}
+}
+
 @media only screen and (max-width: 1244px) {
 	.soc-mob {
     display: flex;
@@ -373,8 +385,11 @@ body {
 	margin-right: 20px;
 	}
 }
-
-
+@media only screen and (max-width: 1244px) {
+	.header-sidebar {
+ // height: 70px;
+	}
+}
 
 
 
