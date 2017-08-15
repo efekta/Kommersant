@@ -385,11 +385,18 @@ body {
 	margin-right: 20px;
 	}
 }
-@media only screen and (max-width: 1244px) {
-	.header-sidebar {
- // height: 70px;
+@media only screen and (max-width: 480px) {
+	.block-picture {
+ min-height: 75vh;
+ background-size: cover;
 	}
 }
+@media only screen and (max-width: 1244px) {
+	.features-footer .features-item {
+    padding: 30px;
+	}
+}
+
 
 
 
