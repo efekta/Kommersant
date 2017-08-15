@@ -50,20 +50,6 @@ body {
     background-position: center center;
 	}
 }
-
-// @media only screen and (max-width: 1244px) {
-// .block-picture {
-//     height: 100vh;
-//     background-size: cover;
-//     background-position: center center;
-//     margin-bottom: 0;
-// 	}
-// }
-// @media only screen and (max-width: 1244px) {
-// .picture-4 {
-//     margin-bottom: 0;
-// 	}
-// }
 @media only screen and (max-width: 1244px) {
 .wrapper {
     background-size: cover;
@@ -144,14 +130,6 @@ body {
     border-bottom: transparent;
 	}
 }
-// @media only screen and (max-width: 1244px) {
-// .logo-title {
-// 	position: absolute;
-// 	left: 30%;
-//     margin-top: 50%;
-// 	}
-// }
-
 @media only screen and (max-width: 1244px) {
 .features__link:hover .features-item__bg {
     transform: none;
@@ -270,7 +248,6 @@ body {
     margin-top: 14%;
     position: relative;
     z-index: 2;
-
  }
 }
 @media only screen and (max-width: 1244px) and (orientation: portrait) {
@@ -337,7 +314,7 @@ body {
 	}
 }
 @media only screen and (max-width: 1244px) {
-.wrapper {
+.wrapp-pic {
 	background: url("../img/bg/bg.jpg") no-repeat 50% 50%;
 	background-size: cover;
 	}
@@ -348,7 +325,7 @@ body {
 	}
 }
 @media only screen and (max-width: 1244px) {
-.wrapper::after {
+.wrapp-pic::after {
 	content: '';
     display: block;
     height: 100%;

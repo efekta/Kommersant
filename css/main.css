@@ -1952,11 +1952,11 @@ body.fixed .o-sidebar { left: 0; }
 
 @media only screen and (max-width: 1244px) { .home { background: none; } }
 
-@media only screen and (max-width: 1244px) { .wrapper { background: url("../img/bg/bg.jpg") no-repeat 50% 50%; background-size: cover; } }
+@media only screen and (max-width: 1244px) { .wrapp-pic { background: url("../img/bg/bg.jpg") no-repeat 50% 50%; background-size: cover; } }
 
 @media only screen and (max-width: 1244px) { .home::after { display: none; } }
 
-@media only screen and (max-width: 1244px) { .wrapper::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; background: rgba(0, 0, 0, 0.5); } }
+@media only screen and (max-width: 1244px) { .wrapp-pic::after { content: ''; display: block; height: 100%; width: 100%; position: absolute; top: 0; z-index: 1; background: rgba(0, 0, 0, 0.5); } }
 
 @media only screen and (max-width: 1244px) { .page-title { font-size: 30px; } }
 
