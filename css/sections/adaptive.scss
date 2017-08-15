@@ -28,7 +28,6 @@ body {
 	line-height: 18px;
 	}
 }
-
 @media only screen and (max-width: 1244px) {
 .within-content {
 	position: relative;
@@ -64,6 +63,7 @@ body {
     top: 0;
     height: 40px;
     z-index: 150;
+    background: rgba(95, 37, 95, 0.7);
 	}
 }
 @media only screen and (max-width: 1244px) {
@@ -355,8 +355,18 @@ body {
     position: absolute;
 }
 }
-
-
+@media only screen and (max-width: 1244px) {
+	.soc-mob {
+   display: flex;
+    position: relative;
+    bottom: 0;
+    height: 70px;
+	width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: $base-violet;
+	}
+}
 
 
 
