@@ -296,6 +296,7 @@ body {
     height: auto;
 }
 }
+
 @media only screen and (max-width: 480px) {
 .top-menu__list {
     padding-left: 10px;
@@ -355,7 +356,7 @@ body {
 //turist 
 @media only screen and (max-width: 1244px) {
 	.page-title {
-    font-size: 25px;
+    font-size: 40px;
     position: absolute;
     margin: 0 auto;
     top: 50%;
@@ -399,7 +400,7 @@ body {
 	margin-right: 20px;
 	}
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 1244px) {
 	.block-picture {
  min-height: 75vh;
  background-size: cover;
@@ -410,7 +411,12 @@ body {
     padding: 30px;
 	}
 }
-
+@media only screen and (max-width: 320px) {
+	.sidebar-logo__pic{
+    width: 60px;
+    height: auto;
+	}
+}
 
 
 
