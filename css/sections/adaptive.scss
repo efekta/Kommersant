@@ -10,7 +10,6 @@ body {
 	}
 }
 
-
  @media only screen and (max-width: 1290px) {
  .features-item {
     height: 380px;
@@ -32,17 +31,18 @@ body {
 
 @media only screen and (max-width: 1244px) {
 .within-content {
-	position: static;
+	position: relative;
 	width: 100%;
+	left: 0;
 	font-size: 16px;
 	line-height: 18px;
 }
 }
-// @media only screen and (max-width: 1244px) {
-// .home {
-//     min-height: auto;
-// 	}
-// }
+@media only screen and (max-width: 1244px) {
+.socials {
+    display: none;
+	}
+}
 @media only screen and (max-width: 1244px) {
 .page {
     height: 100vh;
@@ -51,19 +51,19 @@ body {
 	}
 }
 
-@media only screen and (max-width: 1244px) {
-.block-picture {
-    height: 100vh;
-    background-size: cover;
-    background-position: center center;
-    margin-bottom: 0;
-	}
-}
-@media only screen and (max-width: 1244px) {
-.picture-4 {
-    margin-bottom: 0;
-	}
-}
+// @media only screen and (max-width: 1244px) {
+// .block-picture {
+//     height: 100vh;
+//     background-size: cover;
+//     background-position: center center;
+//     margin-bottom: 0;
+// 	}
+// }
+// @media only screen and (max-width: 1244px) {
+// .picture-4 {
+//     margin-bottom: 0;
+// 	}
+// }
 @media only screen and (max-width: 1244px) {
 .wrapper {
     background-size: cover;
@@ -171,16 +171,6 @@ body {
     padding: 10px;
 	}
 }
-// @media only screen and (max-width: 1244px) {
-// 	.ancors__item {
-// 		display: none;
-// 	}
-// }
-@media only screen and (max-width: 1244px) {
-.a-icon-home {
-	display: block;
-}
-}
 @media only screen and (max-width: 1244px) {
 	.within-content-bg {
 		position: relative;
@@ -238,7 +228,7 @@ body {
 	}
 }
 @media only screen and (max-width: 1244px) {
-	.ancors, .socials, .ancors__list {
+	.ancors, .ancors__list {
 		position: fixed;
 		display: block;
 	}
@@ -370,7 +360,6 @@ body {
 	}
 }
 
-
 //turist 
 @media only screen and (max-width: 1244px) {
 	.page-title {
@@ -385,6 +374,8 @@ body {
 @media only screen and (max-width: 1244px) {
 	.a-icon-home {
     display: block;
+    top: -45px;
+    position: absolute;
 }
 }
 
