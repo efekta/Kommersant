@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 		<!-- ALEX -->
-		<link rel="stylesheet" href="css/common.css">
+		<!-- <link rel="stylesheet" href="css/common.css"> -->
 		<!-- ALEX END -->
 	</head>
 	<body>
@@ -281,20 +281,43 @@
 			<script src="js/bootstrap-modal/util.js"></script>
 			<script src="js/bootstrap-modal/modal.js"></script>
 			<script src="js/common.js"></script>
-			<!-- <div class="modal fade" id="orderModal">
+			<div class="modal fade" id="orderModal">
 				<div class="modal-tbl">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
 							<span class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span></span>
 							<div class="modal-header">
-								<h5 class="modal-title">Оформление</h5>
+								<h5 class="modal-title">Бронирование</h5>
 							</div>
 							<div class="modal-body">
+								<form action="">
+									<div class="modal-data-name">
+										<label for="modal-name" class="modal-desc">ФИО</label>
+										<input type="text" id="modal-name" class="modal-name">
+										<label for="modal-tel" class="modal-desc">Телефон</label>
+										<input type="tel" id="modal-tel" class="modal-name">
+										<label for="modal-email" class="modal-desc">E-mail</label>
+										<input type="email" id="modal-email" class="modal-name">
+									</div>
+									<div class="modal-data-booking">
+										<label class="modal-desc-booking">Заезд:</label>
+										<label class="modal-desc-booking">Выезд:</label>
+									</div>
+								</form>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- ALEX END -->
 		</body>
 	</html>
+	
+	<!-- 	<div class="modal-data-name">
+			<div class="modal-name">ФИО</div>
+			<div class="modal-name">Телефон</div>
+			<div class="modal-name">E-mail</div>
+	</div>
+	<div class="modal-data">
+			
+	</div> -->

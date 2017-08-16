@@ -22,5 +22,5 @@ $gray: #ccc;
 @import "sections/page-2";
 @import "sections/adaptive.scss";
 @import "layout/animate";
-// @import "_modal.scss";
-// @import "common.scss";
+@import "common.scss";
+@import "modal.scss";
