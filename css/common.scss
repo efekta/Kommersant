@@ -1,0 +1,24 @@
+@import "modal";
+
+html, body{
+	background-color: rgb(95, 37, 95);
+}
+.loaderArea{
+	/*display: none;*/
+	background: rgba(95, 37, 95, 0.7);
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+}
+
+.loaderArea img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -30px;
+	margin-top: -30px;
+}
