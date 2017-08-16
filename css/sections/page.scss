@@ -123,3 +123,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
     bottom: -50px;
 }
 
+.top-menu-fixed {
+    position: fixed;
+    top: 0;
+    height: 40px;
+    z-index: 500;
+    background: rgba(95, 37, 95, 0.7);
+}
