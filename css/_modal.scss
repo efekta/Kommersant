@@ -3,19 +3,19 @@
 // .modal-dialog    - positioning shell for the actual modal
 // .modal-content   - actual modal w/ bg and corners and stuff
 
-$mod-backdrop-color: #000;
-$mod-backdrop-opacity: .5;
+$mod-backdrop-color: #66216a;
+$mod-backdrop-opacity: .7;
 
-$mod-bg-color: rgba($color-blue, .95);
+$mod-bg-color: rgba(102, 33, 106, .95);
 $mod-color: #fff;
 $mod-color-header: #fff;
 $mod-border-outer: none;
 $mod-border-header: none;
 $mod-border-footer: none;
 
-$mod-padding-header: 2em 2em 1em;
-$mod-padding-body: 1em 2em 2em;
-$mod-padding-footer: 1em 2em 2em;
+$mod-padding-header: 20px;
+$mod-padding-body: 20px;
+$mod-padding-footer: 20px;
 
 // Kill the scroll on the body
 .modal-open {
@@ -58,12 +58,15 @@ $mod-padding-footer: 1em 2em 2em;
     vertical-align: middle;
     text-align: center;
     max-width: 100vw;
-    @include landscape() {
-      padding: 1em;
-    }
-    @include max-portrait(767px){
+    @media only screen and (max-width: 320px) {
       padding: 0;
     }
+    // @include landscape() {
+    //   padding: 1em;
+    // }
+    // @include max-portrait(767px){
+    //   padding: 0;
+    // }
   }
 
   &-content{
@@ -77,9 +80,11 @@ $mod-padding-footer: 1em 2em 2em;
     box-shadow: 0 0px 30px rgba(#000,.5);    
     outline: 0;
 
-    @include min-screen(1200px) {
-      max-width: 80vw;
-    }
+    width: 320px;
+
+    // @include min-screen(1200px) {
+    //   max-width: 80vw;
+    // }
     
   }
   .close{    
@@ -87,55 +92,40 @@ $mod-padding-footer: 1em 2em 2em;
     position: absolute;    
     // top: 2em;
     // right: 2em;
-    top: 0;
-    right: 0;
+    top: 20px;
+    right: 20px;
     z-index: 1;
     font-size: 1.5em;
     line-height: 1em;
-    @include min-screen(768px){
-      font-size: 2em;
-    }
-    @include max-landscape(1024px){
-      font-size: 1.5em;
-    } 
+    // @include min-screen(768px){
+    //   font-size: 2em;
+    // }
+    // @include max-landscape(1024px){
+    //   font-size: 1.5em;
+    // } 
 
     span{
       display: inline-block;
       font-family: 'Tahoma', sans-serif;
-      // font-size: 1.5em;
       font-weight: 300;
       line-height: 1px;      
-      // line-height: 1em;      
-      // @include min-screen(768px){
-      //   font-size: 2em;
-      // }
-      // @include max-landscape(1024px){
-      //   font-size: 1.5em;
-      // }
+      
     }    
-    width: 1.5em; 
-    height: 1.5em;
-    line-height: 1.5em;
+    width: 20px; 
+    height: 20px;
+    line-height: 20px;
     text-align: center;
 
     background-color: none;
     outline: 0;
     cursor: pointer;
-    color: #ccc; 
+    color: #fff; 
     
     transition: transform .3s ease-in-out;    
     &:hover{
       transform-origin: center center;
       transform: rotate(90deg);      
     }
-    // @include max-landscape(1024px){
-    //   top: 0.5em;
-    //   right: 0.5em;
-    // }
-    // @include max-portrait(767px) {
-    //   top: 1em;
-    //   right: 1em;
-    // }
   }
   
   // Заголовок
@@ -144,41 +134,41 @@ $mod-padding-footer: 1em 2em 2em;
       padding: $mod-padding-header;
       border-bottom: $mod-border-header;
       position: relative; 
-      @include max-landscape(1024px){
-        padding: 1em 1em 0.5em;
-      }      
-      @include max-portrait(767px){
-        padding: 1em;
-      }     
+      // @include max-landscape(1024px){
+      //   padding: 1em 1em 0.5em;
+      // }      
+      // @include max-portrait(767px){
+      //   padding: 1em;
+      // }     
     }
 
       &-title {        
         margin: 0;
         line-height: 1em;        
-        font-size: 2em; 
+        font-size: 20px; 
 
         text-transform: uppercase;
-        @include max-screen(768px){
-          font-size: 1em;
-        }
-        @include min-portrait(768px){
-          font-size: 2em; 
-        }
-        @include max-portrait(767px){
-          font-size: 1.5em; 
-        }       
+        // @include max-screen(768px){
+        //   font-size: 1em;
+        // }
+        // @include min-portrait(768px){
+        //   font-size: 2em; 
+        // }
+        // @include max-portrait(767px){
+        //   font-size: 1.5em; 
+        // }       
       }      
 
   // Тело
     &-body {
       position: relative;            
       padding: $mod-padding-body;
-      @include max-landscape(1024px){
-        padding: 0.5em 1em 1em;
-      }      
-      @include max-portrait(767px){
-        padding: 1em;
-      }
+      // @include max-landscape(1024px){
+      //   padding: 0.5em 1em 1em;
+      // }      
+      // @include max-portrait(767px){
+      //   padding: 1em;
+      // }
     }
 
   // Подвал
