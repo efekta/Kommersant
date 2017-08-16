@@ -27,6 +27,17 @@ jQuery(document).ready(function($){
 });
 
 
+// fixed-menu top-menu
+
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 200) {
+        $('body').addClass('fixed-menu');
+    } else {
+     $('body').removeClass('fixed-menu');
+    }
+});
+
+
 //PARALLAX
 
 // let $container = $('.parallax'),

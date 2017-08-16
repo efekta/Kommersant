@@ -1821,7 +1821,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .content-footer { position: relative; bottom: -50px; }
 
-.top-menu-fixed { position: fixed; top: 0; height: 40px; z-index: 500; background: rgba(95, 37, 95, 0.7); }
+.fixed-menu .top-menu { position: fixed; top: 0; height: 40px; z-index: 500; background: rgba(95, 37, 95, 0.7); }
 
 .turist { background: url(../img/bg2-1/1.jpg) no-repeat 50% 50%; }
 
