@@ -1,4 +1,4 @@
-;
+// ;
 
 $(document).ready(function(){
 	// http://jquery.eisbehr.de/lazy/#installation
