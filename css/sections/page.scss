@@ -98,16 +98,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 }
 
 .picture-1 {
-	background: url(../img/content/fan.jpg) no-repeat;
+	background-image: url(../img/content/fan.jpg);
+	background-repeat: no-repeat;
 }
 .picture-2 {
-	background: url(../img/content/fk.jpg) no-repeat;
+	background-image: url(../img/content/fk.jpg);
+	background-repeat: no-repeat;
 }
 .picture-3 {
-	background: url(../img/content/club.jpg) no-repeat;
+	background-image: url(../img/content/club.jpg);
+	background-repeat: no-repeat;
 }
 .picture-4 {
-	background: url(../img/content/fitnes.jpg) no-repeat;
+	background-image: url(../img/content/fitnes.jpg);
+	background-repeat: no-repeat;
 	margin-bottom: 80px;
 	background-size: cover;
 }
