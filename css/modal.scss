@@ -211,40 +211,109 @@ $mod-padding-footer: 20px;
   width: 50px;
   height: 50px;
   overflow: scroll;
+  }
 }
-
-}
-
 .modal-header {
   background-color: #4f1952;
 }
-.modal-name {
-  display: none;
+.modal-form-data {
+ position: relative;
 }
-.modal-desc {
-  display: block;
-  margin-bottom: 20px;
-  border-bottom: 1px solid $base-white;
-}
-.modal-data-name {
-  position: relative;
-  margin-bottom: 50px;
-}
-.modal-data-name::after {
+.modal-form-data::after {
   content: "";
   display: block;
   position: absolute;
-  bottom: 50px;
-  left: 0;
-  width: 100%;
+  bottom: -40px;
+  left: -20px;
+  width: 320px;
   height: 1px;
   background: #4f1952;
 }
-
-.modal-data-booking {
-  margin-left: 30px;
-}
-.modal-desc-booking {
+.modal-form {
   margin-bottom: 20px;
-  display: block;
+  border-bottom: 1px solid $base-white;
 }
+.form-name {
+  color: $base-white;
+  outline: none;
+  border: none;
+  background: rgba(102, 33, 106, 0.1);
+}
+.form-booking {
+  margin-top: 70px;
+  margin-left: 20px;
+}
+.modal-form-booking {
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .clearfix::after {
+//   content: "";
+//   display: block;
+//   clear: both;
+// }
+//  label {
+//   float: left;
+//  }
+// input  {
+//   float: right;
+// }
+
+
+
+
+
+
+
+
+
+
+// .modal-name {
+//   display: block;
+//   background: $mod-bg-color;
+//   border: none;
+//   outline: none;
+
+// }
+// .modal-desc {
+//   display: inline-block;
+//   margin-bottom: 20px;
+//   border-bottom: 1px solid $base-white;
+// }
+// .modal-data-name {
+//   position: relative;
+//   margin-bottom: 50px;
+// }
+// .modal-data-name::after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   bottom: -50px;
+//   left: 0;
+//   width: 100%;
+//   height: 1px;
+//   background: #4f1952;
+// }
+
+// .modal-data-booking {
+//   margin-left: 30px;
+//   margin-top: 80px;
+// }
+// .modal-desc-booking {
+//   margin-bottom: 20px;
+//   display: block;
+// }
+
