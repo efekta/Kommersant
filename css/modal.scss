@@ -25,7 +25,7 @@ $mod-padding-footer: 20px;
 // Container that the modal scrolls within
 .modal {
   position: fixed;
-  top: 158px;
+  top: 161px;
   // top: 0;
   right: 0;
   bottom: 0;
@@ -306,6 +306,7 @@ input[type="checkbox"]:checked + label::before {
   outline: none;
   padding: 15px 20px;
   margin-top: 30px;
+  margin-bottom: 10px;
   cursor: pointer;
 }
 
@@ -314,7 +315,7 @@ input[type="data"] {
 }
 .modal-form-number {
   float: right;
-  padding-right: 40px;
+  padding-right: 55px;
   text-align: right;
   position: relative;
   text-align: right;
