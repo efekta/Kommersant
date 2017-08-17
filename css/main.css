@@ -1667,7 +1667,7 @@ p { margin: 0; }
 
 .logo-title { display: block; margin: 0 auto; margin-top: 150px; width: 447px; height: 227px; }
 
-.features { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; bottom: 0%; position: absolute; overflow: hidden; z-index: 2; }
+.features { display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; bottom: 0%; position: absolute; overflow: hidden; z-index: 3; }
 
 .features__link { cursor: pointer; text-decoration: none; width: 25%; }
 
