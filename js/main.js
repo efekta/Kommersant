@@ -38,6 +38,25 @@ $(window).bind('scroll', function () {
 });
 
 
+//SOCIALS FIXED
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 250) {
+        $('body').addClass('socials-fixed');
+    } else {
+     $('body').removeClass('socials-fixed');
+    }
+});
+
+//ANCORS FIXED
+$(window).bind('scroll', function () {
+    if ($(window).scrollTop() > 250) {
+        $('body').addClass('ancors-fixed');
+    } else {
+     $('body').removeClass('ancors-fixed');
+    }
+});
+
+
 //PARALLAX
 
 // let $container = $('.parallax'),
