@@ -219,7 +219,7 @@ $mod-padding-footer: 20px;
 }
 .modal-form-data {
  position: relative;
- padding-bottom: 20px;
+ padding-bottom: 10px;
 }
 .modal-form-data::after {
   content: "";
@@ -257,8 +257,8 @@ $mod-padding-footer: 20px;
   height: 1px;
   background: #4f1952;
 }
-.modal-form-booking {
-  // margin-bottom: 20px;
+.booking-item {
+  padding: 10px 0;
 }
 
 input[type="checkbox"] {
@@ -279,7 +279,7 @@ input[type="checkbox"] + label::before {
 input[type="checkbox"] + label {
     position: relative;
     display: inline-block;
-    padding: 5px 30px 5px 40px;
+    padding: 10px 30px 5px 40px;
     cursor: pointer;
     vertical-align: top;
 }
@@ -305,7 +305,7 @@ input[type="checkbox"]:checked + label::before {
   border: none;
   outline: none;
   padding: 15px 20px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 10px;
   cursor: pointer;
 }
@@ -353,7 +353,7 @@ input[type="data"] {
   display: block;
   position: absolute;
   left: 0;
-  bottom: 168px;
+  bottom: 190px;
   width: 320px;
   height: 1px;
   background: #4f1952;
