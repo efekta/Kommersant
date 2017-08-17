@@ -3333,7 +3333,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .modal-open { overflow: hidden; }
 
-.modal { position: fixed; top: 150px; right: 0; bottom: 0; left: 0; z-index: 1050; display: block; outline: 0; }
+.modal { position: fixed; top: 158px; right: 0; bottom: 0; left: 0; z-index: 1050; display: block; outline: 0; }
 
 .modal p { margin-top: 0; }
 
@@ -3413,6 +3413,24 @@ input[type="data"] { display: none; }
 
 .modal-form-booking { margin-bottom: 20px; }
 
+.modal-form-count::after { content: ""; display: block; position: absolute; left: 0; bottom: 168px; width: 320px; height: 1px; background: #4f1952; }
+
+.modal-form-count { padding: 20px 0; }
+
 .clearfix::after { content: ""; display: block; clear: both; }
+
+.count-item-num { float: right; background: #ffffff; line-height: 35px; margin-left: 20px; }
+
+.item-num { display: inline-block; vertical-align: middle; background: #5f255f; color: #ffffff; text-align: center; width: 55px; line-height: 25px; }
+
+.item-num-min { position: relative; display: inline-block; vertical-align: middle; width: 22px; height: 22px; background: #ffffff; }
+
+.item-num-min::after { content: ""; display: inline-block; width: 16px; height: 16px; vertical-align: middle; position: absolute; top: 50%; left: 50%; background: url(../img/icon/w-minus.png) no-repeat; }
+
+.item-num-max { position: relative; display: inline-block; vertical-align: middle; width: 22px; height: 22px; background: #ffffff; }
+
+.item-num-max::after { content: ""; display: inline-block; width: 16px; height: 16px; vertical-align: middle; position: absolute; top: 33%; left: 25%; background: url(../img/icon/w-plus.png) no-repeat; }
+
+.count-item { text-align: right; padding-bottom: 7px; }
 
 /*# sourceMappingURL=main.css.map */

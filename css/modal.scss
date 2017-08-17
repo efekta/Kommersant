@@ -25,7 +25,7 @@ $mod-padding-footer: 20px;
 // Container that the modal scrolls within
 .modal {
   position: fixed;
-  top: 150px;
+  top: 158px;
   // top: 0;
   right: 0;
   bottom: 0;
@@ -344,25 +344,88 @@ input[type="data"] {
 .modal-form-booking {
   margin-bottom: 20px;
 }
+// .modal-form-count {
+//   padding: 20px 0;
+// }
+.modal-form-count::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 168px;
+  width: 320px;
+  height: 1px;
+  background: #4f1952;
+}
 
-
-
+.modal-form-count {
+  padding: 20px 0;
+}
 
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
-//  label {
-//   float: left;
-//  }
-// input  {
-//   float: right;
-// }
+.count-item-num {
+  // width: 113px; 
+  float: right;
+  background: $base-white;
+  line-height: 35px;
+  margin-left: 20px;
+}
+.item-num {
+  display: inline-block;
+  vertical-align: middle;
+  background: $base-violet;
+  color: $base-white;
+  text-align: center;
+  width: 55px;
+  line-height: 25px;
+}
+.item-num-min {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  background: $base-white;
+}
+.item-num-min::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url(../img/icon/w-minus.png) no-repeat;
+}
+.item-num-max {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+  background: $base-white;
+}
+.item-num-max::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  position: absolute;
+  top: 33%;
+  left: 25%;
+  background: url(../img/icon/w-plus.png) no-repeat;
+}
 
-
-
-
+.count-item {
+  text-align: right;
+  padding-bottom: 7px;
+}
 
 
 
