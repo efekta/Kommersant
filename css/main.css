@@ -3333,7 +3333,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .modal-open { overflow: hidden; }
 
-.modal { position: fixed; top: 50px; right: 0; bottom: 0; left: 0; z-index: 1050; display: block; outline: 0; }
+.modal { position: fixed; top: 150px; right: 0; bottom: 0; left: 0; z-index: 1050; display: block; outline: 0; }
 
 .modal p { margin-top: 0; }
 
@@ -3405,12 +3405,14 @@ input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-c
 
 input[type="data"] { display: none; }
 
-.modal-form-number { position: relative; margin-left: 20px; border-bottom: 1px solid #ffffff; }
+.modal-form-number { float: right; padding-right: 40px; text-align: right; position: relative; text-align: right; border-bottom: 1px solid #ffffff; }
 
-.modal-form-calendar { display: inline-block; vertical-align: middle; position: absolute; right: 0; width: 22px; height: 22px; border: 1px solid #ffffff; }
+.modal-form-calendar { display: inline-block; vertical-align: middle; position: absolute; right: 0; top: 0; width: 22px; height: 22px; border: 1px solid #ffffff; }
 
 .modal-form-calendar::after { content: ""; position: absolute; top: 3px; left: 2px; display: inline-block; vertical-align: middle; width: 22px; height: 22px; background: url(../img/icon/w-datepicker.png) no-repeat; }
 
 .modal-form-booking { margin-bottom: 20px; }
+
+.clearfix::after { content: ""; display: block; clear: both; }
 
 /*# sourceMappingURL=main.css.map */
