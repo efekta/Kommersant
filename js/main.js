@@ -59,8 +59,7 @@ $(window).bind('scroll', function () {
 
 //CALENDAR
 
-
-  $( function() {
+$( function() {
     $( "#datepicker" ).datepicker({
       showOn: "button",
       buttonImage: "img/icon/w-datepicker.png",
@@ -70,13 +69,14 @@ $(window).bind('scroll', function () {
   } );
 
     $( function() {
-    $( "#datepickerCome" ).datepickerCome({
+    $( "#datepickerCome" ).datepicker({
       showOn: "button",
       buttonImage: "img/icon/w-datepicker.png",
       buttonImageOnly: true,
       // buttonText: "Select date"
     });
   } );
+
 
 
 //PARALLAX
