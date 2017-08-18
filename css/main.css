@@ -3379,41 +3379,43 @@ body.fixed .o-sidebar { left: 0; }
 
 .modal-header { background-color: #4f1952; }
 
-.modal-form-data { position: relative; padding-bottom: 10px; }
+.modal-form::after { content: ""; display: block; position: absolute; left: 0; width: 320px; height: 1px; background: #4f1952; }
 
-.modal-form-data::after { content: ""; display: block; position: absolute; bottom: 0; left: -20px; width: 320px; height: 1px; background: #4f1952; }
+.modal-form-data { margin-bottom: 20px; border-bottom: 1px solid #ffffff; }
 
-.modal-form { margin-bottom: 20px; border-bottom: 1px solid #ffffff; }
+.modal-form-count-item { margin-top: 40px; }
 
-.form-name { width: 200px; color: #ffffff; outline: none; border: none; background: rgba(102, 33, 106, 0.1); }
+.form-name { position: relative; color: #ffffff; outline: none; border: none; background: rgba(102, 33, 106, 0.1); }
 
-.form-booking { position: relative; padding: 20px 0; margin-left: 40px; }
+::-webkit-input-placeholder { color: #ffffff; }
 
-.form-booking::after { content: ""; display: block; position: absolute; bottom: 0; left: -60px; width: 320px; height: 1px; background: #4f1952; }
+::-moz-placeholder { color: #ffffff; }
 
-.booking-item { padding: 10px 0; }
+:-moz-placeholder { color: #ffffff; }
+
+:-ms-input-placeholder { color: #ffffff; }
+
+.modal-form-booking { float: right; border-bottom: 1px solid #ffffff; }
+
+.form-booking { position: relative; margin-left: 40px; margin-bottom: 20px; }
+
+.form-calendar { width: 125px; }
+
+.booking-arrived { margin-right: 40px; }
+
+.booking-item { padding-top: 20px; }
 
 input[type="checkbox"] { display: none; }
 
-input[type="checkbox"] + label::before { content: ""; display: block; position: absolute; top: 8px; left: 0; width: 16px; height: 16px; border: 1px solid #ffffff; }
+input[type="checkbox"] + label::before { content: ""; display: block; position: absolute; top: 10px; left: 0; width: 16px; height: 16px; border: 1px solid #ffffff; }
 
-input[type="checkbox"] + label { position: relative; display: inline-block; padding: 10px 30px 5px 40px; cursor: pointer; vertical-align: top; }
+input[type="checkbox"] + label { position: relative; padding: 10px 30px 5px 40px; cursor: pointer; }
 
 input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-chekbox.png) no-repeat; }
 
-.booking-item::after { content: ""; display: block; position: absolute; left: 0; width: 320px; height: 1px; background: #4f1952; }
-
-.btn-modal-form { display: block; margin: 0 auto; color: #ffffff; background: #998646; border: none; outline: none; padding: 15px 20px; margin-top: 20px; margin-bottom: 10px; cursor: pointer; }
+.btn-modal-form { display: block; margin: 0 auto; color: #ffffff; background: #998646; border: none; outline: none; padding: 15px 20px; margin-top: 50px; margin-bottom: 10px; cursor: pointer; }
 
 input[type="data"] { display: none; }
-
-.modal-form-number { float: right; padding-right: 55px; text-align: right; position: relative; text-align: right; border-bottom: 1px solid #ffffff; }
-
-.modal-form-calendar { display: inline-block; vertical-align: middle; position: absolute; right: 0; top: 0; width: 22px; height: 22px; border: 1px solid #ffffff; }
-
-.modal-form-calendar::after { content: ""; position: absolute; top: 3px; left: 2px; display: inline-block; vertical-align: middle; width: 22px; height: 22px; background: url(../img/icon/w-datepicker.png) no-repeat; }
-
-.modal-form-booking { margin-bottom: 20px; }
 
 .modal-form-count::after { content: ""; display: block; position: absolute; left: 0; bottom: 190px; width: 320px; height: 1px; background: #4f1952; }
 
@@ -3421,18 +3423,22 @@ input[type="data"] { display: none; }
 
 .clearfix::after { content: ""; display: block; clear: both; }
 
-.count-item-num { float: right; background: #ffffff; line-height: 35px; margin-left: 20px; }
+.count-item-num { float: right; background: #ffffff; line-height: 35px; margin-left: 20px; width: 110px; }
 
 .item-num { display: inline-block; background: #5f255f; color: #ffffff; text-align: center; width: 55px; line-height: 25px; }
 
-.item-num-min { position: relative; display: inline-block; vertical-align: middle; width: 22px; height: 22px; background: #ffffff; }
+.item-num-btn { position: relative; display: inline-block; vertical-align: middle; width: 22px; height: 22px; background: #ffffff; border: none; outline: none; }
 
-.item-num-min::after { content: ""; display: inline-block; width: 16px; height: 16px; vertical-align: middle; position: absolute; top: 50%; left: 50%; background: url(../img/icon/w-minus.png) no-repeat; }
+.item-num-btn::after { content: ""; display: inline-block; width: 16px; height: 16px; vertical-align: middle; position: absolute; top: 40%; left: 50%; background: url(../img/icon/w-minus.png) no-repeat; }
 
-.item-num-max { position: relative; display: inline-block; vertical-align: middle; width: 22px; height: 22px; background: #ffffff; }
+.item-num-max-btn { position: relative; display: inline-block; vertical-align: middle; width: 24px; height: 22px; background: #ffffff; border: none; outline: none; }
 
-.item-num-max::after { content: ""; display: inline-block; width: 16px; height: 16px; vertical-align: middle; position: absolute; top: 33%; left: 25%; background: url(../img/icon/w-plus.png) no-repeat; }
+.item-num-max-btn::after { content: ""; display: inline-block; width: 16px; height: 16px; vertical-align: middle; position: absolute; top: 23%; left: 20%; background: url(../img/icon/w-plus.png) no-repeat; }
 
 .count-item { text-align: right; padding-bottom: 7px; }
+
+.count-item-number { width: 55px; background: #66216a; text-align: center; }
+
+.form-booking-item { margin-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */

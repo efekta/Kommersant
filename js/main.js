@@ -57,6 +57,28 @@ $(window).bind('scroll', function () {
 });
 
 
+//CALENDAR
+
+
+  $( function() {
+    $( "#datepicker" ).datepicker({
+      showOn: "button",
+      buttonImage: "img/icon/w-datepicker.png",
+      buttonImageOnly: true,
+      // buttonText: "Select date"
+    });
+  } );
+
+    $( function() {
+    $( "#datepickerCome" ).datepickerCome({
+      showOn: "button",
+      buttonImage: "img/icon/w-datepicker.png",
+      buttonImageOnly: true,
+      // buttonText: "Select date"
+    });
+  } );
+
+
 //PARALLAX
 
 // let $container = $('.parallax'),
