@@ -234,6 +234,10 @@ $mod-padding-footer: 20px;
   border-bottom: 1px solid $base-white;
 }
 .modal-form-count-item {
+  margin-bottom: 20px;
+}
+
+.modal-form-arrived {
   margin-top: 40px;
 }
 .form-name {
@@ -270,7 +274,7 @@ $mod-padding-footer: 20px;
 }
 
 .booking-item {
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 input[type="checkbox"] {
@@ -315,19 +319,19 @@ input[type="data"] {
   display: none;
 }
 
-.modal-form-count::after {
-  content: "";
-  display: block;
-  position: absolute;
-  left: 0;
-  bottom: 190px;
-  width: 320px;
-  height: 1px;
-  background: #4f1952;
-}
+// .modal-form-count::after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   left: 0;
+//   bottom: 190px;
+//   width: 320px;
+//   height: 1px;
+//   background: #4f1952;
+// }
 
-.modal-form-count {
-  padding: 20px 0;
+.form-booking-item {
+  margin-bottom: 20px;
 }
 
 .clearfix::after {
@@ -335,77 +339,106 @@ input[type="data"] {
   display: block;
   clear: both;
 }
-.count-item-num {
+.modal-form-count {
+  margin-left: 20px;
+  padding: 10px 0;
+}
+.count-item {
   float: right;
   background: $base-white;
-  line-height: 35px;
+  // line-height: 35px;
   margin-left: 20px;
-  width: 110px;
+  // width: 110px;
 }
-.item-num {
-  display: inline-block;
+
+.qty {
+  width: 65px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
   background: $base-violet;
   color: $base-white;
-  text-align: center;
-  width: 55px;
-  line-height: 25px;
-}
-.item-num-btn {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  width: 22px;
-  height: 22px;
-  background: $base-white;
-  border: none;
-  outline: none;
-}
-.item-num-btn::after {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  background: url(../img/icon/w-minus.png) no-repeat;
-}
-.item-num-max-btn {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  width: 24px;
-  height: 22px;
-  background: $base-white;
-  border: none;
-  outline: none;
-}
-.item-num-max-btn::after {
-  content: "";
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  vertical-align: middle;
-  position: absolute;
-  top: 23%;
-  left: 20%;
-  background: url(../img/icon/w-plus.png) no-repeat;
 }
 
-.count-item {
-  text-align: right;
-  padding-bottom: 7px;
-}
-.count-item-number {
-  width: 55px;
-  background: rgb(102, 33, 106);
-  text-align: center;
-}
-.form-booking-item {
-  margin-bottom: 20px;
+
+input.qtyplus {
+  width: 25px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background: $base-white;
+  color: $base-violet;
 }
 
+input.qtyminus {
+  width: 25px;
+  height: 35px;
+  border: none;
+  outline: none;
+  background: $base-white;
+  color: $base-violet;
+}
+
+
+
+// .item-num-btn {
+//   position: relative;
+//   display: inline-block;
+//   vertical-align: middle;
+//   width: 22px;
+//   height: 22px;
+//   background: $base-white;
+//   border: none;
+//   outline: none;
+// }
+// .item-num-btn::after {
+//   content: "";
+//   display: inline-block;
+//   width: 16px;
+//   height: 16px;
+//   vertical-align: middle;
+//   position: absolute;
+//   top: 40%;
+//   left: 50%;
+//   background: url(../img/icon/w-minus.png) no-repeat;
+// }
+// .item-num-max-btn {
+//   position: relative;
+//   display: inline-block;
+//   vertical-align: middle;
+//   width: 24px;
+//   height: 22px;
+//   background: $base-white;
+//   border: none;
+//   outline: none;
+// }
+// .item-num-max-btn::after {
+//   content: "";
+//   display: inline-block;
+//   width: 16px;
+//   height: 16px;
+//   vertical-align: middle;
+//   position: absolute;
+//   top: 23%;
+//   left: 20%;
+//   background: url(../img/icon/w-plus.png) no-repeat;
+// }
+
+// .count-item {
+//   text-align: right;
+//   padding-bottom: 7px;
+// }
+// .count-item-number {
+//   width: 55px;
+//   background: rgb(102, 33, 106);
+//   text-align: center;
+// }
+
+
+// .fa-plus, .fa-minus {
+//   color: $base-violet;
+// }
 
 
 

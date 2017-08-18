@@ -306,7 +306,7 @@
 											<input name="email" class="form-name" type="email" required placeholder="E-mail">
 										</div>
 									</div>
-									<div class="modal-form modal-form-count-item">
+									<div class="modal-form modal-form-arrived">
 										<div class="form-booking clearfix">
 											<span class="booking-arrived">Заезд:</span>
 											<div class="modal-form-booking">
@@ -320,33 +320,41 @@
 											</div>
 										</div>
 									</div>
-									<div class="modal-form modal-form-count-item">
-										<div class="count-item clearfix">
+									<div class="modal-form">
+										<div class="modal-form-count">
 											<span>Взрослых:</span>
-											<div class="count-item-num">
-												<button class="item-num-btn"></button>
-												<input type="text" name="count-number-adult" value="1" class="form-name count-item-number" min="1" max="100">
-												<button class="item-num-max-btn"></button>
+											<div class="count-item">
+												<input type='button' value='-' class='qtyminus' field='quantity' />
+												
+												<input type='text' name='quantity' value='0' class='qty' />
+
+												<input type='button' value='+' class='qtyplus' field='quantity' />
 											</div>
 										</div>
-										<div class="count-item clearfix">
+
+										<div class="modal-form-count">
 											<span>Детей:</span>
-											<div class="count-item-num">
-												<button class="item-num-btn"></button>
-												<input type="text" name="count-number-child" value="1" class="form-name count-item-number" min="1" max="100">
-												<button class="item-num-max-btn"></button>
+											<div class="count-item">
+												<input type='button' value='-' class='qtyminus' field='quantity' />
+												
+												<input type='text' name='quantity' value='0' class='qty' />
+
+												<input type='button' value='+' class='qtyplus' field='quantity' />
 											</div>
 										</div>
-										<div class="count-item clearfix">
+
+										<div class="modal-form-count modal-form-count-item">
 											<span>Младенцев:</span>
-											<div class="count-item-num">
-												<button class="item-num-btn"></button>
-												<input type="text" name="count-number-baby" value="1" class="form-name count-item-number" min="1" max="100">
-												<button class="item-num-max-btn"></button>
+											<div class="count-item">
+												<input type='button' value='-' class='qtyminus' field='quantity' />
+												
+												<input type='text' name='quantity' value='0' class='qty' />
+
+												<input type='button' value='+' class='qtyplus' field='quantity' />
 											</div>
 										</div>
 									</div>
-									<div class="modal-form">
+									<div class="modal-form booking-item">
 										<div class="booking-item">
 											<div class="form-booking-item">
 												<input type="checkbox" checked id="input-biz">
@@ -368,5 +376,4 @@
 			<!-- ALEX END -->
 		</body>
 	</html>
-	
 	
