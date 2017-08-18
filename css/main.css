@@ -3397,11 +3397,11 @@ body.fixed .o-sidebar { left: 0; }
 
 .modal-form-booking { float: right; border-bottom: 1px solid #ffffff; }
 
-.form-booking { position: relative; margin-left: 40px; margin-bottom: 20px; }
+.form-booking { position: relative; margin-left: 35px; margin-bottom: 20px; }
 
-.form-calendar { width: 125px; }
+.form-calendar { width: 155px; }
 
-.booking-arrived { margin-right: 40px; }
+.booking-arrived { margin-right: 20px; }
 
 .booking-item { padding-top: 20px; }
 
