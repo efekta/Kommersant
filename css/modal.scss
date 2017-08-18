@@ -219,105 +219,104 @@ $mod-padding-footer: 20px;
 }
 
 
-.modal-form::after {
-  content: "";
-  display: block;
-  position: absolute;
-  // bottom: 0;
-  left: 0;
-  width: 320px;
-  height: 1px;
-  background: #4f1952;
-}
-.modal-form-data {
-  margin-bottom: 20px;
-  border-bottom: 1px solid $base-white;
-}
-.modal-form-count-item {
-  margin-bottom: 20px;
-}
+// .modal-form::after {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   // bottom: 0;
+//   left: 0;
+//   width: 320px;
+//   height: 1px;
+//   background: #4f1952;
+// }
+// .modal-form-data {
+//   margin-bottom: 20px;
+//   border-bottom: 1px solid $base-white;
+// }
+// // .modal-form-count-item {
+// //   margin-bottom: 20px;
+// // }
+// .modal-form-count-item {
+//     margin-top: 40px;
+// }
+// .form-name {
+//   position: relative;
+//   color: $base-white;
+//   outline: none;
+//   border: none;
+//   background: rgba(102, 33, 106, 0.1);
+// }
 
-.modal-form-arrived {
-  margin-top: 40px;
-}
-.form-name {
-  position: relative;
-  color: $base-white;
-  outline: none;
-  border: none;
-  background: rgba(102, 33, 106, 0.1);
-}
-
-::-webkit-input-placeholder {color: $base-white;}
-::-moz-placeholder          {color: $base-white;}
-:-moz-placeholder           {color: $base-white;}
-:-ms-input-placeholder      {color: $base-white;}
-
-
-.modal-form-booking {
-  float: right;
-  border-bottom: 1px solid $base-white;
-}
+// ::-webkit-input-placeholder {color: $base-white;}
+// ::-moz-placeholder          {color: $base-white;}
+// :-moz-placeholder           {color: $base-white;}
+// :-ms-input-placeholder      {color: $base-white;}
 
 
-.form-booking {
-  position: relative;
-  margin-left: 25px;
-  margin-bottom: 20px;
-}
+// .modal-form-booking {
+//   float: right;
+//   border-bottom: 1px solid $base-white;
+// }
 
- .form-calendar {
-   width: 155px;
-}
-.booking-arrived {
-  margin-right: 20px;
-}
 
-.booking-item {
-  margin-top: 20px;
-}
+// .form-booking {
+//   position: relative;
+//   margin-left: 25px;
+//   margin-bottom: 20px;
+// }
 
-input[type="checkbox"] {
-  display: none;
-}
+//  .form-calendar {
+//    width: 155px;
+// }
+// .booking-arrived {
+//   margin-right: 20px;
+// }
 
-input[type="checkbox"] + label::before {
-  content: "";
-  display: block;
-  position: absolute;
-  top: 10px;
-  left: 0;
-  width: 16px;
-  height: 16px;
-  border: 1px solid $base-white;
-}
+// .booking-item {
+//   margin-top: 20px;
+// }
 
-input[type="checkbox"] + label {
-    position: relative;
-    padding: 10px 30px 5px 40px;
-    cursor: pointer;
-}
+// input[type="checkbox"] {
+//   display: none;
+// }
 
-input[type="checkbox"]:checked + label::before {
-  background: url(../img/icon/w-chekbox.png) no-repeat;
-}
+// input[type="checkbox"] + label::before {
+//   content: "";
+//   display: block;
+//   position: absolute;
+//   top: 10px;
+//   left: 0;
+//   width: 16px;
+//   height: 16px;
+//   border: 1px solid $base-white;
+// }
 
-.btn-modal-form {
-  display: block;
-  margin: 0 auto;
-  color: $base-white;
-  background: $base-gold;
-  border: none;
-  outline: none;
-  padding: 15px 20px;
-  margin-top: 50px;
-  margin-bottom: 10px;
-  cursor: pointer;
-}
+// input[type="checkbox"] + label {
+//     position: relative;
+//     padding: 10px 30px 5px 40px;
+//     cursor: pointer;
+// }
 
-input[type="data"] {
-  display: none;
-}
+// input[type="checkbox"]:checked + label::before {
+//   background: url(../img/icon/w-chekbox.png) no-repeat;
+// }
+
+// .btn-modal-form {
+//   display: block;
+//   margin: 0 auto;
+//   color: $base-white;
+//   background: $base-gold;
+//   border: none;
+//   outline: none;
+//   padding: 15px 20px;
+//   margin-top: 50px;
+//   margin-bottom: 10px;
+//   cursor: pointer;
+// }
+
+// input[type="data"] {
+//   display: none;
+// }
 
 // .modal-form-count::after {
 //   content: "";
@@ -330,55 +329,63 @@ input[type="data"] {
 //   background: #4f1952;
 // }
 
-.form-booking-item {
-  margin-bottom: 20px;
-}
+// .form-booking-item {
+//   margin-bottom: 20px;
+// }
 
-.clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-.modal-form-count {
-  margin-left: 20px;
-  padding: 10px 0;
-}
-.count-item {
-  float: right;
-  background: $base-white;
-  // line-height: 35px;
-  margin-left: 20px;
-  // width: 110px;
-}
-
-.qty {
-  width: 65px;
-  height: 30px;
-  text-align: center;
-  border: none;
-  outline: none;
-  background: $base-violet;
-  color: $base-white;
-}
+// .clearfix::after {
+//   content: "";
+//   display: block;
+//   clear: both;
+// }
+// .modal-form-count {
+//   margin-left: 20px;
+//   padding: 10px 0;
+// }
+// .count-item {
+//   float: right;
+//   background: $base-white;
+//   // line-height: 35px;
+//   margin-left: 20px;
+//   // width: 110px;
+// }
+// .modal-form-arrived {
+//   margin-top: 40px;
+// }
 
 
-input.qtyplus {
-  width: 25px;
-  height: 35px;
-  border: none;
-  outline: none;
-  background: $base-white;
-  color: $base-violet;
-}
 
-input.qtyminus {
-  width: 25px;
-  height: 35px;
-  border: none;
-  outline: none;
-  background: $base-white;
-  color: $base-violet;
-}
+
+
+
+// .qty {
+//   width: 65px;
+//   height: 30px;
+//   text-align: center;
+//   border: none;
+//   outline: none;
+//   background: $base-violet;
+//   color: $base-white;
+// }
+
+
+// input.qtyplus {
+//   width: 25px;
+//   height: 35px;
+//   border: none;
+//   outline: none;
+//   background: $base-white;
+//   color: $base-violet;
+// }
+
+// input.qtyminus {
+//   width: 25px;
+//   height: 35px;
+//   border: none;
+//   outline: none;
+//   background: $base-white;
+//   color: $base-violet;
+// }
 
 
 
