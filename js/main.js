@@ -106,15 +106,24 @@ $( function() {
 
 $(function() {
     $("#datepicker").datepicker($.datepicker.regional["ru"]);
-});
-
- $('.qtyplus').click(function(e) {
+     $('.qtyplus').click(function(e) {
    var $target = $(e.currentTarget),
        $parent = $target.closest('.count-item-num'),
        $num = $parent.find('.qty')
        currentNum = parseInt($num.val(), 10) || 0;
    $num.val(++currentNum);
   });
+
+     $('.qtyminus').click(function(e) {
+   var $target = $(e.currentTarget),
+       $parent = $target.closest('.count-item-num'),
+       $num = $parent.find('.qty')
+       currentNum = parseInt($num.val(), 10) || 0;
+   $num.val(--currentNum);
+  });
+});
+
+
 //
 // $(function() {
 //   // This button will increment the value
