@@ -3379,4 +3379,34 @@ body.fixed .o-sidebar { left: 0; }
 
 .modal-header { background-color: #4f1952; }
 
+.modal-form::after { content: ""; display: block; position: absolute; left: 0; width: 320px; height: 1px; background: #4f1952; }
+
+.modal-form-data { margin-bottom: 20px; border-bottom: 1px solid #ffffff; }
+
+::-webkit-input-placeholder { color: #ffffff; }
+
+::-moz-placeholder { color: #ffffff; }
+
+:-moz-placeholder { color: #ffffff; }
+
+:-ms-input-placeholder { color: #ffffff; }
+
+.form-name { position: relative; color: #ffffff; outline: none; border: none; background: rgba(102, 33, 106, 0.1); }
+
+.form-booking { position: relative; }
+
+.form-calendar { width: 155px; border-bottom: 1px solid #ffffff; }
+
+.icon-calendar::after { content: ""; display: inline-block; position: absolute; width: 22px; height: 22px; background: url(../img/icon/w-datepicker.png) no-repeat; }
+
+input[type="checkbox"] { display: none; }
+
+input[type="checkbox"] + label::before { content: ""; display: block; position: absolute; top: 10px; left: 0; width: 16px; height: 16px; border: 1px solid #ffffff; }
+
+input[type="checkbox"] + label { position: relative; padding: 10px 30px 5px 40px; cursor: pointer; }
+
+input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-chekbox.png) no-repeat; }
+
+.btn-modal-form { display: block; margin: 0 auto; color: #ffffff; background: #998646; border: none; outline: none; padding: 15px 20px; cursor: pointer; }
+
 /*# sourceMappingURL=main.css.map */

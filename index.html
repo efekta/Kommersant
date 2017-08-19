@@ -271,9 +271,9 @@
 			<!-- END SIDEBAR -->
 			<!-- </div> --> <!-- END PARALLAX -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script> -->
 			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+			<script src="js/jquery.ui.datepicker-ru.js"></script>
 			<script src="js/main.js"></script>
 			<script src="js/wow.min.js"></script>
 			<!-- 		<script>
@@ -295,109 +295,44 @@
 							</div>
 							<div class="modal-body">
 								<form action="#" method="post">
-
-								</form>
-							</div>
+									<div class="modal-form">
+										<div class="modal-form-data">
+											<input name="name" class="form-name" type="text" required placeholder="ФИО">
+										</div>
+										<div class="modal-form-data">
+											<input name="tel" class="form-name" type="tel" required placeholder="Телефон">
+										</div>
+										<div class="modal-form-data">
+											<input name="email" class="form-name" type="email" required placeholder="E-mail">
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="form-booking">
+											
+											
+										</div>
+									</div>
+									<div class="modal-form"></div>
+									<div class="modal-form">
+										<div class="booking-item">
+											<div class="form-booking-item">
+												<input type="checkbox" checked id="input-biz">
+												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
+											</div>
+											<div class="form-booking-item">
+												<input type="checkbox" id="input-eco">
+												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
+											</div>
+										</div>
+									</div>
+									<button type="submit" class="btn-modal-form">Оформить</button>
+								</div>
+							</form>
 						</div>
 					</div>
 				</div>
 			</div>
-			<!-- ALEX END -->
-		</body>
-	</html>
-	<!-- <div class="modal-form modal-form-count-item">
-												<div class="count-item clearfix">
-														<span>Взрослых:</span>
-														<div class="count-item-num" data-plugin-options="{ "value":1, "step": 1, "min": 1, "max": 1 }">
-																<button class="item-num-btn"></button>
-																<input type="number" name="count-number-adult" value="1" class="form-name count-item-number" min="1" max="100">
-																<button class="item-num-max-btn"></button>
-														</div>
-												</div>
-												<div class="count-item clearfix">
-														<span>Детей:</span>
-														<div class="count-item-num" data-plugin-options="{ "value":1, "step": 1, "min": 1, "max": 1 }">
-																<button class="item-num-btn"></button>
-																<input type="number" name="count-number-child" value="1" class="form-name count-item-number" min="1" max="100">
-																<button class="item-num-max-btn"></button>
-														</div>
-												</div>
-												<div class="count-item clearfix">
-														<span>Младенцев:</span>
-														<div class="count-item-num" data-plugin-options="{ "value":1, "step": 1, "min": 1, "max": 1 }">
-																<button class="item-num-btn"></button>
-																<input type="number" name="count-number-baby" value="1" class="form-name count-item-number" min="1" max="100">
-																<button class="item-num-max-btn"></button>
-														</div>
-												</div>
-	</div> -->
-
-<!-- <div class="modal-form">
-	<div class="modal-form-data">
-		<input name="name" class="form-name" type="text" required placeholder="ФИО">
-	</div>
-	<div class="modal-form-data">
-		<input name="tel" class="form-name" type="tel" required placeholder="Телефон">
-	</div>
-	<div class="modal-form-data">
-		<input name="email" class="form-name" type="email" required placeholder="E-mail">
-	</div>
-</div>
-<div class="modal-form modal-form-arrived">
-	<div class="form-booking clearfix">
-		<span class="booking-arrived">Заезд:</span>
-		<div class="modal-form-booking">
-			<input type="text" id="datepicker" name="arrived" class="form-name form-calendar" required value="20/08/2017">
 		</div>
-	</div>
-	<div class="form-booking clearfix">
-		<span class="booking-arrived">Выезд:</span>
-		<div class="modal-form-booking">
-			<input type="text" id="datepickerCome" name="come" class="form-name form-calendar" required value="05/09/2017">
-		</div>
-	</div>
-</div>
-<div class="modal-form">
-	<div class="modal-form-count">
-		<span>Взрослых:</span>
-		<div class="count-item">
-			<input type='button' value='-' class='qtyminus' field='quantity' />
-			
-			<input type='text' name='quantity' value='0' class='qty' />
-			<input type='button' value='+' class='qtyplus' field='quantity' />
-		</div>
-	</div>
-	<div class="modal-form-count">
-		<span>Детей:</span>
-		<div class="count-item">
-			<input type='button' value='-' class='qtyminus' field='quantity' />
-			
-			<input type='text' name='quantity' value='0' class='qty' />
-			<input type='button' value='+' class='qtyplus' field='quantity' />
-		</div>
-	</div>
-	
-	<div class="modal-form-count">
-		<span>Младенцев:</span>
-		<div class="count-item">
-			<input type='button' value='-' class='qtyminus' field='quantitymin' />
-			
-			<input type='text' name='quantity' value='0' class='qty' />
-			<input type='button' value='+' class='qtyplus' field='quantitymax' />
-		</div>
-	</div>
-</div>
-
-<div class="modal-form booking-item">
-	<div class="booking-item">
-		<div class="form-booking-item">
-			<input type="checkbox" checked id="input-biz">
-			<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
-		</div>
-		<div class="form-booking-item">
-			<input type="checkbox" id="input-eco">
-			<label for="input-eco" class="form-booking-checkbox">Эконом</label>
-		</div>
-	</div>
-</div>
-<button type="submit" class="btn-modal-form">Оформить</button> -->
+		<!-- ALEX END -->
+	</body>
+</html>
