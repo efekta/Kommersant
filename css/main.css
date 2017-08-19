@@ -3417,6 +3417,14 @@ body.fixed .o-sidebar { left: 0; }
 
 .qtyminus { position: relative; border: none; outline: none; background: url(../img/icon/w-minus.png) no-repeat; background-position: 2px 14px; }
 
+.count-item-top { margin-top: 20px; }
+
+.count-item-bottom { margin-bottom: 20px; }
+
+.booking-item { padding: 10px 0; }
+
+.form-booking-item-bottom { margin-bottom: 20px; }
+
 input[type="checkbox"] { display: none; }
 
 input[type="checkbox"] + label::before { content: ""; display: block; position: absolute; top: 10px; left: 0; width: 16px; height: 16px; border: 1px solid #ffffff; }

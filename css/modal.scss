@@ -333,7 +333,18 @@ $mod-padding-footer: 20px;
   background: url(../img/icon/w-minus.png) no-repeat;
   background-position: 2px 14px;
 }
-
+.count-item-top {
+  margin-top: 20px;
+}
+.count-item-bottom {
+  margin-bottom: 20px;
+}
+.booking-item {
+  padding: 10px 0;
+}
+.form-booking-item-bottom {
+  margin-bottom: 20px;
+}
 // .qtyminus::before {
 //   content: "";
 //   display: inline-block;
