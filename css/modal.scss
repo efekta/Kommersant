@@ -31,7 +31,7 @@ $mod-padding-footer: 20px;
   bottom: 0;
   left: 0;
   z-index: 1050;
-  display: block;
+  display: none;
   // overflow: hidden;  
   outline: 0;
 
@@ -300,6 +300,7 @@ $mod-padding-footer: 20px;
 .count-item-num {
   background: $base-white;
   width: 110px;
+  height: 30px;
   display: inline-block;
   text-align: center;
 }
