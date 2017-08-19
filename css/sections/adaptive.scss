@@ -402,7 +402,7 @@ body {
 // 	.features-footer .features-item {
 //     padding: 30px;
 // 	}
-}
+// }
 @media only screen and (max-width: 320px) {
 	.sidebar-logo__pic{
     width: 60px;
@@ -438,12 +438,17 @@ body {
 }
 }
 
-@media only screen and (max-width: 480px)
+@media only screen and (max-width: 480px) {
 .features-footer .features__more {
     margin-left: 20px;
 }
+}
 
-
+// .features__btn {
+//     display: inline-block;
+//     padding: 20px;
+//      margin-left: 20px;
+// }
 
 
 
