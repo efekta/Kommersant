@@ -31,7 +31,7 @@ $mod-padding-footer: 20px;
   bottom: 0;
   left: 0;
   z-index: 1050;
-  display: none;
+  display: block;
   // overflow: hidden;  
   outline: 0;
 
@@ -251,14 +251,11 @@ $mod-padding-footer: 20px;
 .form-booking {
   position: relative;
   text-align: right;
-  // margin-left: 25px;
-  // margin-bottom: 20px;
+  padding: 10px 0;
 }
 
  .form-calendar {
    width: 155px;
-   border-bottom: 1px solid $base-white;
-   margin-left: 20px;
 }
 
 .icon-calendar::after {
@@ -268,6 +265,9 @@ $mod-padding-footer: 20px;
   width: 22px;
   height: 22px;
   background: url(../img/icon/w-datepicker.png) no-repeat;
+}
+.modal-form-booking-come {
+  margin-bottom: 20px;
 }
 // .ui-datepicker-trigger {
 //   position: absolute;
@@ -283,16 +283,70 @@ $mod-padding-footer: 20px;
 
 .modal-form-booking {
   display: inline-block;
+  border-bottom: 1px solid $base-white;
 }
 .booking-arrived {
   display: inline-block;
+  margin-right: 20px;
 }
 .ui-widget {
   display: block;
   background: $base-violet;
 }
-// .ui-datepicker-prev {
-//   background: url();
+.count-item {
+    text-align: right;
+    padding-bottom: 7px;
+}
+.count-item-num {
+  background: $base-white;
+  width: 110px;
+  display: inline-block;
+  text-align: center;
+}
+
+.qty {
+  width: 65px;
+  // height: 30px;
+  text-align: center;
+  border: none;
+  outline: none;
+  background: $base-violet;
+  color: $base-white;
+}
+
+
+.qtyplus {
+  // width: 25px;
+  // height: 35px;
+  border: none;
+  outline: none;
+  background: url(../img/icon/w-plus.png) no-repeat;
+  background-position: 2px 10px;
+}
+
+.qtyminus {
+  position: relative;
+  // width: 25px;
+  // height: 35px;
+  border: none;
+  outline: none;
+  background: url(../img/icon/w-minus.png) no-repeat;
+  background-position: 2px 14px;
+}
+
+// .qtyminus::before {
+//   content: "";
+//   display: inline-block;
+//   width: 16px;
+//   height: 16px;
+//   vertical-align: middle;
+//   position: absolute;
+//   top: 40%;
+//   left: 50%;
+//   background: url(../img/icon/w-minus.png) no-repeat;
+// }
+// .ui-datepicker-prev .fa-chevron-right{
+//   display: inline-block;
 // }
 
 // .modal-form-booking {
@@ -391,34 +445,6 @@ input[type="checkbox"]:checked + label::before {
 
 
 
-// .qty {
-//   width: 65px;
-//   height: 30px;
-//   text-align: center;
-//   border: none;
-//   outline: none;
-//   background: $base-violet;
-//   color: $base-white;
-// }
-
-
-// input.qtyplus {
-//   width: 25px;
-//   height: 35px;
-//   border: none;
-//   outline: none;
-//   background: $base-white;
-//   color: $base-violet;
-// }
-
-// input.qtyminus {
-//   width: 25px;
-//   height: 35px;
-//   border: none;
-//   outline: none;
-//   background: $base-white;
-//   color: $base-violet;
-// }
 
 
 
