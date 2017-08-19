@@ -3409,6 +3409,8 @@ body.fixed .o-sidebar { left: 0; }
 
 .count-item { text-align: right; padding-bottom: 7px; }
 
+.count-item-title { margin-right: 20px; }
+
 .count-item-num { background: #ffffff; width: 110px; height: 30px; display: inline-block; text-align: center; }
 
 .qty { width: 65px; text-align: center; border: none; outline: none; background: #5f255f; color: #ffffff; }
@@ -3433,6 +3435,6 @@ input[type="checkbox"] + label { position: relative; padding: 10px 30px 5px 40px
 
 input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-chekbox.png) no-repeat; }
 
-.btn-modal-form { display: block; margin: 0 auto; color: #ffffff; background: #998646; border: none; outline: none; padding: 15px 20px; cursor: pointer; }
+.btn-modal-form { display: block; margin: 0 auto; color: #ffffff; background: #998646; border: none; outline: none; padding: 15px 20px; cursor: pointer; margin-top: 20px; }
 
 /*# sourceMappingURL=main.css.map */

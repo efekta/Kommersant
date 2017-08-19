@@ -297,6 +297,9 @@ $mod-padding-footer: 20px;
     text-align: right;
     padding-bottom: 7px;
 }
+.count-item-title {
+  margin-right: 20px;
+}
 .count-item-num {
   background: $base-white;
   width: 110px;
@@ -414,6 +417,7 @@ input[type="checkbox"]:checked + label::before {
   // margin-top: 50px;
   // margin-bottom: 10px;
   cursor: pointer;
+  margin-top: 20px;
 }
 
 
