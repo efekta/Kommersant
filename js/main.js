@@ -63,29 +63,44 @@ $(window).bind('scroll', function () {
        //  $(function(){
        //      $("#datepicker").datepicker();
        // });
-
-
 $( function() {
     $( "#datepicker" ).datepicker({
-      showOn: "button",
+      showOn: "both",
       buttonImage: "img/icon/w-datepicker.png",
       buttonImageOnly: true,
       buttonText: "Select date"
     });
   } );
-
-    $( function() {
+$( function() {
     $( "#datepickerCome" ).datepicker({
-      showOn: "button",
+      showOn: "both",
       buttonImage: "img/icon/w-datepicker.png",
       buttonImageOnly: true,
       buttonText: "Select date"
     });
   } );
 
-// $(function() {
-//     $("#datepicker").datepicker($.datepicker.regional["ru"]);
-// });
+// $( function() {
+//     $( "#datepicker" ).datepicker({
+//       showOn: "button",
+//       buttonImage: "img/icon/w-datepicker.png",
+//       buttonImageOnly: true,
+//       buttonText: "Select date"
+//     });
+//   } );
+
+//     $( function() {
+//     $( "#datepickerCome" ).datepicker({
+//       showOn: "button",
+//       buttonImage: "img/icon/w-datepicker.png",
+//       buttonImageOnly: true,
+//       buttonText: "Select date"
+//     });
+//   } );
+
+$(function() {
+    $("#datepicker").datepicker($.datepicker.regional["ru"]);
+});
 
 //
 // $(function() {
