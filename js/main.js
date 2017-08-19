@@ -118,7 +118,7 @@ $(function() {
    var $target = $(e.currentTarget),
        $parent = $target.closest('.count-item-num'),
        $num = $parent.find('.qty')
-       currentNum = parseInt($num.val(), 10) || 0;
+       currentNum = parseInt($num.val(), 10) || 1;
    $num.val(--currentNum);
   });
 });
