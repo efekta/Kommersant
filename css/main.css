@@ -3393,11 +3393,17 @@ body.fixed .o-sidebar { left: 0; }
 
 .form-name { position: relative; color: #ffffff; outline: none; border: none; background: rgba(102, 33, 106, 0.1); }
 
-.form-booking { position: relative; }
+.form-booking { position: relative; text-align: right; }
 
-.form-calendar { width: 155px; border-bottom: 1px solid #ffffff; }
+.form-calendar { width: 155px; border-bottom: 1px solid #ffffff; margin-left: 20px; }
 
 .icon-calendar::after { content: ""; display: inline-block; position: absolute; width: 22px; height: 22px; background: url(../img/icon/w-datepicker.png) no-repeat; }
+
+.modal-form-booking { display: inline-block; }
+
+.booking-arrived { display: inline-block; }
+
+.ui-widget { display: block; background: #5f255f; }
 
 input[type="checkbox"] { display: none; }
 
