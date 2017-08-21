@@ -85,86 +85,24 @@ $( function() {
   } );
 
 //
-$('#form').submit(function(){   // FormAjax - Класс формы
-
- $.ajax({
-  url: '../mail.php',
-  type: 'POST',
-  data: $("#form").serialize(),
-  datatype: "html",         
-  success: function (data) {
-    console.log(data); // Helo!
-
-    // Вывести сообщение об успешной отправке формы
-    alert("Ваше сообщение отправлено!");
-
-  }
- });
- return false;
-});
 
 
 
-    // $("#form").submit(function() {
-    //     $.ajax({
-    //         type: "POST",
-    //         url: "../mail.php",
-    //         data: $(this).serialize()
-    //     }).done(function() {
-    //         $(this).find("input").val("");
-    //         alert("Ваше сообщение отправлено!");
-    //         $("#form").trigger("reset");
-    //     });
-    //     return false;
-    // });
+
+    $("#form").submit(function() {
+        $.ajax({
+            type: "POST",
+            url: "mail.php",
+            data: $(this).serialize()
+        }).done(function() {
+            $(this).find("input").val("");
+            alert("Ваше сообщение отправлено!");
+            $("#form").trigger("reset");
+        });
+        return false;
+    });
     
-
-
-
-
-// ( function($) {
-//   'use strict';
-// $( ".form-calendar" ).each(function() {
-//   $( this ).datepicker({
-//       showOn: "both",
-//       buttonImage: "img/icon/w-datepicker.png",
-//       buttonImageOnly: true,
-//       buttonText: "Select date",
-//       nextText: ">>",
-//       prevText: "<<"
-//     });
-// });
-
-// })(jQuery);
-
-
-
-
- // $(this).datepicker($.datepicker.regional["ru"])
-
-// $( ".fa-chevron-right" ).datepicker({
-//   prevText: "Earlier"
-// });
-// var prevText = $( ".fa-chevron-right" ).datepicker( "option", "prevText" );
-// $( ".fa-chevron-right" ).datepicker( "option", "prevText", "Earlier" );
-
-// $( function() {
-//     $( "#datepicker" ).datepicker({
-//       showOn: "button",
-//       buttonImage: "img/icon/w-datepicker.png",
-//       buttonImageOnly: true,
-//       buttonText: "Select date"
-//     });
-//   } );
-
-//     $( function() {
-//     $( "#datepickerCome" ).datepicker({
-//       showOn: "button",
-//       buttonImage: "img/icon/w-datepicker.png",
-//       buttonImageOnly: true,
-//       buttonText: "Select date"
-//     });
-//   } );
+//
 
 $(function() {
      $('.qtyplus').click(function(e) {
@@ -184,7 +122,7 @@ $(function() {
   });
 });
 
-//
+
 
 
 

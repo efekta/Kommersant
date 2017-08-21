@@ -459,6 +459,10 @@ input[type="checkbox"]:checked + label::before {
   color: $base-violet;
   font-weight: bold;
 }
+.form-sent {
+  padding-top: 20px;
+  text-align: center;
+}
 // .modal-form-count::after {
 //   content: "";
 //   display: block;

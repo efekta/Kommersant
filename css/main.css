@@ -3447,4 +3447,6 @@ input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-c
 
 .ui-state-active { background: #ffffff; color: #5f255f; font-weight: bold; }
 
+.form-sent { padding-top: 20px; text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
