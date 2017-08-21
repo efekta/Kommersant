@@ -3445,6 +3445,6 @@ input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-c
 
 .ui-state-default:hover { background: #ffffff; color: #5f255f; font-weight: bold; }
 
-.ui-state-default:active { background: #ffffff; color: #5f255f; font-weight: bold; }
+.ui-state-active { background: #ffffff; color: #5f255f; font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */
