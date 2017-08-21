@@ -294,7 +294,7 @@
 								<h5 class="modal-title">Бронирование</h5>
 							</div>
 							<div class="modal-body">
-								<form action="#" method="post" class="modal-form">
+								<form id="form">
 									<div class="modal-form">
 										<div class="modal-form-data">
 											<input name="name" class="form-name" type="text" required placeholder="ФИО">
@@ -335,7 +335,7 @@
 											<span class="count-item-title">Детей:</span>
 											<div class="count-item-num">
 												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantity' value='0' class='qty'>
+												<input type='text' name='quantityChild' value='0' class='qty'>
 												<input type='button' class='qtyplus' field='quantity'>
 											</div>
 										</div>
@@ -344,7 +344,7 @@
 											<span class="count-item-title">Младенцев:</span>
 											<div class="count-item-num">
 												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantity' value='0' class='qty'>
+												<input type='text' name='quantityBaby' value='0' class='qty'>
 												<input type='button' class='qtyplus' field='quantity'>
 											</div>
 										</div>
@@ -352,16 +352,17 @@
 									<div class="modal-form">
 										<div class="booking-item">
 											<div class="form-booking-item form-booking-item-bottom">
-												<input type="checkbox" checked id="input-biz">
+												<input type="checkbox" checked id="input-biz" name="biznes">
 												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
 											</div>
 											<div class="form-booking-item">
-												<input type="checkbox" id="input-eco">
+												<input type="checkbox" id="input-eco" name="economy">
 												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
 											</div>
 										</div>
 									</div>
-									<button type="submit" class="btn-modal-form">Оформить</button>
+									<input type="submit" class="btn-modal-form">
+									<!-- <button class="btn-modal-form">Оформить</button> -->
 								</div>
 							</form>
 						</div>
