@@ -3435,10 +3435,16 @@ input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-c
 
 .ui-datepicker { padding: 10px 20px; border: 1px solid #ffffff; }
 
-.ui-datepicker-title { display: inline-block; text-align: center; width: 100%; border: 1px solid #ffffff; }
+.ui-datepicker-title { text-align: center; }
 
-.ui-datepicker-prev { border: 1px solid #ffffff; float: left; margin-bottom: 5px; }
+.ui-datepicker-prev { float: left; }
 
-.ui-datepicker-next { border: 1px solid #ffffff; float: right; margin-bottom: 5px; }
+.ui-datepicker-next { float: right; }
+
+.ui-state-default { display: block; width: 25px; height: 25px; text-align: center; }
+
+.ui-state-default:hover { background: #ffffff; color: #5f255f; font-weight: bold; }
+
+.ui-state-default:active { background: #ffffff; color: #5f255f; font-weight: bold; }
 
 /*# sourceMappingURL=main.css.map */

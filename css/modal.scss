@@ -424,25 +424,41 @@ input[type="checkbox"]:checked + label::before {
   border: 1px solid $base-white;
 }
 .ui-datepicker-title {
-  display: inline-block;
+  // display: inline-block;
   text-align: center;
-  width: 100%;
-  border: 1px solid $base-white;
+  // width: 100%;
+  // border: 1px solid $base-white;
 }
 // .ui-datepicker-year {
 //   float: right;
 // }
 .ui-datepicker-prev {
-  border: 1px solid $base-white;
+  // border: 1px solid $base-white;
   float: left;
-  margin-bottom: 5px;
+  // margin-bottom: 5px;
 }
 .ui-datepicker-next {
-  border: 1px solid $base-white;
+  // border: 1px solid $base-white;
   float: right;
-  margin-bottom: 5px;
+  // margin-bottom: 5px;
+}
+.ui-state-default {
+  display: block;
+  width: 25px;
+  height: 25px;
+  text-align: center;
 }
 
+.ui-state-default:hover {
+  background:$base-white;
+  color: $base-violet;
+  font-weight: bold;
+}
+.ui-state-default:active {
+  background:$base-white;
+  color: $base-violet;
+  font-weight: bold;
+}
 // .modal-form-count::after {
 //   content: "";
 //   display: block;
