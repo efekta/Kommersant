@@ -31,7 +31,7 @@ $mod-padding-footer: 20px;
   bottom: 0;
   left: 0;
   z-index: 1050;
-  display: block;
+  display: none;
   // overflow: hidden;  
   outline: 0;
 
@@ -459,8 +459,8 @@ input[type="checkbox"]:checked + label::before {
   color: $base-violet;
   font-weight: bold;
 }
-.form-sent {
-  display: none;
+.form-sent div {
+  // display: none;
   padding-top: 20px;
   text-align: center;
 }

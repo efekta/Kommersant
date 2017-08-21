@@ -17,110 +17,139 @@
 
 jQuery(document).ready(function($){ 
  $('.sidebar-link,.sidebar__link-close').on('click', function() {
-     if($('body').hasClass('fixed')) {
-      $('body').removeClass('fixed');
-     }else{
-      $('body').addClass('fixed');
-     }
-     return false;
+		 if($('body').hasClass('fixed')) {
+			$('body').removeClass('fixed');
+		 }else{
+			$('body').addClass('fixed');
+		 }
+		 return false;
  });
+$("#form").submit(function() {
+				$.ajax({
+						type: "POST",
+						url: "http://localhost:7882",
+						dataType: "html",
+						data: $(this).serialize(),
+						success: function (data) {
+						$('#form .form-sent').html('<div>Ваше сообщение отправлено!</div>');
+	}
+
+			 });
+				return false;
+		});
+$(window).bind('scroll', function () {
+		if ($(window).scrollTop() > 200) {
+				$('body').addClass('fixed-menu');
+		} else {
+		 $('body').removeClass('fixed-menu');
+		}
+});
+$(window).bind('scroll', function () {
+		if ($(window).scrollTop() > 250) {
+				$('body').addClass('socials-fixed');
+		} else {
+		 $('body').removeClass('socials-fixed');
+		}
+});
+$(window).bind('scroll', function () {
+		if ($(window).scrollTop() > 250) {
+				$('body').addClass('ancors-fixed');
+		} else {
+		 $('body').removeClass('ancors-fixed');
+		}
+});
+$( function() {
+		$( "#datepicker" ).datepicker({
+			showOn: "both",
+			buttonImage: "img/icon/w-datepicker.png",
+			buttonImageOnly: true,
+			buttonText: "Select date",
+			nextText: ">>",
+			prevText: "<<"
+		});
+	});
+$( function() {
+		$( "#datepickerCome" ).datepicker({
+			showOn: "both",
+			buttonImage: "img/icon/w-datepicker.png",
+			buttonImageOnly: true,
+			buttonText: "Select date",
+			nextText: ">>",
+			prevText: "<<"
+		});
+	});
+$(function() {
+		 $('.qtyplus').click(function(e) {
+	 var $target = $(e.currentTarget),
+			 $parent = $target.closest('.count-item-num'),
+			 $num = $parent.find('.qty')
+			 currentNum = parseInt($num.val(), 10) || 0;
+	 $num.val(++currentNum);
+	});
+
+		 $('.qtyminus').click(function(e) {
+	 var $target = $(e.currentTarget),
+			 $parent = $target.closest('.count-item-num'),
+			 $num = $parent.find('.qty')
+			 currentNum = parseInt($num.val(), 10) || 1;
+	 $num.val(--currentNum);
+	});
+});
 });
 
 
 // fixed-menu top-menu
 
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 200) {
-        $('body').addClass('fixed-menu');
-    } else {
-     $('body').removeClass('fixed-menu');
-    }
-});
+
 
 
 //SOCIALS FIXED
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 250) {
-        $('body').addClass('socials-fixed');
-    } else {
-     $('body').removeClass('socials-fixed');
-    }
-});
+
 
 //ANCORS FIXED
-$(window).bind('scroll', function () {
-    if ($(window).scrollTop() > 250) {
-        $('body').addClass('ancors-fixed');
-    } else {
-     $('body').removeClass('ancors-fixed');
-    }
-});
+
 
 
 //CALENDAR
 
 
-       //  $(function(){
-       //      $("#datepicker").datepicker();
-       // });
-$( function() {
-    $( "#datepicker" ).datepicker({
-      showOn: "both",
-      buttonImage: "img/icon/w-datepicker.png",
-      buttonImageOnly: true,
-      buttonText: "Select date",
-      nextText: ">>",
-      prevText: "<<"
-    });
-  } );
-$( function() {
-    $( "#datepickerCome" ).datepicker({
-      showOn: "both",
-      buttonImage: "img/icon/w-datepicker.png",
-      buttonImageOnly: true,
-      buttonText: "Select date",
-      nextText: ">>",
-      prevText: "<<"
-    });
-  } );
+			 //  $(function(){
+			 //      $("#datepicker").datepicker();
+			 // });
+
+
 
 //
 
 
 
 
-    $("#form").submit(function() {
-        $.ajax({
-            type: "POST",
-            url: "mail.php",
-            data: $(this).serialize()
-        }).done(function() {
-            $(this).find("input").val("");
-            alert("Ваше сообщение отправлено!");
-            $("#form").trigger("reset");
-        });
-        return false;
-    });
-    
+// .done(function() {
+//           $(this).find("input").val("");
+//            alert("Ваше сообщение отправлено!");
+//            $("#form").trigger("reset");
+//         });
+
+
+		// $("#form").submit(function() {
+		//     $.ajax({
+		//         type: "POST",
+		//         url: "mail.php",
+		//         data: $(this).serialize()
+		//     }).done(function() {
+		//         $(this).find("input").val("");
+		//         alert("Ваше сообщение отправлено!");
+		//         $("#form").trigger("reset");
+		//     });
+		//     .done(function() {
+		//         $('.form-sent').css('display',' block');
+		//     });
+		//     return false;
+		// });
+		
 //
 
-$(function() {
-     $('.qtyplus').click(function(e) {
-   var $target = $(e.currentTarget),
-       $parent = $target.closest('.count-item-num'),
-       $num = $parent.find('.qty')
-       currentNum = parseInt($num.val(), 10) || 0;
-   $num.val(++currentNum);
-  });
 
-     $('.qtyminus').click(function(e) {
-   var $target = $(e.currentTarget),
-       $parent = $target.closest('.count-item-num'),
-       $num = $parent.find('.qty')
-       currentNum = parseInt($num.val(), 10) || 1;
-   $num.val(--currentNum);
-  });
-});
 
 
 
@@ -251,7 +280,7 @@ $(function() {
 //       y = ev.pageY,
 //       left = containerWidth/2 - x,
 //       top = containerHeight/2 - y;
-  
+	
 //   TweenMax.to(
 //     $layer,
 //     1,

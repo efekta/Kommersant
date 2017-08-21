@@ -3329,7 +3329,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .modal-open { overflow: hidden; }
 
-.modal { position: fixed; top: 163px; right: 0; bottom: 0; left: 0; z-index: 1050; display: block; outline: 0; }
+.modal { position: fixed; top: 163px; right: 0; bottom: 0; left: 0; z-index: 1050; display: none; outline: 0; }
 
 .modal p { margin-top: 0; }
 
@@ -3447,6 +3447,6 @@ input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-c
 
 .ui-state-active { background: #ffffff; color: #5f255f; font-weight: bold; }
 
-.form-sent { display: none; padding-top: 20px; text-align: center; }
+.form-sent div { padding-top: 20px; text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
