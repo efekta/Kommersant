@@ -32,7 +32,7 @@ jQuery(document).ready(function($){
             data: $(this).serialize(),
             success: function (data) {
             $('#form .form-sent').html('<div>Ваше сообщение отправлено!</div>');
-            console.log($(this).serialize() );
+            console.log( $( this ).serialize() );
   }
        });
         return false;
