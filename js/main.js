@@ -25,6 +25,7 @@ jQuery(document).ready(function($){
 		 return false;
  });
  $("#form").submit(function() {
+ 	console.log($(this).serialize());
         $.ajax({
             type: "POST",
             url: "http://localhost:7882",
@@ -32,24 +33,11 @@ jQuery(document).ready(function($){
             data: $(this).serialize(),
             success: function (data) {
             $('#form .form-sent').html('<div>Ваше сообщение отправлено!</div>');
-            console.log( $( this ).serialize() );
+
   }
        });
         return false;
     });
-// $("#form").submit(function() {
-// 				$.ajax({
-// 						type: "POST",
-// 						url: "http://localhost:7882",
-// 						dataType: "html",
-// 						data: $(this).serialize(),
-// 						success: function (data) {
-// 						$('#form .form-sent').html('<div>Ваше сообщение отправлено!</div>');
-// 						console.log("$(this).serialize()");
-// 	}
-// 			 });
-// 				return false;
-// 		});
 $(window).bind('scroll', function () {
 		if ($(window).scrollTop() > 200) {
 				$('body').addClass('fixed-menu');
