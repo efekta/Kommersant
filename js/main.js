@@ -68,7 +68,9 @@ $( function() {
       showOn: "both",
       buttonImage: "img/icon/w-datepicker.png",
       buttonImageOnly: true,
-      buttonText: "Select date"
+      buttonText: "Select date",
+      nextText: ">>",
+      prevText: "<<"
     });
   } );
 $( function() {
@@ -76,9 +78,32 @@ $( function() {
       showOn: "both",
       buttonImage: "img/icon/w-datepicker.png",
       buttonImageOnly: true,
-      buttonText: "Select date"
+      buttonText: "Select date",
+      nextText: ">>",
+      prevText: "<<"
     });
   } );
+
+
+// ( function($) {
+//   'use strict';
+// $( ".form-calendar" ).each(function() {
+//   $( this ).datepicker({
+//       showOn: "both",
+//       buttonImage: "img/icon/w-datepicker.png",
+//       buttonImageOnly: true,
+//       buttonText: "Select date",
+//       nextText: ">>",
+//       prevText: "<<"
+//     });
+// });
+
+// })(jQuery);
+
+
+
+
+ // $(this).datepicker($.datepicker.regional["ru"])
 
 // $( ".fa-chevron-right" ).datepicker({
 //   prevText: "Earlier"
@@ -105,7 +130,6 @@ $( function() {
 //   } );
 
 $(function() {
-    $("#datepicker").datepicker($.datepicker.regional["ru"]);
      $('.qtyplus').click(function(e) {
    var $target = $(e.currentTarget),
        $parent = $target.closest('.count-item-num'),
@@ -122,6 +146,9 @@ $(function() {
    $num.val(--currentNum);
   });
 });
+
+//
+
 
 
 //

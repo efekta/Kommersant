@@ -31,7 +31,7 @@ $mod-padding-footer: 20px;
   bottom: 0;
   left: 0;
   z-index: 1050;
-  display: none;
+  display: block;
   // overflow: hidden;  
   outline: 0;
 
@@ -419,7 +419,29 @@ input[type="checkbox"]:checked + label::before {
   cursor: pointer;
   margin-top: 20px;
 }
-
+.ui-datepicker {
+  padding: 10px 20px;
+  border: 1px solid $base-white;
+}
+.ui-datepicker-title {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  border: 1px solid $base-white;
+}
+// .ui-datepicker-year {
+//   float: right;
+// }
+.ui-datepicker-prev {
+  border: 1px solid $base-white;
+  float: left;
+  margin-bottom: 5px;
+}
+.ui-datepicker-next {
+  border: 1px solid $base-white;
+  float: right;
+  margin-bottom: 5px;
+}
 
 // .modal-form-count::after {
 //   content: "";
