@@ -1,4 +1,3 @@
-;
 
 // VIDEO
 function playerState(el, state){

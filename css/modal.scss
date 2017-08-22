@@ -218,6 +218,7 @@ $mod-padding-footer: 20px;
   background-color: #4f1952;
 }
 
+
 .modal-form::after {
   content: "";
   display: block;
@@ -287,6 +288,10 @@ $mod-padding-footer: 20px;
 .booking-arrived {
   display: inline-block;
   margin-right: 20px;
+}
+.ui-widget {
+  display: block;
+  background: $base-violet;
 }
 .count-item {
     text-align: right;
@@ -414,9 +419,7 @@ input[type="checkbox"]:checked + label::before {
   cursor: pointer;
   margin-top: 20px;
 }
-
 .ui-datepicker {
-  background: $base-violet;
   padding: 10px 20px;
   border: 1px solid $base-white;
 }

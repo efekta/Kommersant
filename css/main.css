@@ -3494,6 +3494,8 @@ body.fixed::after { position: fixed; }
 
 .booking-arrived { display: inline-block; margin-right: 20px; }
 
+.ui-widget { display: block; background: #5f255f; }
+
 .count-item { text-align: right; padding-bottom: 7px; }
 
 .count-item-title { margin-right: 20px; }
@@ -3524,7 +3526,7 @@ input[type="checkbox"]:checked + label::before { background: url(../img/icon/w-c
 
 .btn-modal-form { display: block; margin: 0 auto; color: #ffffff; background: #998646; border: none; outline: none; padding: 15px 20px; cursor: pointer; margin-top: 20px; }
 
-.ui-datepicker { background: #5f255f; padding: 10px 20px; border: 1px solid #ffffff; }
+.ui-datepicker { padding: 10px 20px; border: 1px solid #ffffff; }
 
 .ui-datepicker-title { text-align: center; }
 
