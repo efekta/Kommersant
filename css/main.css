@@ -3401,7 +3401,7 @@ body.fixed .o-sidebar { left: 0; }
 
 .booking-arrived { display: inline-block; margin-right: 20px; }
 
-.ui-widget { display: block; background: #5f255f; }
+.ui-widget { background: #5f255f; }
 
 .count-item { text-align: right; padding-bottom: 7px; }
 
