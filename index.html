@@ -4,7 +4,14 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Главная</title>
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#66216a">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#66216a">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#66216a">
+
+		<title>ПРОГУЛКИ ПО РОСТОВУ: ГДЕ ТУРИСТУ ХОРОШО</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 		<!-- ALEX -->
@@ -29,7 +36,8 @@
 						</li>
 						<li class="top-menu__item">
 							<a href="#" class="top-menu__link">
-								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic" width="350">
+								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic">
+								<img src="img/content/kommersant-mobile.png" alt="логотип коммерсант" class="top-menu__pic_mobile">
 							</a>
 						</li>
 					</ul>
@@ -66,12 +74,21 @@
 					</div>
 				</header>
 				<!-- /HEADER -->
-				<img src="img/content/logo-title.png" alt="Логотип" class="logo-title wow bounceInDown" data-wow-duration="3s">
+
+				<div class="logo-title">
+					<img src="img/content/logo-title.png" alt="Логотип" class="wow bounceInDown" data-wow-duration="3s">
+					<h1>Прогулки по Ростову: где туристу хорошо</h1>
+					<div class="logo-title-desc">
+						<p>Совместный проект «Ъ-Юг» и отеля «Меркюр Ростов Центр» — это навигатор для тех, кто оказался по делам в южной столице или путешествует с семьей. Выберите маршрут и оцените донское гостеприимство.</p>
+					</div>
+				</div>
+
 				<a href="#down" class="button-down mobile">
 					<div class="button-down__icon"></div>
 				</a>
 			</div>
 			
+
 			<!-- FEATURES -->
 			<div class="features wow bounceInUp" data-wow-delay="2s" data-wow-duration="3s" id="down">
 				<a href="page-1.html" class="features__link">
@@ -83,8 +100,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Ростов спортивный</div>
-							<p class="features-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+							<div class="features-item__title">Как казаки в футбол играют</div>
+							<p class="features-item__desc">Где посмотреть матч и активно отдохнуть?
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -102,8 +119,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Ростов туристический</div>
-							<p class="features-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+							<div class="features-item__title">За лещом и зрелищем</div>
+							<p class="features-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -121,8 +138,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Бизнес маршрут</div>
-							<p class="features-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+							<div class="features-item__title">По деловому маршруту</div>
+							<p class="features-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -140,8 +157,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Ростов семейный</div>
-							<p class="features-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+							<div class="features-item__title">Где отдохнуть с семьей?</div>
+							<p class="features-item__desc">Парки, пляжи и детская железная дорога
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -203,8 +220,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Ростов спортивный</div>
-								<p class="features-item__desc sidebar-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+								<div class="sidebar-item__title">Как казаки в футбол играют</div>
+								<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -221,8 +238,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Ростов туристический</div>
-								<p class="features-item__desc sidebar-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+								<div class="sidebar-item__title">За лещом и зрелищем</div>
+								<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -239,8 +256,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Бизнес маршрут</div>
-								<p class="features-item__desc sidebar-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+								<div class="sidebar-item__title">По деловому маршруту</div>
+								<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -257,8 +274,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Ростов семейный</div>
-								<p class="features-item__desc sidebar-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+								<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
+								<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -271,9 +288,9 @@
 			<!-- END SIDEBAR -->
 			<!-- </div> --> <!-- END PARALLAX -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-
+			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script> -->
+<!-- 			<script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
 			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-			<script src="js/jquery.ui.datepicker-ru.js"></script>
 			<script src="js/main.js"></script>
 			<script src="js/wow.min.js"></script>
 			<!-- 		<script>
@@ -363,14 +380,15 @@
 									</div>
 									<div class="form-sent"></div>
 									<button type="submit" class="btn-modal-form">Отправить</button>
-									<!-- <input type="submit" class="btn-modal-form" value="Отправить"> -->
 								</div>
 							</form>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		<!-- ALEX END -->
-	</body>
-</html>
+			<!-- ALEX END -->
+		</body>
+	</html>
+	
+	

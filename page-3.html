@@ -4,11 +4,18 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Page-3</title>
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#66216a">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#66216a">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#66216a">
+		<title>ПО ДЕЛОВОМУ МАРШРУТУ</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 		<!-- ALEX -->
-		<link rel="stylesheet" href="css/common.css">
+		<link rel='stylesheet' type="text/css" href="dzsparallaxer/dzsparallaxer.css">
+		<!-- <link rel="stylesheet" href="alex/css/common.css"> -->
 		<!-- ALEX END -->
 	</head>
 	<body>
@@ -27,12 +34,13 @@
 						</li>
 						<li class="top-menu__item">
 							<a href="#" class="top-menu__link">
-								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic" width="300">
+								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic">
+								<img src="img/content/kommersant-mobile.png" alt="логотип коммерсант" class="top-menu__pic_mobile">
 							</a>
 						</li>
 					</ul>
 					<a href="#" class="logo">
-						<img src="img/content/logo-head.png" alt="Логотип" class="logo__pic" width="200" height="60">
+						<img src="img/icon/logo-small.png" alt="Логотип" class="logo__pic" width="200" height="60">
 					</a>
 					<!-- <a href="#" class="logo-page">
 								<img src="img/content/logo-page.png" alt="Логотип" class="logo__pic-page" width="144" height="73">
@@ -89,22 +97,26 @@
 				</header>
 				<!-- 	/HEADER -->
 				<!-- 	TITLE -->
-				<div class="page-title">Бизнес маршрут</div>
+				<div class="page-title">По деловому маршруту</div>
 				<a href="#down" class="button-down mobile">
 					<div class="button-down__icon"></div>
 				</a>
 				<!-- /TITLE -->
 			</div>
 			</div> <!-- END PAGE -->
-			<div class="container">
-				<div class="page-content page-content-title">
-					<p>«Ворота Кавказа», «Ростов-Папа», комбайновая столица России — так называют Ростов, и это не просто красивые слова. Город находится в числе лидеров по производству сельскохозяйственной техники, вертолетов, экспорту зерна, а также является связующим звеном среди важных транспортных магистралей.  Промышленные предприятия в основной массе расположены на окраинах, а вот деловой центр сосредоточен в самом сердце города: все административные здания и головные офисы большинства корпораций находятся друг от друга буквально в двух шагах.
-					</p>
+
+			<!-- PAGE-DESCRIPTION-->
+			<div class="page-description">
+				<div class="container">
+					<div class="page-content">
+						<p>«Ворота Кавказа», «Ростов-Папа», комбайновая столица России — так называют Ростов, и это не просто красивые слова. Город находится в числе лидеров по производству сельскохозяйственной техники, вертолетов, экспорту зерна, а также является связующим звеном среди важных транспортных магистралей.  Промышленные предприятия в основной массе расположены на окраинах, а вот деловой центр сосредоточен в самом сердце города: все административные здания и головные офисы большинства корпораций находятся друг от друга буквально в двух шагах.</p>
+					</div>
 				</div>
 			</div>
+			<div id="down"></div>
 			<!-- MAP -->
 			<div class="map">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A30d0140d458af9309e96d1b153b742dbf71c47802e47f219a87249ff085e4ed5&amp;width=100%25&amp;height=724px&amp;lang=ru_RU&amp;scroll=false"></script>
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A30d0140d458af9309e96d1b153b742dbf71c47802e47f219a87249ff085e4ed5&amp;width=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
 				<!-- CONTENT WITHIN-->
 				<div class="container">
 					<div class="within-content within-content-biznes">
@@ -115,79 +127,113 @@
 				<!-- /CONTENT WITHIN-->
 			</div>
 			<!-- /MAP -->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture picture-biznes-1"></div>
-			<!-- BLOCK-PICTURE -->
-			<!-- PAGE-CONTENT-->
-			<div class="page-description">
-				<div class="container">
-					<div class="page-content">
-						<p>
-							Построенное в 1899 году, здание ростовской мэрии, находящееся неподалеку от Центрального парка им. М. Горького, — одна из главных достопримечательностей города. Изначально в здании размещались городская дума и управа, затем, в советское время — областной КПСС. И сегодня именно здесь решаются все важные вопросы относительно жизни и развития города. Само же здание имеет статус памятника архитектуры федерального значения.
-						</p>
+			
+			<div class="block-picture-wrapper outside slider">
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg3-1/2.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg3-1/2.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content">
+							<p>
+								Построенное в 1899 году, здание ростовской мэрии, находящееся неподалеку от Центрального парка им. М. Горького, — одна из главных достопримечательностей города. Изначально в здании размещались городская дума и управа, затем, в советское время — областной КПСС. И сегодня именно здесь решаются все важные вопросы относительно жизни и развития города. Само же здание имеет статус памятника архитектуры федерального значения.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /PAGE-CONTENT-->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture picture-biznes-2"></div>
-			<!-- BLOCK-PICTURE -->
-			<div class="page-description page-description-biznes">
-				<div class="container">
-					<div class="page-content">
-						<p>
-							Прогуливаясь по Большой Садовой, можно попасть на площадь Советов, где находится еще одно важнейшее административное здание уже не только для города, но и всей донской земли — Дом Советов. Здесь располагаются администрация и законодательное собрание Ростовской области. В оригинальном проекте в здании должны были обустроить 1000 комнат, конференц-зал, столовые, почту, парикмахерскую, буфеты, типографию и прочие службы, однако Великая Отечественная война помешала масштабным планам. Тем не менее, здание смотрится довольно внушительно — даром, что является одним из самых больших строений на Северном Кавказе и самым большим административным сооружением на юге России.
-						</p>
-						<p>
-							Напротив областной администрации, на Большой Садовой, в одном из лучших зданий Ростова  расположился еще один важнейший политический орган — Полпредство Президента РФ в ЮФО. На протяжении не одного десятка лет здесь, в шестиэтажке с 10 монументальными колоннами, располагались горком КПСС и горисполком. Теперь же центр деятельности полномочного представителя дополняет архитектурный ансамбль квартала правительственных учреждений.
-						</p>
+
+			<div class="block-picture-wrapper slider">
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg3-1/3.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg3-1/3.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content">
+							<p>
+								Прогуливаясь по Большой Садовой, можно попасть на площадь Советов, где находится еще одно важнейшее административное здание уже не только для города, но и всей донской земли — Дом Советов. Здесь располагаются администрация и законодательное собрание Ростовской области. В оригинальном проекте в здании должны были обустроить 1000 комнат, конференц-зал, столовые, почту, парикмахерскую, буфеты, типографию и прочие службы, однако Великая Отечественная война помешала масштабным планам. Тем не менее, здание смотрится довольно внушительно — даром, что является одним из самых больших строений на Северном Кавказе и самым большим административным сооружением на юге России.
+							</p>
+							<p>
+								Напротив областной администрации, на Большой Садовой, в одном из лучших зданий Ростова  расположился еще один важнейший политический орган — Полпредство Президента РФ в ЮФО. На протяжении не одного десятка лет здесь, в шестиэтажке с 10 монументальными колоннами, располагались горком КПСС и горисполком. Теперь же центр деятельности полномочного представителя дополняет архитектурный ансамбль квартала правительственных учреждений.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /PAGE-CONTENT-->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture picture-biznes-3"></div>
-			<!-- /BLOCK-PICTURE -->
-			<div class="page-description page-description-biznes overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>
-							Одним из красивейших мест города по праву можно назвать Соборную площадь, на которой расположен главный кафедральный собор Ростовской и Новочеркасской епархии — Собор Рождества Пресвятой Богородицы. Изначально в этом месте располагалась каменная церковь с деревянными куполами. Когда она пришла в упадок, решено было построить новый собор с четырехъярусной колокольней. Примечательно, что с приходом советской власти собор был закрыт, в 1937 году на его месте и вовсе разместили зоопарк, однако, в 1942 году, во время войны и оккупации собор открыли снова. Но полностью церковные постройки и колокольню восстановили лишь к 250-летию Ростова, к этой же дате на Соборной площади установили памятник Святителю Дмитрию Ростовскому. И сегодня площадь и собор являются одним из самых посещаемых туристами мест города.
-						</p>
+
+			<div class="block-picture-wrapper">	
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg3-1/4.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg3-1/4.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content roz">
+							<p>
+								Одним из красивейших мест города по праву можно назвать Соборную площадь, на которой расположен главный кафедральный собор Ростовской и Новочеркасской епархии — Собор Рождества Пресвятой Богородицы. Изначально в этом месте располагалась каменная церковь с деревянными куполами. Когда она пришла в упадок, решено было построить новый собор с четырехъярусной колокольней. Примечательно, что с приходом советской власти собор был закрыт, в 1937 году на его месте и вовсе разместили зоопарк, однако, в 1942 году, во время войны и оккупации собор открыли снова. Но полностью церковные постройки и колокольню восстановили лишь к 250-летию Ростова, к этой же дате на Соборной площади установили памятник Святителю Дмитрию Ростовскому. И сегодня площадь и собор являются одним из самых посещаемых туристами мест города.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<div class="block-picture picture-biznes-4"></div>
-			<!-- PAGE-CONTENT-->
-			<div class="page-description overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>
-							В десяти минутах ходьбы от Соборной площади находится любимейшая прогулочная улица ростовчан и гостей южной столицы — Набережная реки Дон. Красивая, современная, со множеством памятников и скульптур, Набережная открывает прекрасный вид на левый берег Дона, знаменитый Левбердон, где находится одна из самых больших рекреационных зон на юге России. На протяжении более 10 километров вдоль берега расположились многочисленные увеселительные заведения, рестораны, кафе, клубы, базы отдыха, собирающие ежедневно огромное количество посетителей всех возрастов.
-						</p>
+
+			<div class="block-picture-wrapper">	
+				
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg3-1/5.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg3-1/5.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content">
+							<p>
+								В десяти минутах ходьбы от Соборной площади находится любимейшая прогулочная улица ростовчан и гостей южной столицы — Набережная реки Дон. Красивая, современная, со множеством памятников и скульптур, Набережная открывает прекрасный вид на левый берег Дона, знаменитый Левбердон, где находится одна из самых больших рекреационных зон на юге России. На протяжении более 10 километров вдоль берега расположились многочисленные увеселительные заведения, рестораны, кафе, клубы, базы отдыха, собирающие ежедневно огромное количество посетителей всех возрастов.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /PAGE-CONTENT-->
-			<div class="block-picture picture-biznes-5"></div>
-			<!-- PAGE-CONTENT-->
-			<div class="page-description overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>
-							На самой же Набережной можно насладиться прекрасными видами, покататься на прогулочном теплоходе, приобрести сувениры и изделия с символикой Донского края. Будьте готовы к тому, что в небольших сувенирных лавочках к оплате принимают только наличные, а большая часть банкоматов находится в центре города. Тем не менее, почти во всех более крупных магазинчиках, кафе и ресторанах свободно можно расплатиться картой.
-						</p>
+
+			<div class="block-picture-wrapper">	
+				
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg3-1/6.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg3-1/6.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content">
+							<p>
+								На самой же Набережной можно насладиться прекрасными видами, покататься на прогулочном теплоходе, приобрести сувениры и изделия с символикой Донского края. Будьте готовы к тому, что в небольших сувенирных лавочках к оплате принимают только наличные, а большая часть банкоматов находится в центре города. Тем не менее, почти во всех более крупных магазинчиках, кафе и ресторанах свободно можно расплатиться картой.
+							</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /PAGE-CONTENT-->
-			<div class="block-picture picture-4"></div>
-			<!-- BLOCK-PICTURE -->
+			
+			
+			<!-- BLOCK-VIDEO -->
+			<div id="video">
+				<iframe id="player" src="https://www.youtube.com/embed/AYOwxNYvs3I?enablejsapi=1&ecver=2&controls=0&showinfo=0&modestbranding=1&rel=0&loop=1" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+			</div>
+			<!-- BLOCK-VIDEO -->
 			<!-- CONTENT WITHIN-->
 			<div class="container content-footer">
 				<div class="within-content within-content-last">
 					<p>
-						Расположенный в самом сердце Ростова, отель Mercure приглашает гостей города отведать традиционные блюда русской, а также донской кухни. Гурманы непременно оценят изысканную французскую кулинарию, которой по праву можно годиться. Восхитительные хрустящие круассаны, нежные, сочные корзиночки с закусками, рыбные и мясные блюда не разочаруют даже самый взыскательный вкус.
+						Находящийся в шаговой доступности от центра города — Большой Садовой и областной администрации, отель Mercure придется по вкусу всем гостям, привыкшим планировать и ценить свое время. Mercure – прекрасное место для проведения совещаний и деловых переговоров в Ростове-на-Дону. В отеле оборудованы два современных конференц-зала, оснащенные профессиональным презентационным оборудованием, беспроводным Интернетом, кондиционером, гардеробом, мини-баром и кофе-машиной. В ресторане отеля можно заказать бизнес-ланч, а также позавтракать и поужинать. 
 					</p>
 				</div>
 			</div>
@@ -211,8 +257,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Ростов спортивный</div>
-								<p class="features-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+								<div class="features-item__title">Как казаки в футбол играют</div>
+								<p class="features-item__desc">Где посмотреть матч и активно отдохнуть?
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -230,8 +276,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Ростов туристический</div>
-								<p class="features-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+								<div class="features-item__title">За лещом и зрелищем</div>
+								<p class="features-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -249,8 +295,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Бизнес маршрут</div>
-								<p class="features-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+								<div class="features-item__title">По деловому маршруту</div>
+								<p class="features-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -268,8 +314,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Ростов семейный</div>
-								<p class="features-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+								<div class="features-item__title">Где отдохнуть с семьей?</div>
+								<p class="features-item__desc">Парки, пляжи и детская железная дорога
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -328,8 +374,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Ростов спортивный</div>
-									<p class="features-item__desc sidebar-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+									<div class="sidebar-item__title">Как казаки в футбол играют</div>
+									<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -346,8 +392,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Ростов туристический</div>
-									<p class="features-item__desc sidebar-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+									<div class="sidebar-item__title">За лещом и зрелищем</div>
+									<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -364,8 +410,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Бизнес маршрут</div>
-									<p class="features-item__desc sidebar-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+									<div class="sidebar-item__title">По деловому маршруту</div>
+									<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -382,8 +428,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Ростов семейный</div>
-									<p class="features-item__desc sidebar-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+									<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
+									<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -401,8 +447,14 @@
 				<script src="js/lazyloader/jquery.lazy.min.js"></script>
 				<script src="js/bootstrap-modal/util.js"></script>
 				<script src="js/bootstrap-modal/modal.js"></script>
+				<script src="dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
+
+				<link rel='stylesheet' type="text/css" href="cs_scroll/jquery.mCustomScrollbar.min.css"/>
+				<script src="cs_scroll/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+				<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+
 				<script src="js/common.js"></script>
-				<!-- <div class="modal fade" id="orderModal">
+				<div class="modal fade" id="orderModal">
 					<div class="modal-tbl">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -411,11 +463,83 @@
 									<h5 class="modal-title">Оформление</h5>
 								</div>
 								<div class="modal-body">
+								<form action="" id="form" class="form">
+									<div class="modal-form">
+										<div class="modal-form-data">
+											<input name="name" class="form-name" type="text" placeholder="ФИО">
+										</div>
+										<div class="modal-form-data">
+											<input name="tel" class="form-name" type="tel" placeholder="Телефон">
+										</div>
+										<div class="modal-form-data">
+											<input name="email" class="form-name" type="email" placeholder="E-mail">
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="form-booking">
+											
+											<span class="booking-arrived">Заезд:</span>
+											<div class="modal-form-booking modal-form-booking-come">
+												<input type="text" id="datepicker" id="ui-datepicker-div" name="arrived" class="form-name form-calendar" value="20/08/2017">
+											</div>
+
+											<span class="booking-arrived">Выезд:</span>
+											<div class="modal-form-booking">
+												<input type="text" id="datepickerCome" id="ui-datepicker-div" name="arrivedCome" class="form-name form-calendar" value="20/08/2017">
+											</div>
+											
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="count-item count-item-top">
+											<span class="count-item-title">Взрослых:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantity' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+
+										<div class="count-item">
+											<span class="count-item-title">Детей:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantityChild' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+
+										<div class="count-item count-item-bottom">
+											<span class="count-item-title">Младенцев:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantityBaby' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="booking-item">
+											<div class="form-booking-item form-booking-item-bottom">
+												<input type="checkbox" checked id="input-biz" name="biznes">
+												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
+											</div>
+											<div class="form-booking-item">
+												<input type="checkbox" id="input-eco" name="economy">
+												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-sent"></div>
+									<button type="submit" class="btn-modal-form">Отправить</button>
+									<!-- <input type="submit" class="btn-modal-form" value="Отправить"> -->
+								</div>
+							</form>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
 				<!-- ALEX END -->
 			</body>
 		</html>

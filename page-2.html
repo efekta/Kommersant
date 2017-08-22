@@ -4,11 +4,20 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Page-2</title>
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#66216a">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#66216a">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#66216a">
+		<title>ЗА ЛЕЩОМ И ЗРЕЛИЩЕМ</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 		<!-- ALEX -->
-		<link rel="stylesheet" href="css/common.css">
+		<link rel='stylesheet' type="text/css" href="dzsparallaxer/dzsparallaxer.css">
+		<link rel='stylesheet' type="text/css" href="advancedscroller/plugin.css"/>
+		<!-- <link rel="stylesheet" href="alex/css/common.css"> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 		<!-- ALEX END -->
 	</head>
 	<body>
@@ -27,12 +36,13 @@
 						</li>
 						<li class="top-menu__item">
 							<a href="#" class="top-menu__link">
-								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic" width="300">
+								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic">
+								<img src="img/content/kommersant-mobile.png" alt="логотип коммерсант" class="top-menu__pic_mobile">
 							</a>
 						</li>
 					</ul>
 					<a href="#" class="logo">
-						<img src="img/content/logo-head.png" alt="Логотип" class="logo__pic" width="200" height="60">
+						<img src="img/icon/logo-small.png" alt="Логотип" class="logo__pic" width="200" height="60">
 					</a>
 					<!-- <a href="#" class="logo-page">
 										<img src="img/content/logo-page.png" alt="Логотип" class="logo__pic-page" width="144" height="73">
@@ -89,23 +99,28 @@
 				</header>
 				<!-- 	/HEADER -->
 				<!-- 	TITLE -->
-				<div class="page-title">Ростов туристический</div>
+				<div class="page-title">За лещом и зрелищем</div>
 				<!-- /TITLE -->
 				<a href="#down" class="button-down mobile">
 					<div class="button-down__icon"></div>
 				</a>
 			</div>
-			</div> <!-- END PAGE -->
+		</div> <!-- END PAGE -->
+
+		<!-- PAGE-DESCRIPTION-->
+		<div class="page-description">
 			<div class="container">
-				<div class="page-content page-content-title">
+				<div class="page-content">
 					<p>Ростов по праву можно назвать гастрономической столицей юга. Простая, но обильная, с большим количеством свежих овощей и рыбы, донская кухня — одна из визитных карточек города. Побывать в Ростове и не привезти «донской сувенир» — леща, рыбец, шамайку или раков — практически преступление.
 					</p>
 				</div>
 			</div>
 		</div>
+		
+		<div id="down"></div>
 		<!-- MAP -->
 		<div class="map">
-			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A30d0140d458af9309e96d1b153b742dbf71c47802e47f219a87249ff085e4ed5&amp;width=100%25&amp;height=724px&amp;lang=ru_RU&amp;scroll=false"></script>
+			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A30d0140d458af9309e96d1b153b742dbf71c47802e47f219a87249ff085e4ed5&amp;width=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
 			<!-- CONTENT WITHIN-->
 			<div class="container">
 				<div class="within-content">
@@ -115,67 +130,106 @@
 			<!-- /CONTENT WITHIN-->
 		</div>
 		<!-- /MAP -->
-		<!-- BLOCK-PICTURE -->
-		<div class="block-picture" style="background-image: url('img/bg2-1/2_1.jpg');"></div>
-		<!-- BLOCK-PICTURE -->
-		<!-- PAGE-CONTENT-->
-		<div class="page-description overflow">
-			<div class="container">
-				<div class="page-content">
-					<p>
+		
+		<div class="block-picture-wrapper">	
+			<div class="block-picture dzsparallaxer auto-init  use-loading">
+				<!-- <img src="img/bg2-1/2_1.jpg" alt=""> -->
+				<div class="divimage dzsparallaxer--target " data-src="img/bg2-1/2_1.jpg"></div>
+		        <div class="semi-black-overlay"></div>
+			</div>
+			
+			<div class="page-description overflow">
+				<div class="container">
+					<div class="page-content">
+						<p>
 						Стоит хотя бы раз посетить и один из гастрономических праздников, которые обычно проводятся в жаркое время года, — Фестиваль ухи, Фестиваль селедки, Фестиваль хорошей еды. Фуд-фестивали на Дону — замечательный способ погрузиться в казачью культуру, своими глазами увидеть знаменитую джигитовку, угоститься блюдами казачьей кухни и почувствовать богатство донского края во всей широте.
 						
 						Донская кухня — настоящая песня. «Щи с бараниной сменила лапша, потом – вареная баранина, курятина, холодец из бараньих ножек, жареная картошка, пшенная с коровьим маслом каша, кулага, блинцы с каймаком, соленый арбуз», — смаковал донское застолье в «Тихом Доне» Михаил Шолохов. Писатель сам был родом из донских казаков и уж точно разбирался в традиционных кулинарных изысках.
 					</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- /PAGE-CONTENT-->
-		<!-- BLOCK-PICTURE -->
-		<div class="block-picture" style="background-image: url('img/bg2-1/3_1.jpg');"></div>
-		<!-- BLOCK-PICTURE -->
-		<div class="page-description overflow">
-			<div class="container">
-				<div class="page-content">
-					<p>
-						Музей Шолохову, прославившему казачьи традиции, расположился в центре города, в старинном особняке, Доме братьев Мартын, крупных промышленников, а исторически —  в центре бывшей крепости Святого Димитрия Ростовского. В «Шолохов-Центре» можно увидеть поистине уникальные экспонаты: произведения живописи, графики, скульптуры, декоративно-прикладного искусства, предметы вооружения и военной амуниции, ордена и медали, связанные с историей российского казачества. В постоянной экспозиции есть книги, карты, ноты, хранившиеся в личных библиотеках членов императорской семьи. В музее часто проводят лекции, творческие встречи, тематические вечера.
-					</p>
+
+		<div class="block-picture-wrapper">
+			<div class="block-picture dzsparallaxer auto-init  use-loading">
+				<!-- <img src="img/bg2-1/3_1.jpg" alt=""> -->
+				<div class="divimage dzsparallaxer--target " data-src="img/bg2-1/3_1.jpg"></div>
+		        <div class="semi-black-overlay"></div>
+			</div>
+
+			<div class="page-description overflow">
+				<div class="container">
+					<div class="page-content roz">
+						<p>Музей Шолохову, прославившему казачьи традиции, расположился в центре города, в старинном особняке, Доме братьев Мартын, крупных промышленников, а исторически —  в центре бывшей крепости Святого Димитрия Ростовского. В «Шолохов-Центре» можно увидеть поистине уникальные экспонаты: произведения живописи, графики, скульптуры, декоративно-прикладного искусства, предметы вооружения и военной амуниции, ордена и медали, связанные с историей российского казачества. В постоянной экспозиции есть книги, карты, ноты, хранившиеся в личных библиотеках членов императорской семьи. В музее часто проводят лекции, творческие встречи, тематические вечера.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- /PAGE-CONTENT-->
-		<!-- BLOCK-PICTURE -->
-		<div class="block-picture" style="background-image: url('img/bg2-1/5_1.jpg');"></div>
-		<!-- /BLOCK-PICTURE -->
-		<!-- <div class="page-description page-description-height"></div> -->
-		<!-- <div class="block-picture" style="background-image: url('img/bg2-1/5_1.jpg');"></div> -->
-		<!-- PAGE-CONTENT-->
-		<div class="page-description">
-			<div class="container">
-				<div class="page-content">
-					<p>
+
+		<div class="block-picture-wrapper outside">				
+			<div class="block-picture dzsparallaxer auto-init  use-loading">
+				<!-- <img src="img/bg2-1/5_1.jpg" alt=""> -->
+				<!-- <div class="divimage dzsparallaxer--target " data-src="img/bg2-1/5_1.jpg"></div> -->
+		        <!-- <div class="semi-black-overlay"></div> -->
+
+		        <div id="as0" class="advancedscroller skin-agata-inset with-shadow dzsparallaxer--target">
+	                <div class="preloader-semicircles"></div>
+	                <ul class="items">
+	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/5_1.jpg)"></div></li>
+	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/5_2.jpg)"></div></li>
+	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/5_3.jpg)"></div></li>
+	                </ul>
+	            </div>
+	           
+			</div>
+
+
+			
+			<div class="page-description overflow">
+				<div class="container">
+					<div class="page-content">
+						<p>
 						Жаловал своим присутствием Ростов и другой великий писатель — Александр Пушкин. Правда — только проездом. Однако самую красивую прогулочную улицу города назвали в его честь.
-					</p>
-					<p>
-						Первоначально улица именовалась Кузнецкой и долгое время не была благоустроенной. Потом, с 70-х годов  XVII века, здесь стали строиться богатые купцы и промышленники, и к ХХ веку Пушкинская приобрела свой современный вид и статус второй самой главной улицы города после Большой Садовой.
-					</p>
-					<p>Сегодня на Пушкинской  расположены Донская государственная публичная библиотека, кинотеатр, несколько вузов и, конечно, памятники самому Пушкину — традиционное место встреч и свиданий — и его героям. Самый необычный из них — «Пушкинские шары», спроектированные архитектором Ю.Н. Солнышкиным и воплощенные в жизнь скульптором  А.А. Скнариным.  Один из резных бронзовых шаров изображает сцены из романа «Евгений Онегин», второй — события из жизни самого писателя. Планировалась установка и третьего шара с изображениями героев пушкинских сказок, но этой задумке, как и установке подсветки в шарах, создающей эффект театра теней, пока, увы, не суждено было сбыться.</p>
+						</p>
+						<p>
+							Первоначально улица именовалась Кузнецкой и долгое время не была благоустроенной. Потом, с 70-х годов  XVII века, здесь стали строиться богатые купцы и промышленники, и к ХХ веку Пушкинская приобрела свой современный вид и статус второй самой главной улицы города после Большой Садовой.
+						</p>
+						<p>Сегодня на Пушкинской  расположены Донская государственная публичная библиотека, кинотеатр, несколько вузов и, конечно, памятники самому Пушкину — традиционное место встреч и свиданий — и его героям. Самый необычный из них — «Пушкинские шары», спроектированные архитектором Ю.Н. Солнышкиным и воплощенные в жизнь скульптором  А.А. Скнариным.  Один из резных бронзовых шаров изображает сцены из романа «Евгений Онегин», второй — события из жизни самого писателя. Планировалась установка и третьего шара с изображениями героев пушкинских сказок, но этой задумке, как и установке подсветки в шарах, создающей эффект театра теней, пока, увы, не суждено было сбыться.</p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<div class="block-picture" style="background-image: url('img/bg2-1/6_2.jpg');"></div>
-		<!-- PAGE-CONTENT-->
-		<div class="page-description">
-			<div class="container">
-				<div class="page-content">
-					<p>
-					Есть в Ростове и особый предмет для гордости, которого нет ни в одном городе мира: уникальные мозаичные панно в подземных переходах на Кировском/Садовой, Университетском/Садовой, Ворошиловском/Садовой, Буденновском/Садовой, а также на Буденновском/Московской около Центрального рынка. В каждом переходе все панно объединены определенной тематикой: здесь показаны подвиги советских космонавтов и главные события в жизни человека от роддома до выпускного, запечатлены военные баталии, профессии и казачьи традиции, шолоховские мотивы. Сделанные вручную, из обычной кафельной плитки более 40 лет назад энтузиастами под руководством облицовщика Юрия Лабинцева, панно являются памятником эпохи соцреализма и радуют глаз гостей и жителей города и сегодня. </p>
+
+		<div class="block-picture-wrapper outside">	
+			<div class="block-picture dzsparallaxer auto-init  use-loading">
+				<!-- <img src="img/bg2-1/6_2.jpg" alt=""> -->
+				<!-- <div class="divimage dzsparallaxer--target " data-src="img/bg2-1/6_2.jpg"></div>
+		        <div class="semi-black-overlay"></div> -->
+		        <div id="as1" class="advancedscroller skin-agata-inset with-shadow dzsparallaxer--target">
+	                <div class="preloader-semicircles"></div>
+	                <ul class="items">
+	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/6_2.jpg)"></div></li>
+	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/6_1.jpg)"></div></li>
+	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/6_3.jpg)"></div></li>
+	                </ul>
+	            </div>
+			</div>
+			<div class="page-description overflow">
+				<div class="container">
+					<div class="page-content">
+						<p>
+						Есть в Ростове и особый предмет для гордости, которого нет ни в одном городе мира: уникальные мозаичные панно в подземных переходах на Кировском/Садовой, Университетском/Садовой, Ворошиловском/Садовой, Буденновском/Садовой, а также на Буденновском/Московской около Центрального рынка. В каждом переходе все панно объединены определенной тематикой: здесь показаны подвиги советских космонавтов и главные события в жизни человека от роддома до выпускного, запечатлены военные баталии, профессии и казачьи традиции, шолоховские мотивы. Сделанные вручную, из обычной кафельной плитки более 40 лет назад энтузиастами под руководством облицовщика Юрия Лабинцева, панно являются памятником эпохи соцреализма и радуют глаз гостей и жителей города и сегодня. </p>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- /PAGE-CONTENT-->
-		<div class="block-picture picture-4"></div>
-		<!-- BLOCK-PICTURE -->
+		
+		<!-- BLOCK-VIDEO -->
+		<div id="video">
+			<iframe id="player" src="https://www.youtube.com/embed/AYOwxNYvs3I?enablejsapi=1&ecver=2&controls=0&showinfo=0&modestbranding=1&rel=0&loop=1" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+		</div>
+		<!-- BLOCK-VIDEO -->
 		<!-- CONTENT WITHIN-->
 		<div class="container content-footer">
 			<div class="within-content within-content-last">
@@ -204,8 +258,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Ростов спортивный</div>
-							<p class="features-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+							<div class="features-item__title">Как казаки в футбол играют</div>
+							<p class="features-item__desc">Где посмотреть матч и активно отдохнуть?
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -223,8 +277,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Ростов туристический</div>
-							<p class="features-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+							<div class="features-item__title">За лещом и зрелищем</div>
+							<p class="features-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -242,8 +296,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Бизнес маршрут</div>
-							<p class="features-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+							<div class="features-item__title">По деловому маршруту</div>
+							<p class="features-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -261,8 +315,8 @@
 					</div>
 					<div class="features-item">
 						<div class="features-item__body">
-							<div class="features-item__title">Ростов семейный</div>
-							<p class="features-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+							<div class="features-item__title">Где отдохнуть с семьей?</div>
+							<p class="features-item__desc">Парки, пляжи и детская железная дорога
 							</p>
 						</div>
 						<div class="features-item__bg"></div>
@@ -321,8 +375,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Ростов спортивный</div>
-								<p class="features-item__desc sidebar-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+								<div class="sidebar-item__title">Как казаки в футбол играют</div>
+								<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -339,8 +393,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Ростов туристический</div>
-								<p class="features-item__desc sidebar-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+								<div class="sidebar-item__title">За лещом и зрелищем</div>
+								<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -357,8 +411,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Бизнес маршрут</div>
-								<p class="features-item__desc sidebar-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+								<div class="sidebar-item__title">По деловому маршруту</div>
+								<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -375,8 +429,8 @@
 						</div>
 						<div class="side-item">
 							<div class="features-item__body">
-								<div class="sidebar-item__title">Ростов семейный</div>
-								<p class="features-item__desc sidebar-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+								<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
+								<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
 								</p>
 							</div>
 							<div class="features__btn sidebar__btn">
@@ -387,15 +441,26 @@
 				</div>
 			</div>
 			<!-- END SIDEBAR -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+			
 			<script src="js/main.js"></script>
 			<!-- ALEX -->
-			<script src="js/smoothscroll/smoothscroll.js"></script>
+			<!-- <script src="js/smoothscroll/smoothscroll.js"></script> -->
 			<script src="js/lazyloader/jquery.lazy.min.js"></script>
 			<script src="js/bootstrap-modal/util.js"></script>
 			<script src="js/bootstrap-modal/modal.js"></script>
+			<!-- <script src="alex/dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script> -->
+
+			<script src="advancedscroller/plugin.js" type="text/javascript"></script>
+			<script src="dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
+			<script src="dzsscroller/scroller.js" type="text/javascript"></script>
+
+
+			<!-- <link rel='stylesheet' type="text/css" href="alex/cs_scroll/jquery.mCustomScrollbar.min.css"/> -->
+			<!-- <script src="alex/cs_scroll/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script> -->
+			<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+
 			<script src="js/common.js"></script>
-			<!-- <div class="modal fade" id="orderModal">
+			<div class="modal fade" id="orderModal">
 				<div class="modal-tbl">
 					<div class="modal-dialog" role="document">
 						<div class="modal-content">
@@ -404,11 +469,83 @@
 								<h5 class="modal-title">Оформление</h5>
 							</div>
 							<div class="modal-body">
+							<form action="" id="form" class="form">
+									<div class="modal-form">
+										<div class="modal-form-data">
+											<input name="name" class="form-name" type="text" placeholder="ФИО">
+										</div>
+										<div class="modal-form-data">
+											<input name="tel" class="form-name" type="tel" placeholder="Телефон">
+										</div>
+										<div class="modal-form-data">
+											<input name="email" class="form-name" type="email" placeholder="E-mail">
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="form-booking">
+											
+											<span class="booking-arrived">Заезд:</span>
+											<div class="modal-form-booking modal-form-booking-come">
+												<input type="text" id="datepicker" id="ui-datepicker-div" name="arrived" class="form-name form-calendar" value="20/08/2017">
+											</div>
+
+											<span class="booking-arrived">Выезд:</span>
+											<div class="modal-form-booking">
+												<input type="text" id="datepickerCome" id="ui-datepicker-div" name="arrivedCome" class="form-name form-calendar" value="20/08/2017">
+											</div>
+											
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="count-item count-item-top">
+											<span class="count-item-title">Взрослых:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantity' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+
+										<div class="count-item">
+											<span class="count-item-title">Детей:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantityChild' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+
+										<div class="count-item count-item-bottom">
+											<span class="count-item-title">Младенцев:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantityBaby' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="booking-item">
+											<div class="form-booking-item form-booking-item-bottom">
+												<input type="checkbox" checked id="input-biz" name="biznes">
+												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
+											</div>
+											<div class="form-booking-item">
+												<input type="checkbox" id="input-eco" name="economy">
+												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-sent"></div>
+									<button type="submit" class="btn-modal-form">Отправить</button>
+									<!-- <input type="submit" class="btn-modal-form" value="Отправить"> -->
+								</div>
+							</form>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div> -->
+			</div>
 			<!-- ALEX END -->
 		</body>
 	</html>

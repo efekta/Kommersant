@@ -4,11 +4,18 @@
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="ie=edge">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<title>Page-4</title>
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#66216a">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#66216a">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#66216a">
+		<title>ГДЕ ОТДОХНУТЬ С СЕМЬЕЙ?</title>
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 		<!-- ALEX -->
-		<link rel="stylesheet" href="css/common.css">
+		<link rel='stylesheet' type="text/css" href="dzsparallaxer/dzsparallaxer.css">
+		<!-- <link rel="stylesheet" href="alex/css/common.css"> -->
 		<!-- ALEX END -->
 	</head>
 	<body>
@@ -27,12 +34,13 @@
 						</li>
 						<li class="top-menu__item">
 							<a href="#" class="top-menu__link">
-								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic" width="300">
+								<img src="img/content/kommersant-head.png" alt="логотип коммерсант" class="top-menu__pic">
+								<img src="img/content/kommersant-mobile.png" alt="логотип коммерсант" class="top-menu__pic_mobile">
 							</a>
 						</li>
 					</ul>
 					<a href="#" class="logo">
-						<img src="img/content/logo-head.png" alt="Логотип" class="logo__pic" width="200" height="60">
+						<img src="img/icon/logo-small.png" alt="Логотип" class="logo__pic" width="200" height="60">
 					</a>
 					<!-- <a href="#" class="logo-page">
 								<img src="img/content/logo-page.png" alt="Логотип" class="logo__pic-page" width="144" height="73">
@@ -89,21 +97,25 @@
 				</header>
 				<!-- 	/HEADER -->
 				<!-- 	TITLE -->
-				<div class="page-title">РОСТОВ СЕМЕЙНЫЙ</div>
+				<div class="page-title">Где отдохнуть с семьей?</div>
 				<!-- /TITLE -->
 				<a href="#down" class="button-down mobile">
 					<div class="button-down__icon"></div>
 				</a>
 			</div>
-			</div> <!-- END PAGE -->
-			<div class="container">
-				<div class="page-content page-content-title">
-					<p>Приезжать в Ростов лучше всего летом. Город зеленый, с большим количеством парковых зон: есть где подышать свежим воздухом и провести время с детьми. В центре города, в шаговой доступности друг от друга, раскинулись несколько парков с приятными тенистыми аллеями, детскими аттракционами, прохладными фонтанами и необычными скульптурами.</p>
+			</div> <!-- END PAGE -->			
+			<!-- PAGE-DESCRIPTION-->
+			<div class="page-description">
+				<div class="container">
+					<div class="page-content">
+						<p>Приезжать в Ростов лучше всего летом. Город зеленый, с большим количеством парковых зон: есть где подышать свежим воздухом и провести время с детьми. В центре города, в шаговой доступности друг от друга, раскинулись несколько парков с приятными тенистыми аллеями, детскими аттракционами, прохладными фонтанами и необычными скульптурами.</p>
+					</div>
 				</div>
 			</div>
+			<div id="down"></div>
 			<!-- MAP -->
 			<div class="map">
-				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A30d0140d458af9309e96d1b153b742dbf71c47802e47f219a87249ff085e4ed5&amp;width=100%25&amp;height=724px&amp;lang=ru_RU&amp;scroll=false"></script>
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A30d0140d458af9309e96d1b153b742dbf71c47802e47f219a87249ff085e4ed5&amp;width=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
 				<!-- CONTENT WITHIN-->
 				<div class="container">
 					<div class="within-content">
@@ -113,82 +125,108 @@
 				<!-- /CONTENT WITHIN-->
 			</div>
 			<!-- /MAP -->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture" style="background-image: url('img/bg4-1/2.jpg');"></div>
-			<!-- BLOCK-PICTURE -->
-			<!-- PAGE-CONTENT-->
-			<div class="page-description overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>Детский автодром, веревочный парк, кукольный театр — развлечений в «Революции» хватит на целый день. Чего стоит один только пруд с птичником под открытым небом: за грациозными розовыми фламинго, роскошными павлинами, великолепными журавлями и изящными лебедями можно наблюдать часами.</p>
+
+			<div class="block-picture-wrapper">	
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg4-1/2.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg4-1/2.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content">
+							<p>Детский автодром, веревочный парк, кукольный театр — развлечений в «Революции» хватит на целый день. Чего стоит один только пруд с птичником под открытым небом: за грациозными розовыми фламинго, роскошными павлинами, великолепными журавлями и изящными лебедями можно наблюдать часами.</p>
 						<p>По центру города лучше передвигаться пешком: несмотря на то что в Ростове действует зона платной парковки, свободное место найти непросто. Прогуливаясь по главной пешеходной улице города Пушкинской, можно попасть еще в один, старейший, парк Ростова-на-Дону — Центральный парк им. А. М. Горького, которому в 2013 году стукнуло 200 лет. Здесь часто проводят фестивали, концерты, праздники. Есть здесь свой планетарий, различные аттракционы, организованы прогулки для детей на лошадях. Парк им. Горького — излюбленное место отдыха ростовчан и гостей города особенно в летние дни.</p>
+						</div>
 					</div>
 				</div>
 			</div>
-			<!-- /PAGE-CONTENT-->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture" style="background-image: url('img/bg4-1/3.jpg');"></div>
-			<!-- BLOCK-PICTURE -->
-			<!-- PAGE-CONTENT-->
-			<div class="page-description overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>
-							Если знойное южное солнце припекает, можно отправиться на Центральный пляж города. Он находится на левом берегу Дона, и добраться до него можно, переправившись через Ворошиловский мост. В теплое время года здесь часто проводят спортивные мероприятия и молодежные праздники. Оборудованная кабинками для переодевания и кафе, пляжная зона невелика, но открывает интересный вид на город. В советское время Центральный пляж посещало до 100 тысяч человек в день. Сегодня поток уменьшился, однако желающих отдохнуть здесь хватает. Тем не менее, купаться ростовчане все же предпочитают за городом.  Если вы все-таки желаете окунуться в донскую воду, советуем тщательно изучить этот вопрос.
-						</p>
-					</div>
+
+			<div class="block-picture-wrapper">	
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg4-1/3.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg4-1/3.jpg"></div>
+			        <div class="semi-black-overlay"></div>
 				</div>
-			</div>
-			<!-- /PAGE-CONTENT-->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture" style="background-image: url('img/bg4-1/4.jpg');"></div>
-			<!-- BLOCK-PICTURE -->
-			<div class="page-description overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>
-						Настоящая гордость Ростова —  один из крупнейших в России и Европе зоопарк, насчитывающий более 400 видов животных, 105 из которых внесены в Красную книгу. А зеленая зона зоопарка признана памятником природы. На 90 гектарах земли расположились просторные вольеры жирафов и бегемотов, горных козлов и яков, белой медведицы и слонов; орнитарий с экзотическими птицами, вольеры с хищниками, аквариум, террариум и целое «Озеро фламинго». Каждый день происходят показательные кормления животных, часто проводятся детские праздники с анимацией.</p>
-						<p>Красивая территория, живописные виды, зеленые лужайки делают ростовский зоопарк популярным местом для пикников. Еду можно взять с собой заранее, а можно перекусить в одном из кафе.</p>
-					</div>
-				</div>
-			</div>
-			<!-- /PAGE-CONTENT-->
-			<!-- BLOCK-PICTURE -->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture" style="background-image: url('img/bg4-1/5.jpg');"></div>
-			<!-- BLOCK-PICTURE -->
-			<div class="page-description overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>В путешествии по Ростову с детьми обязательно стоит заглянуть и на детскую железную дорогу. Немногие города могут похвастаться таковой! Малая Северо-Кавказская железная дорога им. Ю.А. Гагарина находится в парке им. Н. Островского и представляет собой самую настоящую железную дорогу с паровозом, вагонами, станциями, платформами, депо, устройствами сигнализации и связи. Вот только роль проводников здесь исполняют дети, а маршрут составляет всего около 4 км. Впрочем, этого вполне хватает, чтобы привести ребенка, да и взрослого, в полный восторг!</p>
-					</div>
-				</div>
-			</div>
-			<!-- /PAGE-CONTENT-->
-			<!-- BLOCK-PICTURE -->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture" style="background-image: url('img/bg4-1/6.jpg');"></div>
-			<!-- BLOCK-PICTURE -->
-			<div class="page-description overflow">
-				<div class="container">
-					<div class="page-content">
-						<p>Маленьким и большим любителям поездов придется по вкусу и Музей Северо-Кавказской железной дороги, «музей паровозов», как его называют ростовчане. Здесь можно увидеть старинные паровозы, тепловозы, электровозы, товарные и пассажирские вагоны, различную путевую технику, попавшую в Россию в военные годы в виде трофеев. Всего в музее около 50 экспонатов.</p>
-						<p>На станции установлены семафор, светофор и настоящая гидроколонка. По железнодорожным путям курсирует мотодрезина 1930-х годов. Тут же стоит и восстановленный вагон-теплушка периода Великой Отечественной войны с внутренним интерьером, а также самый старый экспонат музея, трехосная румынская цистерна, которой исполнилось 125 лет.</p>
-						<p>В Ростове периодически организуются маршруты ретро-поезда вокруг города с заездом в музей. Поездка стоит потраченного времени и с лихвой окупится бурей положительных эмоцией.</p>
-					</div>
-				</div>
-			</div>
-			<!-- /PAGE-CONTENT-->
-			<!-- BLOCK-PICTURE -->
-			<div class="block-picture picture-4">
 				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content roz">
+							<p>
+								Если знойное южное солнце припекает, можно отправиться на Центральный пляж города. Он находится на левом берегу Дона, и добраться до него можно, переправившись через Ворошиловский мост. В теплое время года здесь часто проводят спортивные мероприятия и молодежные праздники. Оборудованная кабинками для переодевания и кафе, пляжная зона невелика, но открывает интересный вид на город. В советское время Центральный пляж посещало до 100 тысяч человек в день. Сегодня поток уменьшился, однако желающих отдохнуть здесь хватает. Тем не менее, купаться ростовчане все же предпочитают за городом.  Если вы все-таки желаете окунуться в донскую воду, советуем тщательно изучить этот вопрос.
+							</p>
+						</div>
+					</div>
+				</div>
 			</div>
-			<!-- BLOCK-PICTURE -->
+
+			<div class="block-picture-wrapper">	
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg4-1/4.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg4-1/4.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content ">
+							<p>
+							Настоящая гордость Ростова —  один из крупнейших в России и Европе зоопарк, насчитывающий более 400 видов животных, 105 из которых внесены в Красную книгу. А зеленая зона зоопарка признана памятником природы. На 90 гектарах земли расположились просторные вольеры жирафов и бегемотов, горных козлов и яков, белой медведицы и слонов; орнитарий с экзотическими птицами, вольеры с хищниками, аквариум, террариум и целое «Озеро фламинго». Каждый день происходят показательные кормления животных, часто проводятся детские праздники с анимацией.</p>
+							<p>Красивая территория, живописные виды, зеленые лужайки делают ростовский зоопарк популярным местом для пикников. Еду можно взять с собой заранее, а можно перекусить в одном из кафе.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="block-picture-wrapper">					
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg4-1/5.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg4-1/5.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content roz">
+							<p>В путешествии по Ростову с детьми обязательно стоит заглянуть и на детскую железную дорогу. Немногие города могут похвастаться таковой! Малая Северо-Кавказская железная дорога им. Ю.А. Гагарина находится в парке им. Н. Островского и представляет собой самую настоящую железную дорогу с паровозом, вагонами, станциями, платформами, депо, устройствами сигнализации и связи. Вот только роль проводников здесь исполняют дети, а маршрут составляет всего около 4 км. Впрочем, этого вполне хватает, чтобы привести ребенка, да и взрослого, в полный восторг!</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="block-picture-wrapper">	
+				
+				<div class="block-picture dzsparallaxer auto-init  use-loading">
+					<!-- <img src="img/bg4-1/6.jpg" alt=""> -->
+					<div class="divimage dzsparallaxer--target " data-src="img/bg4-1/6.jpg"></div>
+			        <div class="semi-black-overlay"></div>
+				</div>
+				
+				<div class="page-description overflow">
+					<div class="container">
+						<div class="page-content">
+							<p>Маленьким и большим любителям поездов придется по вкусу и Музей Северо-Кавказской железной дороги, «музей паровозов», как его называют ростовчане. Здесь можно увидеть старинные паровозы, тепловозы, электровозы, товарные и пассажирские вагоны, различную путевую технику, попавшую в Россию в военные годы в виде трофеев. Всего в музее около 50 экспонатов.</p>
+							<p>На станции установлены семафор, светофор и настоящая гидроколонка. По железнодорожным путям курсирует мотодрезина 1930-х годов. Тут же стоит и восстановленный вагон-теплушка периода Великой Отечественной войны с внутренним интерьером, а также самый старый экспонат музея, трехосная румынская цистерна, которой исполнилось 125 лет.</p>
+							<p>В Ростове периодически организуются маршруты ретро-поезда вокруг города с заездом в музей. Поездка стоит потраченного времени и с лихвой окупится бурей положительных эмоцией.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			
+			<!-- BLOCK-VIDEO -->
+			<div id="video">
+				<iframe id="player" src="https://www.youtube.com/embed/AYOwxNYvs3I?enablejsapi=1&ecver=2&controls=0&showinfo=0&modestbranding=1&rel=0&loop=1" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+			</div>
+			<!-- BLOCK-VIDEO -->
 			<!-- CONTENT WITHIN-->
 			<div class="container content-footer">
 				<div class="within-content within-content-last">
 					<p>
-						Четырехзвездочный отель Mercure является официально аккредитованным отелем  FIFA: здесь смогут разместиться футбольные команды, звезды спорта и вип-персоны. Отель находится в пяти минутах ходьбы от Набережной, откуда можно добраться до главного стадиона города «Ростов Арена» пешком. К услугам гостей предоставляется тренажерный зал, сауна и бассейн.
+						Близость к основным достопримечательностям и парковой зоне города, чистые уютные тихие номера, имеющие все необходимое для комфортного времяпрепровождения, делают отель  Mercure идеальным местом отдыха для семейных пар и гостей с детьми любого возраста. По желанию отель предоставляет дополнительные или детские кровати, а в ресторане маленьким гостям предложат специальное детское меню. 
+
 					</p>
 				</div>
 			</div>
@@ -212,8 +250,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Ростов спортивный</div>
-								<p class="features-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+								<div class="features-item__title">Как казаки в футбол играют</div>
+								<p class="features-item__desc">Где посмотреть матч и активно отдохнуть?
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -231,8 +269,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Ростов туристический</div>
-								<p class="features-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+								<div class="features-item__title">За лещом и зрелищем</div>
+								<p class="features-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -250,8 +288,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Бизнес маршрут</div>
-								<p class="features-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+								<div class="features-item__title">По деловому маршруту</div>
+								<p class="features-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -269,8 +307,8 @@
 						</div>
 						<div class="features-item">
 							<div class="features-item__body">
-								<div class="features-item__title">Ростов семейный</div>
-								<p class="features-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+								<div class="features-item__title">Где отдохнуть с семьей?</div>
+								<p class="features-item__desc">Парки, пляжи и детская железная дорога
 								</p>
 							</div>
 							<div class="features-item__bg"></div>
@@ -329,8 +367,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Ростов спортивный</div>
-									<p class="features-item__desc sidebar-item__desc">Ростов-на-Дону — один из принимающих городов Чемпионата мира по футболу 2018. Тут проведут 5 из 64 предстоящих матчей. Постройка нового грандиозного стадиона «Ростов Арена», полная модернизация инфраструктуры города, успехи ФК «Ростов» на международной арене доказывают: выбор FIFA сделан не зря.
+									<div class="sidebar-item__title">Как казаки в футбол играют</div>
+									<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -347,8 +385,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Ростов туристический</div>
-									<p class="features-item__desc sidebar-item__desc">Жаркий и гостеприимный, Ростов-на-Дону насыщен яркими красками, вкусами и ароматами. Сочетание различных культур и национальностей предопределило темпераментный характер города. Здесь знают толк в развлечениях, красоте и, конечно, хорошей еде.
+									<div class="sidebar-item__title">За лещом и зрелищем</div>
+									<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -365,8 +403,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Бизнес маршрут</div>
-									<p class="features-item__desc sidebar-item__desc">Будучи крупнейшим на юге России городом, Ростов-на-Дону является важным культурным, научно-образовательным, промышленным центром и транспортным узлом. Десятый по численности населения в стране, город тем не менее довольно компактный, а деловой центр и вовсе сосредоточен всего на нескольких улицах.
+									<div class="sidebar-item__title">По деловому маршруту</div>
+									<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -383,8 +421,8 @@
 							</div>
 							<div class="side-item">
 								<div class="features-item__body">
-									<div class="sidebar-item__title">Ростов семейный</div>
-									<p class="features-item__desc sidebar-item__desc">Ухоженные парки с развлечениями на любой вкус и возраст, один из крупнейших зоопарков России, множество уютных кафе с детскими зонами — в Ростове есть все для комфортного и нескучного отдыха всей семьей.
+									<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
+									<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
 									</p>
 								</div>
 								<div class="features__btn sidebar__btn">
@@ -402,8 +440,14 @@
 				<script src="js/lazyloader/jquery.lazy.min.js"></script>
 				<script src="js/bootstrap-modal/util.js"></script>
 				<script src="js/bootstrap-modal/modal.js"></script>
+				<script src="dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
+
+				<link rel='stylesheet' type="text/css" href="cs_scroll/jquery.mCustomScrollbar.min.css"/>
+				<script src="cs_scroll/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script>
+				<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+
 				<script src="js/common.js"></script>
-				<!-- <div class="modal fade" id="orderModal">
+				<div class="modal fade" id="orderModal">
 					<div class="modal-tbl">
 						<div class="modal-dialog" role="document">
 							<div class="modal-content">
@@ -412,11 +456,83 @@
 									<h5 class="modal-title">Оформление</h5>
 								</div>
 								<div class="modal-body">
+								<form action="" id="form" class="form">
+									<div class="modal-form">
+										<div class="modal-form-data">
+											<input name="name" class="form-name" type="text" placeholder="ФИО">
+										</div>
+										<div class="modal-form-data">
+											<input name="tel" class="form-name" type="tel" placeholder="Телефон">
+										</div>
+										<div class="modal-form-data">
+											<input name="email" class="form-name" type="email" placeholder="E-mail">
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="form-booking">
+											
+											<span class="booking-arrived">Заезд:</span>
+											<div class="modal-form-booking modal-form-booking-come">
+												<input type="text" id="datepicker" id="ui-datepicker-div" name="arrived" class="form-name form-calendar" value="20/08/2017">
+											</div>
+
+											<span class="booking-arrived">Выезд:</span>
+											<div class="modal-form-booking">
+												<input type="text" id="datepickerCome" id="ui-datepicker-div" name="arrivedCome" class="form-name form-calendar" value="20/08/2017">
+											</div>
+											
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="count-item count-item-top">
+											<span class="count-item-title">Взрослых:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantity' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+
+										<div class="count-item">
+											<span class="count-item-title">Детей:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantityChild' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+
+										<div class="count-item count-item-bottom">
+											<span class="count-item-title">Младенцев:</span>
+											<div class="count-item-num">
+												<input type='button' class='qtyminus' field='quantity'>
+												<input type='text' name='quantityBaby' value='0' class='qty'>
+												<input type='button' class='qtyplus' field='quantity'>
+											</div>
+										</div>
+									</div>
+									<div class="modal-form">
+										<div class="booking-item">
+											<div class="form-booking-item form-booking-item-bottom">
+												<input type="checkbox" checked id="input-biz" name="biznes">
+												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
+											</div>
+											<div class="form-booking-item">
+												<input type="checkbox" id="input-eco" name="economy">
+												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
+											</div>
+										</div>
+									</div>
+									<div class="form-sent"></div>
+									<button type="submit" class="btn-modal-form">Отправить</button>
+									<!-- <input type="submit" class="btn-modal-form" value="Отправить"> -->
+								</div>
+							</form>
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
 				<!-- ALEX END -->
 			</body>
 		</html>
