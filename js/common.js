@@ -1,4 +1,3 @@
-
 // VIDEO
 function playerState(el, state){
   el.contentWindow.postMessage('{"event":"command","func":"' + state+'Video' + '","args":""}', '*');
