@@ -12,13 +12,11 @@
 		<meta name="apple-mobile-web-app-status-bar-style" content="#66216a">
 
 		<title>ПРОГУЛКИ ПО РОСТОВУ: ГДЕ ТУРИСТУ ХОРОШО</title>
-		<link rel="stylesheet" href="css/main.css">
+		
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
-		<!-- ALEX -->
-		<!-- <link rel="stylesheet" href="css/common.css"> -->
-		<!-- ALEX END -->
-		<!-- 		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-		<link rel="stylesheet" href="/resources/demos/style.css"> -->
+		
+		<link rel="stylesheet" href="css/main.css">
+		
 	</head>
 	<body>
 		<div class="loaderArea" id="loader-page" style="display: block;">
@@ -51,12 +49,14 @@
 						</div>
 						<div class="a-modal">
 							<a data-toggle="modal" data-target="#orderModal" class="check-in">Регистрация</a>
+							<a data-toggle="modal" data-target="#orderModal" class="check-in-mobile"></a>
 						</div>
 					</div>
-					<div class="socials">
-						<ul class="social__list">
+					<div class="acor-hotel"><a href="#" class="acor-link">Acor</a></div>
+					<div class="socials">						
+						<ul class="social__list">							
 							<li class="social__item">
-								<a href="" class="social__link a-icon">
+								<a href="http://www.facebook.com/sharer.php?s=100&p[url]=адрес" class="social__link a-icon">
 									<i class="fa fa-facebook"></i>
 								</a>
 							</li>
@@ -168,6 +168,8 @@
 					</div>
 				</a>
 			</div>
+			<!-- /END FEATURES-->
+			
 			<!-- SOCIALS MOB -->
 			<ul class="social__list soc-mob">
 				<li class="social__item">
@@ -187,208 +189,145 @@
 				</li>
 			</ul>
 			<!-- END SOCIALS MOB -->
-			</div> <!-- END HOME -->
-			<!-- /END FEATURES-->
-			
-			<!--SIDEBAR -->
-			<div class="o-sidebar o-sidebar_home">
-				<div class="header-sidebar">
-					<ul class="sidebar__list">
-						<li class="sidebar__item">
-							<a href="#" class="sidebar__link sidebar__link-close a-icon a-icon_close"></a>
-						</li>
-						<li class="sidebar__item">
-							<a href="#" class="sidebar__link">
-								<img src="img/content/kommersant-head2.png" alt="логотип коммерсант" class="top-menu__pic">
-							</a>
-						</li>
-						<li class="sidebar-item">
-							<a href="#" class="sidebar__link">
-								<img src="img/icon/m-logo.png" alt="Логотип" class="sidebar-logo__pic" >
-							</a>
-						</li>
-					</ul>
+		</div> 
+		<!-- END HOME -->		
+		
+		<!-- ACOR -->
+		<div class="acor-hotel-wrapper">
+			<div class="acor-hotel-title">
+				<a href="#" class="acor-link-close a-icon a-icon_close"></a>
+				<h2>Подробнее о нашихпрограммах</h2>
+			</div>
+			<div class="acor-hotel-body">
+				<div id="accordion">
+					<h3>Le Club Accor Hotels</h3>
+					<div>
+						<img src="img/content/acor_main.png" alt=""/>
+					</div>
+
+					<h3>Online CI</h3>
+					<div>
+						<img src="img/content/acor1.png" alt=""/>
+					</div>
+					
+					<h3>Fast CO</h3>
+					<div>
+						<img src="img/content/acor2.png" alt=""/>
+					</div>					
 				</div>
 				
-				<div>
-					<a href="page-1.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">1</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">Как казаки в футбол играют</div>
-								<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-					<a href="page-2.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">2</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">За лещом и зрелищем</div>
-								<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-					<a href="page-3.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">3</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">По деловому маршруту</div>
-								<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-					<a href="page-4.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">4</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
-								<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-				</div>
 			</div>
-			<!-- END SIDEBAR -->
-			<!-- </div> --> <!-- END PARALLAX -->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script> -->
-<!-- 			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
- -->			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-			<script src="js/main.js"></script>
-			<script src="js/wow.min.js"></script>
-			<!-- 		<script>
-			new WOW().init();
-			</script> -->
-			<!-- ALEX -->
-			<script src="js/smoothscroll/smoothscroll.js"></script>
-			<script src="js/lazyloader/jquery.lazy.min.js"></script>
-			<script src="js/bootstrap-modal/util.js"></script>
-			<script src="js/bootstrap-modal/modal.js"></script>
-			<script src="js/common.js"></script>
-			<div class="modal fade" id="orderModal">
-				<div class="modal-tbl">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<span class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span></span>
-							<div class="modal-header">
-								<h5 class="modal-title">Бронирование</h5>
-							</div>
-							<div class="modal-body">
-								<form action="" id="form" class="form">
-									<div class="modal-form">
-										<div class="modal-form-data">
-											<input name="name" class="form-name" type="text" placeholder="ФИО">
-										</div>
-										<div class="modal-form-data">
-											<input name="tel" class="form-name" type="tel" placeholder="Телефон">
-										</div>
-										<div class="modal-form-data">
-											<input name="email" class="form-name" type="email" placeholder="E-mail">
-										</div>
-									</div>
-									<div class="modal-form">
-										<div class="form-booking">
-											
-											<span class="booking-arrived">Заезд:</span>
-											<div class="modal-form-booking modal-form-booking-come">
-												<input type="text" id="datepicker" id="ui-datepicker-div" name="arrived" class="form-name form-calendar" value="20/08/2017">
-											</div>
-
-											<span class="booking-arrived">Выезд:</span>
-											<div class="modal-form-booking">
-												<input type="text" id="datepickerCome" id="ui-datepicker-div" name="arrivedCome" class="form-name form-calendar" value="20/08/2017">
-											</div>
-											
-										</div>
-									</div>
-									<div class="modal-form">
-										<div class="count-item count-item-top">
-											<span class="count-item-title">Взрослых:</span>
-											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantity' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
-											</div>
-										</div>
-
-										<div class="count-item">
-											<span class="count-item-title">Детей:</span>
-											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantityChild' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
-											</div>
-										</div>
-
-										<div class="count-item count-item-bottom">
-											<span class="count-item-title">Младенцев:</span>
-											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantityBaby' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
-											</div>
-										</div>
-									</div>
-									<div class="modal-form">
-										<div class="booking-item">
-											<div class="form-booking-item form-booking-item-bottom">
-												<input type="checkbox" checked id="input-biz" name="biznes">
-												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
-											</div>
-											<div class="form-booking-item">
-												<input type="checkbox" id="input-eco" name="economy">
-												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
-											</div>
-										</div>
-									</div>
-									<div class="form-sent"></div>
-									<button type="submit" class="btn-modal-form">Отправить</button>
-								</div>
-							</form>
-							</div>
+		</div>
+		<!-- END ACOR -->
+		<!--SIDEBAR -->
+		<div class="o-sidebar o-sidebar_home">
+			<div class="header-sidebar">
+				<ul class="sidebar__list">
+					<li class="sidebar__item">
+						<a href="#" class="sidebar__link sidebar__link-close a-icon a-icon_close"></a>
+					</li>
+					<li class="sidebar__item">
+						<a href="#" class="sidebar__link">
+							<img src="img/content/kommersant-head2.png" alt="логотип коммерсант" class="top-menu__pic">
+						</a>
+					</li>
+					<li class="sidebar-item">
+						<a href="#" class="sidebar__link">
+							<img src="img/icon/m-logo.png" alt="Логотип" class="sidebar-logo__pic" >
+						</a>
+					</li>
+				</ul>
+			</div>
+			
+			<div>
+				<a href="page-1.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">1</div>
+							Маршрут
 						</div>
 					</div>
-				</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">Как казаки в футбол играют</div>
+							<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
+				<a href="page-2.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">2</div>
+							Маршрут
+						</div>
+					</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">За лещом и зрелищем</div>
+							<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
+				<a href="page-3.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">3</div>
+							Маршрут
+						</div>
+					</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">По деловому маршруту</div>
+							<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
+				<a href="page-4.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">4</div>
+							Маршрут
+						</div>
+					</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
+							<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
 			</div>
-			<!-- ALEX END -->
-		</body>
-	</html>
+		</div>
+
+		<!-- JQUERY -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js?v=2.0.2"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<!-- AND JQUERY -->
+
+		<!-- API -->
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+		<!-- END API -->
+
+		<script src="js/scripts.js"></script>
+		
+	</body>
+</html>
 	
 	

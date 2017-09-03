@@ -1,97 +1,115 @@
-// VIDEO
-function playerState(el, state){
-  el.contentWindow.postMessage('{"event":"command","func":"' + state+'Video' + '","args":""}', '*');
-}
+;
+
+  
 
 function init(){
   var vinWidth = parseInt($(window).width());
 
-  // if(vinWidth>=1245){
-  //   $('#mscr').mCustomScrollbar();
+    
+  $('.owl-carousel').css({'height': '90vh'});
+  $('.owl-carousel').each(function(){
+     $(this).owlCarousel({
+        items: 1,
+        nav: true,
+        navText: ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+      });
+  })
 
-  //   $('.block-picture-wrapper').each(function(){
+  if(vinWidth>=1245){
+    // destroy
+    $('.dzsparallaxer').each(function(){
+      $(this).find('.dzsparallaxer--target').show();
+      // $(this).find('img').remove();
+      
+      // dzsprx_init('.dzsparallaxer', {init_each: true});
+      $(this).dzsparallaxer();
 
-  //     var bl_img_height = parseInt($(this).find('.block-picture').outerHeight()); // Высота блока с картинкой
-  //     var bl_desc = parseInt($(this).find('.page-description').outerHeight()); // Высота блока с текстом
+      if($(this).find('.advancedscroller').length){
+        $(this).find('.advancedscroller').advancedscroller({
+          settings_mode: "onlyoneitem"
+          ,design_arrowsize: "0"
+          ,settings_swipe: "on"
+          ,settings_swipeOnDesktopsToo: "on"
+          ,settings_slideshow: "on"
+          ,settings_slideshowTime: "5"
+          ,settings_autoHeight:"on"
+          ,settings_transition:"fade"
+          ,settings_centeritems:false
+        });
+      }
+    });
+  }else{
 
-  //     $(this).css({'height' : bl_img_height+bl_desc+'px', 'padding-bottom':bl_desc+'px'});
-  //     $(this).find('.block-picture').mCustomScrollbar();
+    $('.dzsparallaxer').each(function(){
+      if($(this).find('.owl-carousel.dzsparallaxer--target').length){
+       $(this).find('.dzsparallaxer--target').css({'height': 'auto', 'visibility': 'visible', 'opacity': 1 });
+      }else{
+        $(this).find('.dzsparallaxer--target').hide();
+        var img = $(this).find('.dzsparallaxer--target').attr('data-src');
+        $(this).html('<img src="'+img+'">');
+      }
+    });
 
-  //     if(!$(this).hasClass('outside')){
-  //       $(this).css({'height' : bl_img_height+bl_desc+'px', 'padding-bottom':bl_desc+'px'});
-  //     }else{
-  //       $(this).css({'height' : bl_img_height+bl_desc+'px',});
-  //     }
-  //       $(this).find('.block-picture').mCustomScrollbar();
-  //   });
-  // }else{
-  //   $('#mscr').mCustomScrollbar("destroy");
+    // $(this).find('.items').show();
+    // $(this).find('.items .item-tobe').show();
+    // $(this).find('.advancedscroller').css({'height': 'auto'});
 
-  //   $('.block-picture-wrapper').each(function(){
-  //     $(this).css({'height':'', 'padding-bottom':''});
-  //   });
-  // }
+    $('.dzsparallaxer').each(function(){
+      
+      if($(this).find('.advancedscroller').length){
+        $(this).find('.dzsparallaxer--target').css({'opacity': 1, 'visibility': 'visible'});
+        
+          // $(this).find('.preloader-semicircles').hide();
+          // $(this).find('.items .item-tobe').each(function(){
+          //   $(this).find('.imagediv').hide();
+          //   var img = $(this).find('.imagediv').attr('data-src');
+          //   $(this).html('<img src="'+img+'">');
+          // });
+          
 
-  var iHeight = parseInt($("#video iframe").attr('height')),
-      iWidth = parseInt($("#video iframe").attr('width')),
-      vWidth = parseInt($("#video").outerWidth()),
-      soot = iHeight/iWidth;
+          // $(this).find('.advancedscroller .items').addClass('owl-carousel');
+          
 
-  $("#video").css({'height' : vWidth*soot+'px'});
+          // $(this).find('.advancedscroller').advancedscroller({  
+          //   settings_mode: "onlyoneitem"          
+          //   ,settings_swipe: "on"          
+          //   ,settings_swipeOnDesktopsToo: "on"
+          //   ,settings_slideshow: "on"
+          //   ,settings_slideshowTime: "50"
+          //   ,settings_autoHeight:"off"        
+          //   ,settings_transition:"fade"
+          //   ,settings_centeritems:false
+          // });
+        
+      }else{
+        // $(this).find('.dzsparallaxer--target').hide();
+        // var img = $(this).find('.dzsparallaxer--target').attr('data-src');
+        // $(this).html('<img src="'+img+'">');
+      }
+
+    });
+    
+  }
+  
+
 }
 
-$(document).ready(function(){
+
+$(document).ready(function(){  
   
-  dzsas_init("#as0",{
-      settings_mode: "onlyoneitem"
-      ,design_arrowsize: "0"
-      ,settings_swipe: "on"
-      ,settings_swipeOnDesktopsToo: "on"
-      ,settings_slideshow: "on"
-      ,settings_slideshowTime: "5"
-      ,settings_autoHeight:"off"
-      ,settings_transition:"fade"
-      ,settings_centeritems:false
-  });
-
-  dzsas_init("#as1",{
-      settings_mode: "onlyoneitem"
-      ,design_arrowsize: "0"
-      ,settings_swipe: "on"
-      ,settings_swipeOnDesktopsToo: "on"
-      ,settings_slideshow: "on"
-      ,settings_slideshowTime: "5"
-      ,settings_autoHeight:"off"
-      ,settings_transition:"fade"
-      ,settings_centeritems:false
-  });
-
-  // var player;
-  // function onYouTubePlayerAPIReady() {
-  //   player = new YT.Player($("#player"), {
-  //     events: {'onReady': onPlayerReady}
-  //   });
-  // }
-  // function onPlayerReady(event) {
-  //   player.mute();
-  // }
-
-  var videoPlay = false;
-
-  $("#player")[0].contentWindow.postMessage('{"event":"command","func":"' + 'mute' + '","args":""}', '*');
-
-  $(window).scroll(function() {
-    var winTop = parseInt($(window).scrollTop());
-    var vidTop = parseInt($('#video').offset().top);
-    
-    if(vidTop - winTop <= 200){
-      playerState($("#player")[0], 'play');
+  $('.acor-link,.acor-link-close').on('click', function() {
+    if($('body').hasClass('acor-open')) {
+      $('body').removeClass('acor-open');
     }else{
-      playerState($("#player")[0], 'pause');
+      $('body').addClass('acor-open');
     }
-        
+    return false;
   });
-	// http://jquery.eisbehr.de/lazy/#installation
+
+  $( "#accordion" ).accordion({
+    heightStyle: "content"
+  });
+
 	$('.lazy').Lazy();
 
   init();
@@ -102,27 +120,10 @@ $(document).ready(function(){
     }, 2000);
     return false;
   });
-
-  // $("#video iframe")[0].src += "&autoplay=1";
-  // playerState($("#player")[0], 'play');
-  
-  // setTimeout(function func() {
-  //   playerState($("#player")[0], 'pause');
-    
-  // }, 10000);
-
-  // setTimeout(function func() {
-    
-  //   playerState($("#player")[0], 'play');
-    
-    
-  // }, 10000);
-
-
 });
 
 $(window).resize(function() {
-  init();
+  // init();
 });
 
 $(window).on('load',function() {

@@ -8,7 +8,7 @@
 		<link rel="stylesheet" href="css/main.css">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 		<!-- ALEX -->
-		<!-- <link rel="stylesheet" href="alex/css/common.css"> -->
+		<link rel="stylesheet" href="alex/css/common.css">
 		<!-- ALEX END -->
 		<!-- 		<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 		<link rel="stylesheet" href="/resources/demos/style.css"> -->
@@ -281,7 +281,7 @@
 			<!-- </div> --> <!-- END PARALLAX -->
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 			<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script> -->
-<!-- 			<script src="https://code.jquery.com/jquery-1.12.4.js"></script> -->
+			<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
 			<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 			<script src="js/main.js"></script>
 			<script src="js/wow.min.js"></script>
@@ -303,77 +303,72 @@
 								<h5 class="modal-title">Бронирование</h5>
 							</div>
 							<div class="modal-body">
-							<form action="" id="form" class="form">
+								<form action="#" method="post">
 									<div class="modal-form">
 										<div class="modal-form-data">
-											<input name="name" class="form-name" type="text" placeholder="ФИО">
+											<input name="name" class="form-name" type="text" required placeholder="ФИО">
 										</div>
 										<div class="modal-form-data">
-											<input name="tel" class="form-name" type="tel" placeholder="Телефон">
+											<input name="tel" class="form-name" type="tel" required placeholder="Телефон">
 										</div>
 										<div class="modal-form-data">
-											<input name="email" class="form-name" type="email" placeholder="E-mail">
+											<input name="email" class="form-name" type="email" required placeholder="E-mail">
 										</div>
 									</div>
-									<div class="modal-form">
-										<div class="form-booking">
-											
+									<div class="modal-form modal-form-count-item">
+										<div class="form-booking clearfix">
 											<span class="booking-arrived">Заезд:</span>
-											<div class="modal-form-booking modal-form-booking-come">
-												<input type="text" id="datepicker" id="ui-datepicker-div" name="arrived" class="form-name form-calendar" value="20/08/2017">
+											<div class="modal-form-booking">
+												<input type="text" id="datepicker" name="arrived" class="form-name form-calendar" required value="20/08/2017">
 											</div>
-
+										</div>
+										<div class="form-booking clearfix">
 											<span class="booking-arrived">Выезд:</span>
 											<div class="modal-form-booking">
-												<input type="text" id="datepickerCome" id="ui-datepicker-div" name="arrivedCome" class="form-name form-calendar" value="20/08/2017">
+												<input type="text" id="datepickerCome" name="come" class="form-name form-calendar" required value="05/09/2017">
 											</div>
-											
 										</div>
 									</div>
-									<div class="modal-form">
-										<div class="count-item count-item-top">
-											<span class="count-item-title">Взрослых:</span>
+									<div class="modal-form modal-form-count-item">
+										<div class="count-item clearfix">
+											<span>Взрослых:</span>
 											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantity' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
+												<button class="item-num-btn"></button>
+												<input type="text" name="count-number-adult" value="1" class="form-name count-item-number" min="1" max="100">
+												<button class="item-num-max-btn"></button>
 											</div>
 										</div>
-
-										<div class="count-item">
-											<span class="count-item-title">Детей:</span>
+										<div class="count-item clearfix">
+											<span>Детей:</span>
 											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantityChild' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
+												<button class="item-num-btn"></button>
+												<input type="text" name="count-number-child" value="1" class="form-name count-item-number" min="1" max="100">
+												<button class="item-num-max-btn"></button>
 											</div>
 										</div>
-
-										<div class="count-item count-item-bottom">
-											<span class="count-item-title">Младенцев:</span>
+										<div class="count-item clearfix">
+											<span>Младенцев:</span>
 											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantityBaby' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
+												<button class="item-num-btn"></button>
+												<input type="text" name="count-number-baby" value="1" class="form-name count-item-number" min="1" max="100">
+												<button class="item-num-max-btn"></button>
 											</div>
 										</div>
 									</div>
 									<div class="modal-form">
 										<div class="booking-item">
-											<div class="form-booking-item form-booking-item-bottom">
-												<input type="checkbox" checked id="input-biz" name="biznes">
+											<div class="form-booking-item">
+												<input type="checkbox" checked id="input-biz">
 												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
 											</div>
 											<div class="form-booking-item">
-												<input type="checkbox" id="input-eco" name="economy">
+												<input type="checkbox" id="input-eco">
 												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
 											</div>
 										</div>
 									</div>
-									<div class="form-sent"></div>
-									<button type="submit" class="btn-modal-form">Отправить</button>
-								</div>
-							</form>
+									<button type="submit" class="btn-modal-form">Оформить</button>
+								</form>
 							</div>
 						</div>
 					</div>

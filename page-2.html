@@ -10,22 +10,19 @@
 		<meta name="msapplication-navbutton-color" content="#66216a">
 		<!-- iOS Safari -->
 		<meta name="apple-mobile-web-app-status-bar-style" content="#66216a">
+		
 		<title>ЗА ЛЕЩОМ И ЗРЕЛИЩЕМ</title>
-		<link rel="stylesheet" href="css/main.css">
+		
 		<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
-		<!-- ALEX -->
-		<link rel='stylesheet' type="text/css" href="dzsparallaxer/dzsparallaxer.css">
-		<link rel='stylesheet' type="text/css" href="advancedscroller/plugin.css"/>
-		<!-- <link rel="stylesheet" href="alex/css/common.css"> -->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
-		<!-- ALEX END -->
+		
+		<link rel="stylesheet" href="css/main.css">
 	</head>
 	<body>
 		<div class="loaderArea" id="loader-page" style="display: block;">
 			<img src="img/icon/grid.svg" width="60" alt="">
 		</div>
 		<!-- 	PAGE -->
-		<div class="page turist" style="background-image: url('img/bg2-1/1_1.jpg'); background-position: top center;">
+		<div class="page turist" style="background-image: url('img/bg2-1/1_1.jpg');">
 			<!-- WRAPPER -->
 			<div class="wrapper">
 				<!-- HEADER -->
@@ -44,9 +41,7 @@
 					<a href="#" class="logo">
 						<img src="img/icon/logo-small.png" alt="Логотип" class="logo__pic" width="200" height="60">
 					</a>
-					<!-- <a href="#" class="logo-page">
-										<img src="img/content/logo-page.png" alt="Логотип" class="logo__pic-page" width="144" height="73">
-					</a> -->
+					
 					<div class="top-contacts">
 						<div class="contacts">
 							<i class="fa fa-phone"></i>
@@ -54,6 +49,7 @@
 						</div>
 						<div class="a-modal">
 							<a data-toggle="modal" data-target="#orderModal" class="check-in">Регистрация</a>
+							<a data-toggle="modal" data-target="#orderModal" class="check-in-mobile"></a>
 						</div>
 					</div>
 					<div class="socials">
@@ -111,16 +107,15 @@
 		<div class="page-description">
 			<div class="container">
 				<div class="page-content">
-					<p>Ростов по праву можно назвать гастрономической столицей юга. Простая, но обильная, с большим количеством свежих овощей и рыбы, донская кухня — одна из визитных карточек города. Побывать в Ростове и не привезти «донской сувенир» — леща, рыбец, шамайку или раков — практически преступление.
-					</p>
+					<p>Ростов по праву можно назвать гастрономической столицей юга. Простая, но обильная, с большим количеством свежих овощей и рыбы, донская кухня — одна из визитных карточек города. Побывать в Ростове и не привезти «донской сувенир» — леща, рыбец, шамайку или раков — практически преступление.</p>
 				</div>
 			</div>
 		</div>
 		
 		<div id="down"></div>
 		<!-- MAP -->
-		<div class="map">
-			<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A30d0140d458af9309e96d1b153b742dbf71c47802e47f219a87249ff085e4ed5&amp;width=100%25&amp;lang=ru_RU&amp;scroll=false"></script>
+		<div class="map-wrapper">
+			<div class="map" id="map"></div>	
 			<!-- CONTENT WITHIN-->
 			<div class="container">
 				<div class="within-content">
@@ -132,8 +127,7 @@
 		<!-- /MAP -->
 		
 		<div class="block-picture-wrapper">	
-			<div class="block-picture dzsparallaxer auto-init  use-loading">
-				<!-- <img src="img/bg2-1/2_1.jpg" alt=""> -->
+			<div class="block-picture dzsparallaxer use-loading">
 				<div class="divimage dzsparallaxer--target " data-src="img/bg2-1/2_1.jpg"></div>
 		        <div class="semi-black-overlay"></div>
 			</div>
@@ -141,19 +135,16 @@
 			<div class="page-description overflow">
 				<div class="container">
 					<div class="page-content">
-						<p>
-						Стоит хотя бы раз посетить и один из гастрономических праздников, которые обычно проводятся в жаркое время года, — Фестиваль ухи, Фестиваль селедки, Фестиваль хорошей еды. Фуд-фестивали на Дону — замечательный способ погрузиться в казачью культуру, своими глазами увидеть знаменитую джигитовку, угоститься блюдами казачьей кухни и почувствовать богатство донского края во всей широте.
+						<p>Стоит хотя бы раз посетить и один из гастрономических праздников, которые обычно проводятся в жаркое время года, — Фестиваль ухи, Фестиваль селедки, Фестиваль хорошей еды. Фуд-фестивали на Дону — замечательный способ погрузиться в казачью культуру, своими глазами увидеть знаменитую джигитовку, угоститься блюдами казачьей кухни и почувствовать богатство донского края во всей широте.</p>
 						
-						Донская кухня — настоящая песня. «Щи с бараниной сменила лапша, потом – вареная баранина, курятина, холодец из бараньих ножек, жареная картошка, пшенная с коровьим маслом каша, кулага, блинцы с каймаком, соленый арбуз», — смаковал донское застолье в «Тихом Доне» Михаил Шолохов. Писатель сам был родом из донских казаков и уж точно разбирался в традиционных кулинарных изысках.
-					</p>
+						<p>Донская кухня — настоящая песня. «Щи с бараниной сменила лапша, потом – вареная баранина, курятина, холодец из бараньих ножек, жареная картошка, пшенная с коровьим маслом каша, кулага, блинцы с каймаком, соленый арбуз», — смаковал донское застолье в «Тихом Доне» Михаил Шолохов. Писатель сам был родом из донских казаков и уж точно разбирался в традиционных кулинарных изысках.</p>
 					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="block-picture-wrapper">
-			<div class="block-picture dzsparallaxer auto-init  use-loading">
-				<!-- <img src="img/bg2-1/3_1.jpg" alt=""> -->
+			<div class="block-picture dzsparallaxer use-loading">
 				<div class="divimage dzsparallaxer--target " data-src="img/bg2-1/3_1.jpg"></div>
 		        <div class="semi-black-overlay"></div>
 			</div>
@@ -166,25 +157,16 @@
 				</div>
 			</div>
 		</div>
-
+		
+		
 		<div class="block-picture-wrapper outside">				
-			<div class="block-picture dzsparallaxer auto-init  use-loading">
-				<!-- <img src="img/bg2-1/5_1.jpg" alt=""> -->
-				<!-- <div class="divimage dzsparallaxer--target " data-src="img/bg2-1/5_1.jpg"></div> -->
-		        <!-- <div class="semi-black-overlay"></div> -->
-
-		        <div id="as0" class="advancedscroller skin-agata-inset with-shadow dzsparallaxer--target">
-	                <div class="preloader-semicircles"></div>
-	                <ul class="items">
-	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/5_1.jpg)"></div></li>
-	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/5_2.jpg)"></div></li>
-	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/5_3.jpg)"></div></li>
-	                </ul>
-	            </div>
-	           
+			<div class="block-picture dzsparallaxer use-loading">						        
+	        	<div class="owl-carousel dzsparallaxer--target">
+	        		<div><img src="img/bg2-1/5_1.jpg" alt=""></div>
+	        		<div><img src="img/bg2-1/5_2.jpg" alt=""></div>
+	        		<div><img src="img/bg2-1/5_3.jpg" alt=""></div>		        		
+	        	</div>	               	           
 			</div>
-
-
 			
 			<div class="page-description overflow">
 				<div class="container">
@@ -192,9 +174,7 @@
 						<p>
 						Жаловал своим присутствием Ростов и другой великий писатель — Александр Пушкин. Правда — только проездом. Однако самую красивую прогулочную улицу города назвали в его честь.
 						</p>
-						<p>
-							Первоначально улица именовалась Кузнецкой и долгое время не была благоустроенной. Потом, с 70-х годов  XVII века, здесь стали строиться богатые купцы и промышленники, и к ХХ веку Пушкинская приобрела свой современный вид и статус второй самой главной улицы города после Большой Садовой.
-						</p>
+						<p>Первоначально улица именовалась Кузнецкой и долгое время не была благоустроенной. Потом, с 70-х годов  XVII века, здесь стали строиться богатые купцы и промышленники, и к ХХ веку Пушкинская приобрела свой современный вид и статус второй самой главной улицы города после Большой Садовой.</p>
 						<p>Сегодня на Пушкинской  расположены Донская государственная публичная библиотека, кинотеатр, несколько вузов и, конечно, памятники самому Пушкину — традиционное место встреч и свиданий — и его героям. Самый необычный из них — «Пушкинские шары», спроектированные архитектором Ю.Н. Солнышкиным и воплощенные в жизнь скульптором  А.А. Скнариным.  Один из резных бронзовых шаров изображает сцены из романа «Евгений Онегин», второй — события из жизни самого писателя. Планировалась установка и третьего шара с изображениями героев пушкинских сказок, но этой задумке, как и установке подсветки в шарах, создающей эффект театра теней, пока, увы, не суждено было сбыться.</p>
 					</div>
 				</div>
@@ -202,17 +182,11 @@
 		</div>
 
 		<div class="block-picture-wrapper outside">	
-			<div class="block-picture dzsparallaxer auto-init  use-loading">
-				<!-- <img src="img/bg2-1/6_2.jpg" alt=""> -->
-				<!-- <div class="divimage dzsparallaxer--target " data-src="img/bg2-1/6_2.jpg"></div>
-		        <div class="semi-black-overlay"></div> -->
-		        <div id="as1" class="advancedscroller skin-agata-inset with-shadow dzsparallaxer--target">
-	                <div class="preloader-semicircles"></div>
-	                <ul class="items">
-	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/6_2.jpg)"></div></li>
-	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/6_1.jpg)"></div></li>
-	                    <li class="item-tobe needs-loading"><div class="imagediv" style="background-image:url(img/bg2-1/6_3.jpg)"></div></li>
-	                </ul>
+			<div class="block-picture dzsparallaxer use-loading">
+		        <div class="owl-carousel dzsparallaxer--target">
+	        		<div><img src="img/bg2-1/6_2.jpg" alt=""></div>
+	        		<div><img src="img/bg2-1/6_1.jpg" alt=""></div>
+	        		<div><img src="img/bg2-1/6_3.jpg" alt=""></div>
 	            </div>
 			</div>
 			<div class="page-description overflow">
@@ -227,27 +201,18 @@
 		
 		<!-- BLOCK-VIDEO -->
 		<div id="video">
-			<iframe id="player" src="https://www.youtube.com/embed/AYOwxNYvs3I?enablejsapi=1&ecver=2&controls=0&showinfo=0&modestbranding=1&rel=0&loop=1" width="640" height="360" frameborder="0" style="position:absolute;width:100%;height:100%;left:0" allowfullscreen></iframe>
+			<div id="player"></div>
 		</div>
 		<!-- BLOCK-VIDEO -->
 		<!-- CONTENT WITHIN-->
 		<div class="container content-footer">
 			<div class="within-content within-content-last">
-				<p>
-					Расположенный в самом сердце Ростова, отель Mercure приглашает гостей города отведать традиционные блюда русской, а также донской кухни. Гурманы непременно оценят изысканную французскую кулинарию, которой по праву можно годиться. Восхитительные хрустящие круассаны, нежные, сочные корзиночки с закусками, рыбные и мясные блюда не разочаруют даже самый взыскательный вкус.
-				</p>
+				<p>Расположенный в самом сердце Ростова, отель Mercure приглашает гостей города отведать традиционные блюда русской, а также донской кухни. Гурманы непременно оценят изысканную французскую кулинарию, которой по праву можно годиться. Восхитительные хрустящие круассаны, нежные, сочные корзиночки с закусками, рыбные и мясные блюда не разочаруют даже самый взыскательный вкус.</p>
 			</div>
 		</div>
 		<!-- /CONTENT WITHIN-->
 		<!-- FOOTER -->
 		<div class="contacts-footer">
-			<!-- <div class="contacts-footer__item">
-								<a href="#" class="contacts-footer__logo"></a>
-								<div class="contacts-footer__tel">
-													<p>г. Ростов-на-Дону</p>
-													<a class="footer__tel" href="tel:88008888888">8 800 888 88 88</a>
-								</div>
-			</div> -->
 			<div class="features-footer">
 				<a href="page-1.html" class="features__link">
 					<div class="features__header">
@@ -325,227 +290,258 @@
 						<div class="features__more">Узнать больше</div>
 					</div>
 				</a>
-				</div> <!-- /END FEATURES FOOTER-->
-				<!-- SOCIALS MOB -->
-				<ul class="social__list soc-mob">
-					<li class="social__item">
-						<a href="" class="social__link a-icon">
-							<i class="fa fa-facebook"></i>
+			</div> <!-- /END FEATURES FOOTER-->
+			<!-- SOCIALS MOB -->
+			<ul class="social__list soc-mob">
+				<li class="social__item">
+					<a href="" class="social__link a-icon">
+						<i class="fa fa-facebook"></i>
+					</a>
+				</li>
+				<li class="social__item">
+					<a href="" class="social__link a-icon">
+						<i class="fa fa-instagram"></i>
+					</a>
+				</li>
+				<li class="social__item">
+					<a href="" class="social__link a-icon">
+						<i class="fa fa-map-marker"></i>
+					</a>
+				</li>
+			</ul>
+			<!-- END SOCIALS MOB -->
+		</div>
+		<!-- SIDEBAR -->
+		<div class="o-sidebar o-sidebar_home">
+			<div class="header-sidebar">
+				<ul class="sidebar__list">
+					<li class="sidebar__item">
+						<a href="#" class="sidebar__link sidebar__link-close a-icon a-icon_close"></a>
+					</li>
+					<li class="sidebar__item">
+						<a href="#" class="sidebar__link">
+							<img src="img/content/kommersant-head2.png" alt="логотип коммерсант" class="top-menu__pic">
 						</a>
 					</li>
-					<li class="social__item">
-						<a href="" class="social__link a-icon">
-							<i class="fa fa-instagram"></i>
-						</a>
-					</li>
-					<li class="social__item">
-						<a href="" class="social__link a-icon">
-							<i class="fa fa-map-marker"></i>
+					<li class="sidebar-item">
+						<a href="#" class="sidebar__link">
+							<img src="img/icon/m-logo.png" alt="Логотип" class="sidebar-logo__pic">
 						</a>
 					</li>
 				</ul>
-				<!-- END SOCIALS MOB -->
 			</div>
-			<!-- SIDEBAR -->
-			<div class="o-sidebar o-sidebar_home">
-				<div class="header-sidebar">
-					<ul class="sidebar__list">
-						<li class="sidebar__item">
-							<a href="#" class="sidebar__link sidebar__link-close a-icon a-icon_close"></a>
-						</li>
-						<li class="sidebar__item">
-							<a href="#" class="sidebar__link">
-								<img src="img/content/kommersant-head2.png" alt="логотип коммерсант" class="top-menu__pic">
-							</a>
-						</li>
-						<li class="sidebar-item">
-							<a href="#" class="sidebar__link">
-								<img src="img/icon/m-logo.png" alt="Логотип" class="sidebar-logo__pic">
-							</a>
-						</li>
-					</ul>
-				</div>
-				<div>
-					<a href="page-1.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">1</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">Как казаки в футбол играют</div>
-								<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-					<a href="page-2.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">2</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">За лещом и зрелищем</div>
-								<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-					<a href="page-3.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">3</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">По деловому маршруту</div>
-								<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-					<a href="page-4.html" class="sidebar-features">
-						<div class="sidebar-features__header">
-							<div class="features__number">
-								<div class="a-icon b-icon c-icon">4</div>
-								Маршрут
-							</div>
-						</div>
-						<div class="side-item">
-							<div class="features-item__body">
-								<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
-								<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
-								</p>
-							</div>
-							<div class="features__btn sidebar__btn">
-								<div class="features__more">Узнать больше</div>
-							</div>
-						</div>
-					</a>
-				</div>
-			</div>
-			<!-- END SIDEBAR -->
-			
-			<script src="js/main.js"></script>
-			<!-- ALEX -->
-			<!-- <script src="js/smoothscroll/smoothscroll.js"></script> -->
-			<script src="js/lazyloader/jquery.lazy.min.js"></script>
-			<script src="js/bootstrap-modal/util.js"></script>
-			<script src="js/bootstrap-modal/modal.js"></script>
-			<!-- <script src="alex/dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script> -->
-
-			<script src="advancedscroller/plugin.js" type="text/javascript"></script>
-			<script src="dzsparallaxer/dzsparallaxer.js" type="text/javascript"></script>
-			<script src="dzsscroller/scroller.js" type="text/javascript"></script>
-
-
-			<!-- <link rel='stylesheet' type="text/css" href="alex/cs_scroll/jquery.mCustomScrollbar.min.css"/> -->
-			<!-- <script src="alex/cs_scroll/jquery.mCustomScrollbar.concat.min.js" type="text/javascript"></script> -->
-			<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
-
-			<script src="js/common.js"></script>
-			<div class="modal fade" id="orderModal">
-				<div class="modal-tbl">
-					<div class="modal-dialog" role="document">
-						<div class="modal-content">
-							<span class="close" data-dismiss="modal" aria-label="Close"><span>&times;</span></span>
-							<div class="modal-header">
-								<h5 class="modal-title">Оформление</h5>
-							</div>
-							<div class="modal-body">
-							<form action="" id="form" class="form">
-									<div class="modal-form">
-										<div class="modal-form-data">
-											<input name="name" class="form-name" type="text" placeholder="ФИО">
-										</div>
-										<div class="modal-form-data">
-											<input name="tel" class="form-name" type="tel" placeholder="Телефон">
-										</div>
-										<div class="modal-form-data">
-											<input name="email" class="form-name" type="email" placeholder="E-mail">
-										</div>
-									</div>
-									<div class="modal-form">
-										<div class="form-booking">
-											
-											<span class="booking-arrived">Заезд:</span>
-											<div class="modal-form-booking modal-form-booking-come">
-												<input type="text" id="datepicker" id="ui-datepicker-div" name="arrived" class="form-name form-calendar" value="20/08/2017">
-											</div>
-
-											<span class="booking-arrived">Выезд:</span>
-											<div class="modal-form-booking">
-												<input type="text" id="datepickerCome" id="ui-datepicker-div" name="arrivedCome" class="form-name form-calendar" value="20/08/2017">
-											</div>
-											
-										</div>
-									</div>
-									<div class="modal-form">
-										<div class="count-item count-item-top">
-											<span class="count-item-title">Взрослых:</span>
-											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantity' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
-											</div>
-										</div>
-
-										<div class="count-item">
-											<span class="count-item-title">Детей:</span>
-											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantityChild' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
-											</div>
-										</div>
-
-										<div class="count-item count-item-bottom">
-											<span class="count-item-title">Младенцев:</span>
-											<div class="count-item-num">
-												<input type='button' class='qtyminus' field='quantity'>
-												<input type='text' name='quantityBaby' value='0' class='qty'>
-												<input type='button' class='qtyplus' field='quantity'>
-											</div>
-										</div>
-									</div>
-									<div class="modal-form">
-										<div class="booking-item">
-											<div class="form-booking-item form-booking-item-bottom">
-												<input type="checkbox" checked id="input-biz" name="biznes">
-												<label for="input-biz" class="form-booking-checkbox">Бизнес</label>
-											</div>
-											<div class="form-booking-item">
-												<input type="checkbox" id="input-eco" name="economy">
-												<label for="input-eco" class="form-booking-checkbox">Эконом</label>
-											</div>
-										</div>
-									</div>
-									<div class="form-sent"></div>
-									<button type="submit" class="btn-modal-form">Отправить</button>
-									<!-- <input type="submit" class="btn-modal-form" value="Отправить"> -->
-								</div>
-							</form>
-							</div>
+			<div>
+				<a href="page-1.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">1</div>
+							Маршрут
 						</div>
 					</div>
-				</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">Как казаки в футбол играют</div>
+							<p class="features-item__desc sidebar-item__desc">Где посмотреть матч и активно отдохнуть?
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
+				<a href="page-2.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">2</div>
+							Маршрут
+						</div>
+					</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">За лещом и зрелищем</div>
+							<p class="features-item__desc sidebar-item__desc">Гастрономические сувениры и фестивали, казачья культура в «Шолохов-центре» и советский реализм в подземных переходах
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
+				<a href="page-3.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">3</div>
+							Маршрут
+						</div>
+					</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">По деловому маршруту</div>
+							<p class="features-item__desc sidebar-item__desc">Из центра через Соборную площадь на набережную реки Дон за пару часов
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
+				<a href="page-4.html" class="sidebar-features">
+					<div class="sidebar-features__header">
+						<div class="features__number">
+							<div class="a-icon b-icon c-icon">4</div>
+							Маршрут
+						</div>
+					</div>
+					<div class="side-item">
+						<div class="features-item__body">
+							<div class="sidebar-item__title">Где отдохнуть с семьей?</div>
+							<p class="features-item__desc sidebar-item__desc">Парки, пляжи и детская железная дорога
+							</p>
+						</div>
+						<div class="features__btn sidebar__btn">
+							<div class="features__more">Узнать больше</div>
+						</div>
+					</div>
+				</a>
 			</div>
-			<!-- ALEX END -->
-		</body>
-	</html>
+		</div>
+		<!-- END SIDEBAR -->
+
+		<!-- JQUERY -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js?v=2.0.2"></script>
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+		<!-- AND JQUERY -->
+
+		<!-- API -->
+		<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+		<script type="text/javascript" src="http://www.youtube.com/player_api"></script>
+		<!-- END API -->
+
+		<script src="js/scripts.js"></script>
+
+		<script>
+			ymaps.ready(function () {
+				Rinok = new ymaps.Placemark([47.216799, 39.709565], 
+			      { 
+			        hintContent: 'Центральный Рынок', 
+			        balloonContent: 'Центральный Рынок' 
+			      },
+			      {
+			        preset: 'islands#redIcon'
+			      }
+			    );
+			    Sholohov = new ymaps.Placemark([47.226243, 39.736210], 
+			      { 
+			        hintContent: 'Центральный Рынок', 
+			        balloonContent: 'Центральный Рынок' 
+			      },
+			      {
+			        preset: 'islands#redIcon'
+			      }
+			    );
+			    Pushkin = new ymaps.Placemark([47.225553, 39.717251], 
+			      { 
+			        hintContent: 'Центральный Рынок', 
+			        balloonContent: 'Центральный Рынок' 
+			      },
+			      {
+			        preset: 'islands#redIcon'
+			      }
+			    );
+			    Perehod1 = new ymaps.Placemark([47.224915, 39.730715], 
+			      { 
+			        hintContent: 'Переход', 
+			        balloonContent: 'Переход' 
+			      },
+			      {
+			        preset: 'islands#redIcon'
+			      }
+			    );
+			    Perehod2 = new ymaps.Placemark([47.224440, 39.728413], 
+			      { 
+			        hintContent: 'Переход', 
+			        balloonContent: 'Переход' 
+			      },
+			      {
+			        preset: 'islands#redIcon'
+			      }
+			    );
+			    Perehod3 = new ymaps.Placemark([47.222513, 39.719091], 
+			      { 
+			        hintContent: 'Переход', 
+			        balloonContent: 'Переход' 
+			      },
+			      {
+			        preset: 'islands#redIcon'
+			      }
+			    );
+			    Perehod4 = new ymaps.Placemark([47.220072, 39.707753], 
+			      { 
+			        hintContent: 'Переход', 
+			        balloonContent: 'Переход' 
+			      },
+			      {
+			        preset: 'islands#redIcon'
+			      }
+			    );
+
+			    myMap.geoObjects
+			      .add(Mercure)
+			      .add(Rinok)
+			      .add(Sholohov)
+			      .add(Pushkin)
+			      .add(Perehod1)
+			      .add(Perehod2)
+			      .add(Perehod3)
+			      .add(Perehod4);
+			      
+			    ymaps.route([      
+					{
+						type: 'wayPoint',
+						point: [47.220845, 39.718814]
+					},      
+					{
+						type: 'wayPoint',
+						point: [47.216799, 39.709565]
+					},
+					{
+						type: 'wayPoint',
+						point: [47.226243, 39.736210]
+					},
+					{
+						type: 'wayPoint',
+						point: [47.225553, 39.717251]
+					},
+					{
+						type: 'wayPoint',
+						point: [47.224915, 39.730715]
+					},
+					{
+						type: 'wayPoint',
+						point: [47.224440, 39.728413]
+					},
+					{
+						type: 'wayPoint',
+						point: [47.222513, 39.719091]
+					},
+					{
+						type: 'wayPoint',
+						point: [47.220072, 39.707753]
+					},
+					// {
+					// 	type: 'wayPoint',
+					// 	point: [47.491137, 39.927168]
+					// }
+				]).then(
+					function (route) {
+						myMap.geoObjects.add(route);
+					},
+					function (error) {
+						console.log("Возникла ошибка: " + error.message);
+					}
+				);
+			});
+		</script>
+		
+	</body>
+</html>
